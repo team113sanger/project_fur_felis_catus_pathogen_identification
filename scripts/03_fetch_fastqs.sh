@@ -27,3 +27,4 @@ module load samtools-1.14/python-3.12.0
 # /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6712_2822/scripts/6712_cramtofastq_from_iRODs_jobs.sh
 /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6713_2821/scripts/6713_cramtofastq_from_iRODs_jobs.sh
 /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6841_2964/scripts/6841_cramtofastq_from_iRODs_jobs.sh
+/bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6864_2965/scripts/6864_cramtofastq_from_iRODs_jobs.sh
