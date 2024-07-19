@@ -4,3 +4,5 @@ nextflow
 *.e
 *.o
 work
+*/tmp/*
+analysis/*/results
