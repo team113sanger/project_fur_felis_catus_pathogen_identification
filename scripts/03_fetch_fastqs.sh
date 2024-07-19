@@ -1,9 +1,5 @@
 
-mkdir ${PROJECTDIR}/tmp
-
 #This script takes the cram manifest and generates the SH file with the farm jobs to import and transform to fastq all of the cram files from iRODs
- 
-
 
 PATH_TO_SEARCH="/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis"
 for manifest in $PATH_TO_SEARCH/*/metadata/*INFO_from_iRODS.txt; do
