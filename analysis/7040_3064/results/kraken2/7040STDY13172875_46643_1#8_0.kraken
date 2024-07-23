@@ -1,0 +1,112 @@
+ 89.25	2060	2060	0	0	U	0	unclassified
+ 10.75	248	0	1042	528	R	1	root
+ 10.70	247	6	1029	521	R1	131567	  cellular organisms
+ 10.27	237	2	962	484	D	2759	    Eukaryota
+  9.88	228	0	915	453	D1	33154	      Opisthokonta
+  9.88	228	0	913	452	K	33208	        Metazoa
+  9.88	228	0	913	452	K1	6072	          Eumetazoa
+  9.88	228	0	913	452	K2	33213	            Bilateria
+  9.88	228	0	913	452	K3	33511	              Deuterostomia
+  9.88	228	0	913	452	P	7711	                Chordata
+  9.88	228	0	913	452	P1	89593	                  Craniata
+  9.88	228	0	913	452	P2	7742	                    Vertebrata
+  9.88	228	0	913	452	P3	7776	                      Gnathostomata
+  9.88	228	0	913	452	P4	117570	                        Teleostomi
+  9.88	228	0	913	452	P5	117571	                          Euteleostomi
+  9.88	228	0	913	452	P6	8287	                            Sarcopterygii
+  9.88	228	0	913	452	P7	1338369	                              Dipnotetrapodomorpha
+  9.88	228	0	913	452	P8	32523	                                Tetrapoda
+  9.88	228	0	913	452	P9	32524	                                  Amniota
+  9.88	228	0	913	452	C	40674	                                    Mammalia
+  9.88	228	0	913	452	C1	32525	                                      Theria
+  9.88	228	0	913	452	C2	9347	                                        Eutheria
+  9.88	228	0	913	452	C3	1437010	                                          Boreoeutheria
+  9.88	228	0	913	452	C4	314146	                                            Euarchontoglires
+  9.88	228	0	913	452	O	9443	                                              Primates
+  9.88	228	0	913	452	O1	376913	                                                Haplorrhini
+  9.88	228	0	913	452	O2	314293	                                                  Simiiformes
+  9.88	228	0	913	452	O3	9526	                                                    Catarrhini
+  9.88	228	0	913	452	O4	314295	                                                      Hominoidea
+  9.88	228	0	913	452	F	9604	                                                        Hominidae
+  9.88	228	0	913	452	F1	207598	                                                          Homininae
+  9.88	228	0	913	452	G	9605	                                                            Homo
+  9.88	228	228	913	452	S	9606	                                                              Homo sapiens
+  0.30	7	0	27	19	K	33090	      Viridiplantae
+  0.30	7	0	27	19	P	35493	        Streptophyta
+  0.30	7	0	27	19	P1	131221	          Streptophytina
+  0.30	7	0	27	19	P2	3193	            Embryophyta
+  0.30	7	0	27	19	P3	58023	              Tracheophyta
+  0.30	7	0	27	19	P4	78536	                Euphyllophyta
+  0.30	7	0	27	19	P5	58024	                  Spermatophyta
+  0.30	7	0	27	19	C	3398	                    Magnoliopsida
+  0.30	7	0	27	19	C1	1437183	                      Mesangiospermae
+  0.13	3	0	7	5	C2	4447	                        Liliopsida
+  0.13	3	0	7	5	C3	1437197	                          Petrosaviidae
+  0.13	3	0	7	5	C4	4734	                            commelinids
+  0.13	3	0	7	5	O	38820	                              Poales
+  0.13	3	0	7	5	F	4479	                                Poaceae
+  0.09	2	0	5	4	F1	359160	                                  BOP clade
+  0.04	1	0	1	1	F2	147367	                                    Oryzoideae
+  0.04	1	0	1	1	F3	147380	                                      Oryzeae
+  0.04	1	0	1	1	F4	1648021	                                        Oryzinae
+  0.04	1	0	1	1	G	4527	                                          Oryza
+  0.04	1	1	1	1	S	4538	                                            Oryza glaberrima
+  0.04	1	0	4	3	F2	147368	                                    Pooideae
+  0.04	1	0	4	3	F3	1648038	                                      Triticodae
+  0.04	1	0	4	3	F4	147389	                                        Triticeae
+  0.04	1	0	2	1	F5	1648017	                                          Hordeinae
+  0.04	1	0	2	1	G	4512	                                            Hordeum
+  0.04	1	0	2	1	S	4513	                                              Hordeum vulgare
+  0.04	1	1	2	1	S1	112509	                                                Hordeum vulgare subsp. vulgare
+  0.04	1	0	2	1	F1	147370	                                  PACMAD clade
+  0.04	1	0	2	1	F2	147369	                                    Panicoideae
+  0.04	1	0	2	1	F3	1648036	                                      Panicodae
+  0.04	1	0	2	1	F4	147428	                                        Paniceae
+  0.04	1	0	2	1	F5	1293361	                                          Cenchrinae
+  0.04	1	0	2	1	G	4554	                                            Setaria
+  0.04	1	1	2	1	S	4555	                                              Setaria italica
+  0.13	3	0	16	11	C2	71240	                        eudicotyledons
+  0.13	3	0	16	11	C3	91827	                          Gunneridae
+  0.13	3	0	16	11	C4	1437201	                            Pentapetalae
+  0.13	3	0	11	6	C5	71274	                              asterids
+  0.09	2	0	5	2	C6	91882	                                campanulids
+  0.09	2	0	5	2	O	4209	                                  Asterales
+  0.09	2	0	5	2	F	4210	                                    Asteraceae
+  0.09	2	0	5	2	F1	219120	                                      Cichorioideae
+  0.09	2	0	5	2	F2	219121	                                        Cichorieae
+  0.09	2	0	5	2	F3	745062	                                          Lactucinae
+  0.09	2	0	5	2	G	4235	                                            Lactuca
+  0.09	2	2	5	2	S	4236	                                              Lactuca sativa
+  0.04	1	0	6	4	C6	91888	                                lamiids
+  0.04	1	0	3	2	O	4143	                                  Lamiales
+  0.04	1	0	2	1	F	4136	                                    Lamiaceae
+  0.04	1	0	2	1	F1	216706	                                      Nepetoideae
+  0.04	1	0	2	1	F2	216718	                                        Mentheae
+  0.04	1	0	2	1	F3	2836339	                                          Salviinae
+  0.04	1	0	2	1	G	21880	                                            Salvia
+  0.04	1	0	2	1	G1	2026555	                                              Salvia subgen. Calosphace
+  0.04	1	0	2	1	G2	2026556	                                                core Calosphace
+  0.04	1	1	2	1	S	180675	                                                  Salvia splendens
+  0.04	1	0	2	1	O	232378	                        Proteales
+  0.04	1	0	2	1	F	4328	                          Proteaceae
+  0.04	1	0	2	1	G	54954	                            Telopea
+  0.04	1	1	2	1	S	54955	                              Telopea speciosissima
+  0.17	4	3	25	11	D	2	    Bacteria
+  0.04	1	0	6	6	P	1224	      Pseudomonadota
+  0.04	1	0	3	3	C	1236	        Gammaproteobacteria
+  0.04	1	0	2	2	O	91347	          Enterobacterales
+  0.04	1	0	2	2	F	543	            Enterobacteriaceae
+  0.04	1	0	1	1	F1	191675	              Enterobacteriaceae incertae sedis
+  0.04	1	0	1	1	F2	84563	                ant, tsetse, mealybug, aphid, etc. endosymbionts
+  0.04	1	0	1	1	G	1682492	                  Candidatus Tachikawaea
+  0.04	1	1	1	1	S	1410383	                    Candidatus Tachikawaea gelatinosa
+  0.04	1	0	9	5	D	10239	  Viruses
+  0.04	1	0	9	5	D1	2559587	    Riboviria
+  0.04	1	0	9	5	K	2732397	      Pararnavirae
+  0.04	1	0	9	5	P	2732409	        Artverviricota
+  0.04	1	0	9	5	C	2732514	          Revtraviricetes
+  0.04	1	0	9	5	O	2169561	            Ortervirales
+  0.04	1	0	9	5	F	11632	              Retroviridae
+  0.04	1	0	9	5	F1	327045	                Orthoretrovirinae
+  0.04	1	0	9	5	G	153135	                  Gammaretrovirus
+  0.04	1	1	9	5	S	11780	                    Snyder-Theilen feline sarcoma virus

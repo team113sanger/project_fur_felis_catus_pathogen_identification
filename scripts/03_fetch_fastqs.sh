@@ -17,6 +17,7 @@ for manifest in $PATH_TO_SEARCH/*/metadata/*INFO_from_iRODS.txt; do
 done
 
 module load samtools-1.14/python-3.12.0 
+module load IRODS
 
 /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6555_2711/scripts/6555_cramtofastq_from_iRODs_jobs.sh
 /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6711_2820/scripts/6711_cramtofastq_from_iRODs_jobs.sh
@@ -24,9 +25,10 @@ module load samtools-1.14/python-3.12.0
 /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6713_2821/scripts/6713_cramtofastq_from_iRODs_jobs.sh
 /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6841_2964/scripts/6841_cramtofastq_from_iRODs_jobs.sh
 /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6864_2965/scripts/6864_cramtofastq_from_iRODs_jobs.sh
-# /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6945_3142/scripts/6945_cramtofastq_from_iRODs_jobs.sh
-# /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6973_2987/scripts/6973_cramtofastq_from_iRODs_jobs.sh
-# /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6990_3065/scripts/6990_cramtofastq_from_iRODs_jobs.sh
-# /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/7040_3064/scripts/7040_cramtofastq_from_iRODs_jobs.sh
-# /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/7097_3073/scripts/7097_cramtofastq_from_iRODs_jobs.sh
-# /bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/7098_3140/scripts/7098_cramtofastq_from_iRODs_jobs.sh
+/bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6945_3142/scripts/6945_cramtofastq_from_iRODs_jobs.sh
+/bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6973_2987/scripts/6973_cramtofastq_from_iRODs_jobs.sh
+/bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6982_3135/scripts/6982_cramtofastq_from_iRODs_jobs.sh
+/bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6990_3065/scripts/6990_cramtofastq_from_iRODs_jobs.sh
+/bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/7040_3064/scripts/7040_cramtofastq_from_iRODs_jobs.sh
+/bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/7097_3073/scripts/7097_cramtofastq_from_iRODs_jobs.sh
+/bin/sh /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/7098_3140/scripts/7098_cramtofastq_from_iRODs_jobs.sh
