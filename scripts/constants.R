@@ -140,3 +140,43 @@ domain_barplot <- function(df){
   ggplot2::geom_vline(xintercept = c(0.25, 0.5, 0.75), linetype = "dashed")
 
 }
+
+
+
+plot_minimisers <- function(stats_filtered){
+plot <- ggplot2::ggplot(
+  stats_filtered,
+  ggplot2::aes(x = sample_id, y = name, fill = ratio_clade, color = significance, size = log10(n_fragments_clade))
+) +
+  ggplot2::geom_point(shape = 21, stroke = 1.25) +
+  ggplot2::facet_grid(
+    rows = ggplot2::vars(rank),
+    scales = "free_y",
+    space = "free_y"
+  ) +
+  ggplot2::theme_bw() +
+  ggplot2::theme(
+    axis.text.x = ggplot2::element_text(size = 10, angle = 90, vjust = 0.5, hjust = 1),
+    axis.text.y = ggplot2::element_text(size = 12),
+    legend.text = ggplot2::element_text(size = 15),
+    legend.text.align = 0,
+    legend.title = ggplot2::element_text(size = 15),
+    axis.title = ggplot2::element_text(size = 15),
+    plot.title = ggplot2::element_text(size = 16.5, face = "bold", hjust = 0.5),
+    strip.text.y = ggplot2::element_text(size = 15, face = "bold")
+  ) +
+  ggplot2::scale_fill_gradientn(
+    colors = colorRampPalette((RColorBrewer::brewer.pal(9, "Reds")))(100),
+    name = "Ratio between unique minimisers found in sample\nand total clade-level minimisers in database",
+    limits = c(0, 1)
+  ) +
+  ggplot2::scale_color_manual(
+    values = c("snow3", "black"),
+    name = "Significance",
+    labels = c("Non-significant", expression("Adjusted p-value" <= "0.05"))
+  ) +
+  ggplot2::scale_size_continuous(name = expression("log"[10] ~ "(clade-level reads)")) +
+  ggplot2::xlab("Sample") +
+  ggplot2::ylab("Taxon")
+return(plot)
+}

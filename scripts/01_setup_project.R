@@ -24,10 +24,15 @@ parameters <- map(output_dirs,
     ~toJSON(
     list("fastq_files" = paste0(.x, "/fastqs/**{R1,R2}.fastq.gz"),
     "reference_db" = "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_capped_march2023",
-    "c_score" = 0,
+    "c_score" = 0.1,
     "outdir" = paste0(.x, "/results")),
     auto_unbox = TRUE, 
     pretty = TRUE))
 
 
 map2(parameters, file_ids, ~write_file(x = .x, file = .y))
+
+# read_tsv("/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_capped_march2023/inspect.txt", comment = "#",
+# col_names = (c("pct", "n_reads", "n_minimisers", "rank", "taxid", "name"))) |> 
+# filter(rank == "S") |>
+# select(name)
