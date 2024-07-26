@@ -12,10 +12,11 @@ taxonomy <- c(
   "Order", "Family", "Genus", "Species"
 )
 
-project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6555_2711"
+project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6711_2820"
 ref_db_file <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_capped_march2023/inspect.txt"
 
-process_cohort <- function(project_dir, ref_db_file){
+dir.create(glue("{project_dir}/results/sparki"))
+
 # Use a filesystem helper to gather all files
 krakentools_files <- fs::dir_ls(glue("{project_dir}/results/krakentools", 
                       glob = "*.mpa"))
@@ -58,7 +59,7 @@ ref_db <- read_tsv(ref_db_file, comment = "#",
         COLNAME_REF_DB_TAXON)) |>
         filter(!grepl(rank, pattern = "[0-9]")) # Remove the non-primary ranks
 
-
+print("Read in")
 combined_df <- left_join(kraken2_df, krakentools_df,
   by = c("name" = "taxon_leaf", "sample_id")
 ) |>
@@ -76,9 +77,6 @@ read_totals <- class_unclass_df |>
   filter(rank == "R") |>
   group_by(sample) |>
   summarise(total_read = sum(n_reads))
-
-
-
 
 png(glue("{project_dir}/results/sparki/classification.png"))
 ggplot2::ggplot(
@@ -106,11 +104,11 @@ ggplot2::ggplot(
 dev.off()
 
 by_domain <- combined_df |>
-  filter(rank == "D") |>
-  select(n_fragments_clade, rank, Domain, sample_id)
+  filter(rank == "D") |> 
+  select(c(n_fragments_clade, rank, Domain, sample_id))
+print("check finish")
 
-
-
+print("check next")
 png(glue("{project_dir}/results/sparki/per_domain_reads.png"))
 ggplot2::ggplot(
             by_domain, 
@@ -134,7 +132,7 @@ ggplot2::ggplot(
         ggplot2::ylab(expression("log"[10]~"(# classified reads)")) +
         ggplot2::scale_fill_manual(values = c("gold1", "royalblue", "snow2", "indianred2")) 
 dev.off()
-
+print("pass from here")
 
 png(glue("{project_dir}/results/sparki/per_domain_proportions.png"))
 x_lab <- "\nProportion of classified reads\n(all domains)"
@@ -163,7 +161,7 @@ ratio_df <- filtered_df |>
   )
 
 
-
+print("Sample")
 total_minimisers <- ref_db |> 
 filter(rank %in% c("F")) |>
 summarise(single_counts = sum(n_minimisers_clade)) |> 
@@ -188,43 +186,46 @@ stats_df <- ratio_df |>
   ungroup()
 
 
-q_domain <- "Bacteria"
-bacteria <- stats_df |>
-  dplyr::filter(rank == "S") |>
-  dplyr::filter(Domain == q_domain) |>
-  tidyr::complete(sample_id, name, 
-                 fill = list(significance = "Non-significant", 
-                             rank = "S", 
-                             Domain = q_domain)) |>
-  dplyr::select(sample_id, Domain, name, rank, ratio_clade, padj, significance, n_fragments_clade)
+    q_domain <- "Bacteria"
+    bacteria <- stats_df |>
+    dplyr::filter(rank == "S") |>
+    dplyr::filter(Domain == q_domain) |>
+    tidyr::complete(sample_id, name, 
+                    fill = list(significance = "Non-significant", 
+                                rank = "S", 
+                                Domain = q_domain)) |>
+    dplyr::select(sample_id, Domain, name, rank, 
+                    ratio_clade, padj, significance, n_fragments_clade)
+
+print("qdom")
+    q_domain <- "Viruses"
+    viruses <- stats_df |>
+    dplyr::filter(rank == "S") |>
+    dplyr::filter(Domain == q_domain) |>
+    tidyr::complete(sample_id, name, fill = list(significance = "Non-significant", 
+                                                rank = "S", 
+                                                Domain = q_domain)) |>
+    dplyr::select(sample_id, Domain, name, rank, ratio_clade, padj, 
+                 significance, n_fragments_clade)
 
 
-q_domain <- "Viruses"
-viruses <- stats_df |>
-  dplyr::filter(rank == "S") |>
-  dplyr::filter(Domain == q_domain) |>
-  tidyr::complete(sample_id, name, fill = list(significance = "Non-significant", 
-                                               rank = "S", 
-                                               Domain = q_domain)) |>
-  dplyr::select(sample_id, Domain, name, rank, ratio_clade, padj, significance, n_fragments_clade)
+
+    bacterial_plot <- plot_minimisers(bacteria)
+    viral_plot <- plot_minimisers(viruses)
+
+    png(glue("{project_dir}/results/sparki/bacterial_minimisers.png"), 
+        width = 1500, height = 2600)
+    bacterial_plot
+    dev.off()
+
+print("end")
+    png(glue("{project_dir}/results/sparki/viral_minimisers.png"), 
+        width = 1500, height = 600)
+    viral_plot
+    dev.off()
 
 
-
-bacterial_plot <- plot_minimisers(bacteria)
-viral_plot <- plot_minimisers(viruses)
-
-png(glue("{project_dir}/results/sparki/bacterial_minimisers.png"), width = 1500, height = 2600)
-bacterial_plot
-dev.off()
-
-
-png(glue("{project_dir}/results/sparki/viral_minimisers.png"), width = 1500, height = 600)
-viral_plot
-dev.off()
-
-}
-
-process_cohort(project_dir, ref_db_file)
+# process_cohort(project_dir, ref_db_file)
 
 
 #  plot <- ggplot2::ggplot(
