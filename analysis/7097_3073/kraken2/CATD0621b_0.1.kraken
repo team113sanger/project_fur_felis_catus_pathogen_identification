@@ -1,0 +1,55 @@
+ 99.98	81895	81895	0	0	U	0	unclassified
+  0.02	14	0	7234	5238	R	1	root
+  0.02	14	1	6721	5224	R1	131567	  cellular organisms
+  0.01	7	0	811	715	D	2	    Bacteria
+  0.01	5	0	92	74	D1	1783257	      PVC group
+  0.01	5	0	86	68	P	74201	        Verrucomicrobiota
+  0.01	5	0	85	67	C	203494	          Verrucomicrobiae
+  0.01	5	0	85	67	O	48461	            Verrucomicrobiales
+  0.01	5	0	85	67	F	1647988	              Akkermansiaceae
+  0.01	5	0	85	67	G	239934	                Akkermansia
+  0.01	5	5	83	65	S	239935	                  Akkermansia muciniphila
+  0.00	1	0	369	330	D1	1783272	      Terrabacteria group
+  0.00	1	0	92	89	P	1239	        Bacillota
+  0.00	1	0	31	31	C	186801	          Clostridia
+  0.00	1	0	29	29	O	186802	            Eubacteriales
+  0.00	1	0	6	6	F	186803	              Lachnospiraceae
+  0.00	1	0	3	3	G	1506553	                Lachnoclostridium
+  0.00	1	1	3	3	S	29347	                  [Clostridium] scindens
+  0.00	1	0	99	91	D1	1783270	      FCB group
+  0.00	1	0	99	91	D2	68336	        Bacteroidetes/Chlorobi group
+  0.00	1	0	99	91	P	976	          Bacteroidota
+  0.00	1	0	57	49	C	200643	            Bacteroidia
+  0.00	1	0	56	48	O	171549	              Bacteroidales
+  0.00	1	0	33	29	F	815	                Bacteroidaceae
+  0.00	1	1	17	17	G	816	                  Bacteroides
+  0.01	6	5	5865	4467	D	2759	    Eukaryota
+  0.00	1	0	4137	2911	D1	33154	      Opisthokonta
+  0.00	1	0	4114	2889	K	33208	        Metazoa
+  0.00	1	0	4114	2889	K1	6072	          Eumetazoa
+  0.00	1	0	4114	2889	K2	33213	            Bilateria
+  0.00	1	0	4114	2889	K3	33511	              Deuterostomia
+  0.00	1	0	4114	2889	P	7711	                Chordata
+  0.00	1	0	4114	2889	P1	89593	                  Craniata
+  0.00	1	0	4114	2889	P2	7742	                    Vertebrata
+  0.00	1	0	4114	2889	P3	7776	                      Gnathostomata
+  0.00	1	0	4114	2889	P4	117570	                        Teleostomi
+  0.00	1	0	4114	2889	P5	117571	                          Euteleostomi
+  0.00	1	0	4114	2889	P6	8287	                            Sarcopterygii
+  0.00	1	0	4114	2889	P7	1338369	                              Dipnotetrapodomorpha
+  0.00	1	0	4114	2889	P8	32523	                                Tetrapoda
+  0.00	1	0	4114	2889	P9	32524	                                  Amniota
+  0.00	1	0	4114	2889	C	40674	                                    Mammalia
+  0.00	1	0	4114	2889	C1	32525	                                      Theria
+  0.00	1	0	4114	2889	C2	9347	                                        Eutheria
+  0.00	1	0	4114	2889	C3	1437010	                                          Boreoeutheria
+  0.00	1	0	4114	2889	C4	314146	                                            Euarchontoglires
+  0.00	1	0	4114	2889	O	9443	                                              Primates
+  0.00	1	0	4114	2889	O1	376913	                                                Haplorrhini
+  0.00	1	0	4114	2889	O2	314293	                                                  Simiiformes
+  0.00	1	0	4114	2889	O3	9526	                                                    Catarrhini
+  0.00	1	0	4114	2889	O4	314295	                                                      Hominoidea
+  0.00	1	0	4114	2889	F	9604	                                                        Hominidae
+  0.00	1	0	4114	2889	F1	207598	                                                          Homininae
+  0.00	1	0	4114	2889	G	9605	                                                            Homo
+  0.00	1	1	4114	2889	S	9606	                                                              Homo sapiens

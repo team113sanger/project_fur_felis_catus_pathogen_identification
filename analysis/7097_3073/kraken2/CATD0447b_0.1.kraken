@@ -1,0 +1,65 @@
+ 99.91	66439	66439	0	0	U	0	unclassified
+  0.09	62	0	7377	5706	R	1	root
+  0.09	62	7	7364	5700	R1	131567	  cellular organisms
+  0.07	47	2	2067	1577	D	2	    Bacteria
+  0.06	42	0	1449	1054	D1	1783270	      FCB group
+  0.06	42	0	1448	1053	D2	68336	        Bacteroidetes/Chlorobi group
+  0.06	42	0	1448	1053	P	976	          Bacteroidota
+  0.06	42	0	1388	998	C	200643	            Bacteroidia
+  0.06	42	1	1384	997	O	171549	              Bacteroidales
+  0.05	31	1	1015	742	F	815	                Bacteroidaceae
+  0.04	26	22	913	666	G	816	                  Bacteroides
+  0.00	2	0	43	36	G1	2646097	                    unclassified Bacteroides
+  0.00	2	2	20	17	S	2528203	                      Bacteroides sp. A1C1
+  0.00	1	1	39	28	S	818	                    Bacteroides thetaiotaomicron
+  0.00	1	1	11	11	S	46506	                    Bacteroides stercoris
+  0.01	4	4	85	64	G	909656	                  Phocaeicola
+  0.01	4	0	117	99	F	171552	                Prevotellaceae
+  0.01	4	0	116	98	G	838	                  Prevotella
+  0.01	4	4	113	96	S	165179	                    Prevotella copri
+  0.01	4	0	40	13	F	1853231	                Odoribacteraceae
+  0.01	4	0	40	13	G	574697	                  Butyricimonas
+  0.01	4	4	36	12	S	544645	                    Butyricimonas virosa
+  0.00	2	0	87	55	F	171550	                Rikenellaceae
+  0.00	2	0	87	55	G	239759	                  Alistipes
+  0.00	1	1	16	10	S	214856	                    Alistipes finegoldii
+  0.00	1	0	37	22	S	328813	                    Alistipes onderdonkii
+  0.00	1	1	14	11	S1	2585117	                      Alistipes onderdonkii subsp. vulgaris
+  0.00	3	0	365	309	D1	1783272	      Terrabacteria group
+  0.00	3	0	100	89	P	1239	        Bacillota
+  0.00	3	0	64	55	C	186801	          Clostridia
+  0.00	3	2	63	54	O	186802	            Eubacteriales
+  0.00	1	0	14	14	F	186803	              Lachnospiraceae
+  0.00	1	0	9	9	G	2719313	                Enterocloster
+  0.00	1	0	6	6	S	333367	                  Enterocloster asparagiformis
+  0.00	1	1	6	6	S1	518636	                    [Clostridium] asparagiforme DSM 15981
+  0.01	8	0	5242	4071	D	2759	    Eukaryota
+  0.01	8	0	3744	2675	D1	33154	      Opisthokonta
+  0.01	8	0	3715	2647	K	33208	        Metazoa
+  0.01	8	0	3715	2647	K1	6072	          Eumetazoa
+  0.01	8	0	3715	2647	K2	33213	            Bilateria
+  0.01	8	0	3715	2647	K3	33511	              Deuterostomia
+  0.01	8	0	3715	2647	P	7711	                Chordata
+  0.01	8	0	3715	2647	P1	89593	                  Craniata
+  0.01	8	0	3715	2647	P2	7742	                    Vertebrata
+  0.01	8	0	3715	2647	P3	7776	                      Gnathostomata
+  0.01	8	0	3715	2647	P4	117570	                        Teleostomi
+  0.01	8	0	3715	2647	P5	117571	                          Euteleostomi
+  0.01	8	0	3715	2647	P6	8287	                            Sarcopterygii
+  0.01	8	0	3715	2647	P7	1338369	                              Dipnotetrapodomorpha
+  0.01	8	0	3715	2647	P8	32523	                                Tetrapoda
+  0.01	8	0	3715	2647	P9	32524	                                  Amniota
+  0.01	8	0	3715	2647	C	40674	                                    Mammalia
+  0.01	8	0	3715	2647	C1	32525	                                      Theria
+  0.01	8	0	3715	2647	C2	9347	                                        Eutheria
+  0.01	8	0	3715	2647	C3	1437010	                                          Boreoeutheria
+  0.01	8	0	3715	2647	C4	314146	                                            Euarchontoglires
+  0.01	8	0	3715	2647	O	9443	                                              Primates
+  0.01	8	0	3715	2647	O1	376913	                                                Haplorrhini
+  0.01	8	0	3715	2647	O2	314293	                                                  Simiiformes
+  0.01	8	0	3715	2647	O3	9526	                                                    Catarrhini
+  0.01	8	0	3715	2647	O4	314295	                                                      Hominoidea
+  0.01	8	0	3715	2647	F	9604	                                                        Hominidae
+  0.01	8	0	3715	2647	F1	207598	                                                          Homininae
+  0.01	8	0	3715	2647	G	9605	                                                            Homo
+  0.01	8	8	3715	2647	S	9606	                                                              Homo sapiens

@@ -1,0 +1,80 @@
+ 99.87	60185	60185	0	0	U	0	unclassified
+  0.13	76	0	6956	5693	R	1	root
+  0.13	76	5	6938	5686	R1	131567	  cellular organisms
+  0.11	69	2	2990	2600	D	2	    Bacteria
+  0.10	60	0	2180	1912	D1	1783270	      FCB group
+  0.10	60	1	2179	1911	D2	68336	        Bacteroidetes/Chlorobi group
+  0.10	59	1	2176	1909	P	976	          Bacteroidota
+  0.10	58	0	2077	1826	C	200643	            Bacteroidia
+  0.10	58	8	2074	1824	O	171549	              Bacteroidales
+  0.06	35	2	1479	1298	F	171552	                Prevotellaceae
+  0.05	33	0	1465	1285	G	838	                  Prevotella
+  0.05	33	32	1401	1239	S	165179	                    Prevotella copri
+  0.00	1	1	316	278	S1	537011	                      Prevotella copri DSM 18205
+  0.01	9	2	284	249	F	815	                Bacteroidaceae
+  0.01	4	2	152	142	G	816	                  Bacteroides
+  0.00	1	1	22	22	S	818	                    Bacteroides thetaiotaomicron
+  0.00	1	1	21	21	S	817	                    Bacteroides fragilis
+  0.00	3	3	69	58	G	909656	                  Phocaeicola
+  0.00	3	0	52	47	F	171551	                Porphyromonadaceae
+  0.00	3	1	52	47	G	836	                  Porphyromonas
+  0.00	2	2	36	31	S	837	                    Porphyromonas gingivalis
+  0.00	2	0	60	57	F	2005525	                Tannerellaceae
+  0.00	1	0	24	21	G	195950	                  Tannerella
+  0.00	1	1	23	20	S	28112	                    Tannerella forsythia
+  0.00	1	0	36	36	G	375288	                  Parabacteroides
+  0.00	1	1	22	22	S	46503	                    Parabacteroides merdae
+  0.00	1	0	12	12	F	1853231	                Odoribacteraceae
+  0.00	1	0	11	11	G	574697	                  Butyricimonas
+  0.00	1	1	11	11	S	544645	                    Butyricimonas virosa
+  0.01	5	0	484	395	D1	1783272	      Terrabacteria group
+  0.01	5	1	183	168	P	1239	        Bacillota
+  0.00	2	0	125	117	C	186801	          Clostridia
+  0.00	2	0	125	117	O	186802	            Eubacteriales
+  0.00	2	1	36	33	F	186803	              Lachnospiraceae
+  0.00	1	0	5	5	G	2316020	                Mediterraneibacter
+  0.00	1	1	5	5	S	33038	                  [Ruminococcus] gnavus
+  0.00	2	0	16	11	C	909932	          Negativicutes
+  0.00	2	0	14	9	O	1843489	            Veillonellales
+  0.00	2	0	14	9	F	31977	              Veillonellaceae
+  0.00	2	0	14	9	G	906	                Megasphaera
+  0.00	2	2	13	8	S	907	                  Megasphaera elsdenii
+  0.00	1	0	29	29	P	29547	      Campylobacterota
+  0.00	1	0	29	29	C	3031852	        Epsilonproteobacteria
+  0.00	1	1	29	29	O	213849	          Campylobacterales
+  0.00	1	0	27	27	P	200940	      Thermodesulfobacteriota
+  0.00	1	0	23	23	C	3031449	        Desulfovibrionia
+  0.00	1	0	23	23	O	213115	          Desulfovibrionales
+  0.00	1	0	23	23	F	194924	            Desulfovibrionaceae
+  0.00	1	0	22	22	G	872	              Desulfovibrio
+  0.00	1	1	20	20	S	901	                Desulfovibrio piger
+  0.00	2	0	3913	3054	D	2759	    Eukaryota
+  0.00	2	0	2740	2027	D1	33154	      Opisthokonta
+  0.00	2	0	2724	2011	K	33208	        Metazoa
+  0.00	2	0	2724	2011	K1	6072	          Eumetazoa
+  0.00	2	0	2724	2011	K2	33213	            Bilateria
+  0.00	2	0	2724	2011	K3	33511	              Deuterostomia
+  0.00	2	0	2724	2011	P	7711	                Chordata
+  0.00	2	0	2724	2011	P1	89593	                  Craniata
+  0.00	2	0	2724	2011	P2	7742	                    Vertebrata
+  0.00	2	0	2724	2011	P3	7776	                      Gnathostomata
+  0.00	2	0	2724	2011	P4	117570	                        Teleostomi
+  0.00	2	0	2724	2011	P5	117571	                          Euteleostomi
+  0.00	2	0	2724	2011	P6	8287	                            Sarcopterygii
+  0.00	2	0	2724	2011	P7	1338369	                              Dipnotetrapodomorpha
+  0.00	2	0	2724	2011	P8	32523	                                Tetrapoda
+  0.00	2	0	2724	2011	P9	32524	                                  Amniota
+  0.00	2	0	2724	2011	C	40674	                                    Mammalia
+  0.00	2	0	2724	2011	C1	32525	                                      Theria
+  0.00	2	0	2724	2011	C2	9347	                                        Eutheria
+  0.00	2	0	2724	2011	C3	1437010	                                          Boreoeutheria
+  0.00	2	0	2724	2011	C4	314146	                                            Euarchontoglires
+  0.00	2	0	2724	2011	O	9443	                                              Primates
+  0.00	2	0	2724	2011	O1	376913	                                                Haplorrhini
+  0.00	2	0	2724	2011	O2	314293	                                                  Simiiformes
+  0.00	2	0	2724	2011	O3	9526	                                                    Catarrhini
+  0.00	2	0	2724	2011	O4	314295	                                                      Hominoidea
+  0.00	2	0	2724	2011	F	9604	                                                        Hominidae
+  0.00	2	0	2724	2011	F1	207598	                                                          Homininae
+  0.00	2	0	2724	2011	G	9605	                                                            Homo
+  0.00	2	2	2724	2011	S	9606	                                                              Homo sapiens

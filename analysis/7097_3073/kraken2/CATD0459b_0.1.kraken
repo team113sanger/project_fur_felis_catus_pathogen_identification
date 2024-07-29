@@ -1,0 +1,55 @@
+ 99.97	52773	52773	0	0	U	0	unclassified
+  0.03	17	0	4747	3652	R	1	root
+  0.03	17	2	4660	3644	R1	131567	  cellular organisms
+  0.02	13	0	685	560	D	2	    Bacteria
+  0.02	11	0	214	164	P	29547	      Campylobacterota
+  0.02	11	0	214	164	C	3031852	        Epsilonproteobacteria
+  0.02	11	0	214	164	O	213849	          Campylobacterales
+  0.02	10	0	165	123	F	72294	            Campylobacteraceae
+  0.02	10	1	165	123	G	194	              Campylobacter
+  0.01	6	6	103	86	S	28898	                Campylobacter helveticus
+  0.01	3	3	27	17	S	28080	                Campylobacter upsaliensis
+  0.00	1	0	46	38	F	72293	            Helicobacteraceae
+  0.00	1	0	46	38	G	209	              Helicobacter
+  0.00	1	1	45	37	S	29419	                Helicobacter canis
+  0.00	2	0	61	57	D1	1783270	      FCB group
+  0.00	2	0	61	57	D2	68336	        Bacteroidetes/Chlorobi group
+  0.00	2	0	61	57	P	976	          Bacteroidota
+  0.00	2	0	27	24	C	200643	            Bacteroidia
+  0.00	2	0	27	24	O	171549	              Bacteroidales
+  0.00	1	0	12	11	F	815	                Bacteroidaceae
+  0.00	1	0	10	9	G	909656	                  Phocaeicola
+  0.00	1	1	9	8	S	821	                    Phocaeicola vulgatus
+  0.00	1	0	11	11	F	171552	                Prevotellaceae
+  0.00	1	0	10	10	G	838	                  Prevotella
+  0.00	1	1	9	9	S	165179	                    Prevotella copri
+  0.00	2	1	3908	3050	D	2759	    Eukaryota
+  0.00	1	0	2718	1980	D1	33154	      Opisthokonta
+  0.00	1	0	2703	1965	K	33208	        Metazoa
+  0.00	1	0	2703	1965	K1	6072	          Eumetazoa
+  0.00	1	0	2703	1965	K2	33213	            Bilateria
+  0.00	1	0	2703	1965	K3	33511	              Deuterostomia
+  0.00	1	0	2703	1965	P	7711	                Chordata
+  0.00	1	0	2703	1965	P1	89593	                  Craniata
+  0.00	1	0	2703	1965	P2	7742	                    Vertebrata
+  0.00	1	0	2703	1965	P3	7776	                      Gnathostomata
+  0.00	1	0	2703	1965	P4	117570	                        Teleostomi
+  0.00	1	0	2703	1965	P5	117571	                          Euteleostomi
+  0.00	1	0	2703	1965	P6	8287	                            Sarcopterygii
+  0.00	1	0	2703	1965	P7	1338369	                              Dipnotetrapodomorpha
+  0.00	1	0	2703	1965	P8	32523	                                Tetrapoda
+  0.00	1	0	2703	1965	P9	32524	                                  Amniota
+  0.00	1	0	2703	1965	C	40674	                                    Mammalia
+  0.00	1	0	2703	1965	C1	32525	                                      Theria
+  0.00	1	0	2703	1965	C2	9347	                                        Eutheria
+  0.00	1	0	2703	1965	C3	1437010	                                          Boreoeutheria
+  0.00	1	0	2703	1965	C4	314146	                                            Euarchontoglires
+  0.00	1	0	2703	1965	O	9443	                                              Primates
+  0.00	1	0	2703	1965	O1	376913	                                                Haplorrhini
+  0.00	1	0	2703	1965	O2	314293	                                                  Simiiformes
+  0.00	1	0	2703	1965	O3	9526	                                                    Catarrhini
+  0.00	1	0	2703	1965	O4	314295	                                                      Hominoidea
+  0.00	1	0	2703	1965	F	9604	                                                        Hominidae
+  0.00	1	0	2703	1965	F1	207598	                                                          Homininae
+  0.00	1	0	2703	1965	G	9605	                                                            Homo
+  0.00	1	1	2703	1965	S	9606	                                                              Homo sapiens
