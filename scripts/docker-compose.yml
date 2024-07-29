@@ -1,0 +1,27 @@
+services:
+  maf:
+    container_name: pathogen_identification
+    image: quay.io/biocontainers/bowtie2:2.5.4--he20e202_2
+    restart: unless-stopped
+    # You want the container to stay up forever while you're developing.
+    command: sleep infinity
+    volumes:
+      - type: bind
+        source: ./
+        target: /opt/repo/
+      - type: bind
+        source: /lustre/scratch124/resources/FUR
+        target: /lustre/scratch124/resources/FUR
+
+    networks:
+      - local-default
+
+networks:
+  local-default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1350
+    ipam:
+      config:
+        - subnet: 192.168.4.0/24
+
