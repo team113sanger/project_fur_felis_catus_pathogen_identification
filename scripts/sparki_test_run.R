@@ -12,7 +12,7 @@ taxonomy <- c(
   "Order", "Family", "Genus", "Species"
 )
 
-project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6711_2820"
+project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6712_2822"
 ref_db_file <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_capped_march2023/inspect.txt"
 
 dir.create(glue("{project_dir}/results/sparki"))
@@ -102,7 +102,6 @@ ggplot2::ggplot(
   ggplot2::scale_color_manual(
     values = c("indianred2", "royalblue"))
 dev.off()
-
 by_domain <- combined_df |>
   filter(rank == "D") |> 
   select(c(n_fragments_clade, rank, Domain, sample_id))
@@ -198,15 +197,15 @@ stats_df <- ratio_df |>
                     ratio_clade, padj, significance, n_fragments_clade)
 
 print("qdom")
-    q_domain <- "Viruses"
-    viruses <- stats_df |>
-    dplyr::filter(rank == "S") |>
-    dplyr::filter(Domain == q_domain) |>
-    tidyr::complete(sample_id, name, fill = list(significance = "Non-significant", 
-                                                rank = "S", 
-                                                Domain = q_domain)) |>
-    dplyr::select(sample_id, Domain, name, rank, ratio_clade, padj, 
-                 significance, n_fragments_clade)
+q_domain <- "Viruses"
+viruses <- stats_df |>
+dplyr::filter(rank %in% c("S")) |>
+dplyr::filter(Domain == q_domain) |>
+tidyr::complete(sample_id, name, fill = list(significance = "Non-significant", 
+                                            rank = "S", 
+                                            Domain = q_domain)) |>
+dplyr::select(sample_id, Domain, name, rank, ratio_clade, padj, 
+             significance, n_fragments_clade)
 
 
 
@@ -220,7 +219,7 @@ print("qdom")
 
 print("end")
     png(glue("{project_dir}/results/sparki/viral_minimisers.png"), 
-        width = 1500, height = 600)
+        width = 1500, height = 1000)
     viral_plot
     dev.off()
 
