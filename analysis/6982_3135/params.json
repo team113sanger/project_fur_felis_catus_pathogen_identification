@@ -1,6 +1,6 @@
 {
   "fastq_files": "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6982_3135/fastqs/**{R1,R2}.fastq.gz",
-  "reference_db": "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_march2023",
+  "reference_db": "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023",
   "c_score": 0.1,
   "outdir": "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6982_3135/results"
 }
