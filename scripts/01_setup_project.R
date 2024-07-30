@@ -23,7 +23,7 @@ file_ids <- paste0(output_dirs, "/params.json")
 parameters <- map(output_dirs, 
     ~toJSON(
     list("fastq_files" = paste0(.x, "/fastqs/**{R1,R2}.fastq.gz"),
-    "reference_db" = "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_capped_march2023",
+    "reference_db" = "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023",
     "c_score" = 0.1,
     "outdir" = paste0(.x, "/results")),
     auto_unbox = TRUE, 

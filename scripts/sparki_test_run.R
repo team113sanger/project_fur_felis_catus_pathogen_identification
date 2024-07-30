@@ -12,8 +12,8 @@ taxonomy <- c(
   "Order", "Family", "Genus", "Species"
 )
 
-project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6712_2822"
-ref_db_file <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_capped_march2023/inspect.txt"
+project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/pathogen_identification/analysis/"
+ref_db_file <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023/inspect.txt"
 
 dir.create(glue("{project_dir}/results/sparki"))
 
