@@ -12,10 +12,10 @@ taxonomy <- c(
   "Order", "Family", "Genus", "Species"
 )
 
-project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/pathogen_identification/analysis/"
+project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis/6711_2820/host_filtered"
 ref_db_file <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023/inspect.txt"
 
-dir.create(glue("{project_dir}/results/sparki"))
+# dir.create(glue("{project_dir}/results/sparki"))
 
 # Use a filesystem helper to gather all files
 krakentools_files <- fs::dir_ls(glue("{project_dir}/results/krakentools", 
@@ -218,10 +218,10 @@ dplyr::select(sample_id, Domain, name, rank, ratio_clade, padj,
     dev.off()
 
 print("end")
-    png(glue("{project_dir}/results/sparki/viral_minimisers.png"), 
-        width = 1500, height = 1000)
-    viral_plot
-    dev.off()
+png(glue("{project_dir}/results/sparki/viral_minimisers.png"), 
+    width = 1500, height = 500)
+viral_plot
+dev.off()
 
 
 # process_cohort(project_dir, ref_db_file)
