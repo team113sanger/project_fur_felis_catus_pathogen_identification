@@ -2,7 +2,6 @@
 nextflow
 *.fastq.gz
 *.e
-*.o
 work
 */tmp/*
 analysis/*
