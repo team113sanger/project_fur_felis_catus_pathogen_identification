@@ -48,3 +48,6 @@ map2(parameters, file_ids, ~write_file(x = .x, file = .y))
 # col_names = (c("pct", "n_reads", "n_minimisers", "rank", "taxid", "name"))) |> 
 # filter(rank == "S") |>
 # select(name)
+
+map(output_dirs, ~file_copy("nextflow.config", paste0(.x, "/nextflow.config")))
+
