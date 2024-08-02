@@ -1,0 +1,2077 @@
+N E X T F L O W  ~  version 22.04.3
+Launching `scripts/kraken2/main.nf` [cheesy_pare] DSL2 - revision: e62ddd1958
+[-        ] process > REMOVE_HOST_READS -
+[-        ] process > RUN_KRAKEN2       -
+[-        ] process > KRAKEN_TOOLS      -
+
+[-        ] process > REMOVE_HOST_READS [  0%] 0 of 41
+[-        ] process > RUN_KRAKEN2       -
+[-        ] process > KRAKEN_TOOLS      -
+
+[-        ] process > REMOVE_HOST_READS [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2       -
+[-        ] process > KRAKEN_TOOLS      -
+
+executor >  lsf (1)
+[d1/4b19b4] process > REMOVE_HOST_READS (10) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (2)
+[46/9a68fa] process > REMOVE_HOST_READS (14) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (3)
+[9d/bf6d80] process > REMOVE_HOST_READS (12) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (4)
+[5d/153d12] process > REMOVE_HOST_READS (13) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (5)
+[64/dbb2e3] process > REMOVE_HOST_READS (7)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (6)
+[7d/7edeb1] process > REMOVE_HOST_READS (6)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (7)
+[eb/148f7d] process > REMOVE_HOST_READS (8)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (8)
+[b3/1c9b50] process > REMOVE_HOST_READS (17) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (9)
+[58/30217b] process > REMOVE_HOST_READS (15) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (10)
+[e7/141d60] process > REMOVE_HOST_READS (2)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (11)
+[c6/7abbb6] process > REMOVE_HOST_READS (5)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (12)
+[af/b8a8eb] process > REMOVE_HOST_READS (3)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (13)
+[af/e890a1] process > REMOVE_HOST_READS (4)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (14)
+[6b/f4c5b3] process > REMOVE_HOST_READS (11) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (15)
+[c3/7a2194] process > REMOVE_HOST_READS (1)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (16)
+[d5/faed60] process > REMOVE_HOST_READS (9)  [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (17)
+[1d/38c59c] process > REMOVE_HOST_READS (16) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (18)
+[00/cccc20] process > REMOVE_HOST_READS (25) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (19)
+[cd/e5e7d2] process > REMOVE_HOST_READS (18) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (20)
+[32/f00c77] process > REMOVE_HOST_READS (19) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (21)
+[99/76ec95] process > REMOVE_HOST_READS (20) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (22)
+[d5/99c47d] process > REMOVE_HOST_READS (23) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (23)
+[f6/528808] process > REMOVE_HOST_READS (21) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (24)
+[2f/3b96f0] process > REMOVE_HOST_READS (22) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (25)
+[f6/31f2f2] process > REMOVE_HOST_READS (24) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (26)
+[d6/145055] process > REMOVE_HOST_READS (27) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (27)
+[3a/6f1027] process > REMOVE_HOST_READS (26) [  0%] 0 of 76
+[-        ] process > RUN_KRAKEN2            -
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (28)
+[5d/462352] process > REMOVE_HOST_READS (30) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (29)
+[b6/5f7ede] process > REMOVE_HOST_READS (28) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (30)
+[ac/1b3cc5] process > REMOVE_HOST_READS (31) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (31)
+[be/5ea7a5] process > REMOVE_HOST_READS (33) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (32)
+[31/c7c4a0] process > REMOVE_HOST_READS (34) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (33)
+[22/a95752] process > REMOVE_HOST_READS (37) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (34)
+[f9/8e871d] process > REMOVE_HOST_READS (36) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (35)
+[c7/2672bd] process > REMOVE_HOST_READS (29) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (36)
+[7a/19086d] process > REMOVE_HOST_READS (42) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (37)
+[0a/660888] process > REMOVE_HOST_READS (32) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (38)
+[1b/edf2cf] process > REMOVE_HOST_READS (35) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (39)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (40)
+[6e/fcdfad] process > REMOVE_HOST_READS (43) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (41)
+[0f/636137] process > REMOVE_HOST_READS (39) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (42)
+[53/6a4aca] process > REMOVE_HOST_READS (41) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (43)
+[cd/3df21b] process > REMOVE_HOST_READS (50) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (44)
+[43/3979bc] process > REMOVE_HOST_READS (40) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (45)
+[62/2a8c07] process > REMOVE_HOST_READS (44) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (46)
+[f1/4cf3cd] process > REMOVE_HOST_READS (49) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (47)
+[78/3a01e7] process > REMOVE_HOST_READS (46) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (48)
+[88/1ff62b] process > REMOVE_HOST_READS (51) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (49)
+[b5/124883] process > REMOVE_HOST_READS (54) [  1%] 1 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 1
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (50)
+[eb/148f7d] process > REMOVE_HOST_READS (8)  [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (50)
+[71/ffe195] process > REMOVE_HOST_READS (45) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (51)
+[07/1d763e] process > REMOVE_HOST_READS (56) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (52)
+[55/8e8d92] process > REMOVE_HOST_READS (61) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (53)
+[71/6c9505] process > REMOVE_HOST_READS (60) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (54)
+[90/a8d0b2] process > REMOVE_HOST_READS (59) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (55)
+[23/d9b05d] process > REMOVE_HOST_READS (48) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (56)
+[1e/4bb567] process > REMOVE_HOST_READS (57) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (57)
+[8b/5aa382] process > REMOVE_HOST_READS (67) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (58)
+[b5/5a74b6] process > REMOVE_HOST_READS (52) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (58)
+[b5/5a74b6] process > REMOVE_HOST_READS (52) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (59)
+[dc/1fc758] process > REMOVE_HOST_READS (53) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (60)
+[7e/2a3940] process > REMOVE_HOST_READS (47) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (61)
+[94/8d752c] process > REMOVE_HOST_READS (58) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (62)
+[4b/c510f6] process > REMOVE_HOST_READS (55) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (63)
+[0e/8d5699] process > REMOVE_HOST_READS (63) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (64)
+[45/35c466] process > REMOVE_HOST_READS (62) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (65)
+[22/36fad8] process > REMOVE_HOST_READS (65) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (66)
+[59/d353cb] process > REMOVE_HOST_READS (64) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (67)
+[1d/fc8e17] process > REMOVE_HOST_READS (69) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (68)
+[61/dfda56] process > REMOVE_HOST_READS (76) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (69)
+[77/064eef] process > REMOVE_HOST_READS (66) [  6%] 5 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 5
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (70)
+[b3/1c9b50] process > REMOVE_HOST_READS (17) [ 10%] 8 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (71)
+[ba/db23cb] process > REMOVE_HOST_READS (71) [ 10%] 8 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (72)
+[49/fe209e] process > REMOVE_HOST_READS (73) [ 10%] 8 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (73)
+[8a/0c72ea] process > REMOVE_HOST_READS (68) [ 10%] 8 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (74)
+[4a/b75ddb] process > REMOVE_HOST_READS (75) [ 10%] 8 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (75)
+[5c/57aa32] process > REMOVE_HOST_READS (70) [ 10%] 8 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (76)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[-        ] process > RUN_KRAKEN2            [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (77)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[ee/382774] process > RUN_KRAKEN2 (1)        [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (78)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[c6/88c273] process > RUN_KRAKEN2 (2)        [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (79)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[b5/8f4a0f] process > RUN_KRAKEN2 (3)        [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (80)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[26/05dce5] process > RUN_KRAKEN2 (4)        [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (81)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[68/08a51d] process > RUN_KRAKEN2 (5)        [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (82)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[0e/08d19a] process > RUN_KRAKEN2 (6)        [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (83)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[cb/cd1e08] process > RUN_KRAKEN2 (7)        [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (84)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 10%] 8 of 76
+[29/724c9b] process > RUN_KRAKEN2 (8)        [  0%] 0 of 8
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (84)
+[af/e890a1] process > REMOVE_HOST_READS (4) [ 13%] 10 of 76
+[29/724c9b] process > RUN_KRAKEN2 (8)       [  0%] 0 of 10
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (85)
+[af/e890a1] process > REMOVE_HOST_READS (4) [ 13%] 10 of 76
+[54/923b1b] process > RUN_KRAKEN2 (9)       [  0%] 0 of 10
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (86)
+[af/e890a1] process > REMOVE_HOST_READS (4) [ 13%] 10 of 76
+[b8/0ad164] process > RUN_KRAKEN2 (10)      [  0%] 0 of 10
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (86)
+[d5/faed60] process > REMOVE_HOST_READS (9) [ 18%] 14 of 76
+[b8/0ad164] process > RUN_KRAKEN2 (10)      [  0%] 0 of 14
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (87)
+[d5/faed60] process > REMOVE_HOST_READS (9) [ 18%] 14 of 76
+[0d/2548b6] process > RUN_KRAKEN2 (11)      [  0%] 0 of 14
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (88)
+[d5/faed60] process > REMOVE_HOST_READS (9) [ 18%] 14 of 76
+[6f/d296bb] process > RUN_KRAKEN2 (12)      [  0%] 0 of 14
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (89)
+[d5/faed60] process > REMOVE_HOST_READS (9) [ 18%] 14 of 76
+[70/590785] process > RUN_KRAKEN2 (13)      [  0%] 0 of 14
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (90)
+[d5/faed60] process > REMOVE_HOST_READS (9) [ 18%] 14 of 76
+[13/35a8fc] process > RUN_KRAKEN2 (14)      [  0%] 0 of 14
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (90)
+[1d/38c59c] process > REMOVE_HOST_READS (16) [ 19%] 15 of 76
+[13/35a8fc] process > RUN_KRAKEN2 (14)       [  0%] 0 of 14
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (90)
+[2f/3b96f0] process > REMOVE_HOST_READS (22) [ 23%] 18 of 76
+[13/35a8fc] process > RUN_KRAKEN2 (14)       [  0%] 0 of 18
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (91)
+[2f/3b96f0] process > REMOVE_HOST_READS (22) [ 23%] 18 of 76
+[a9/b6156f] process > RUN_KRAKEN2 (15)       [  0%] 0 of 18
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (92)
+[2f/3b96f0] process > REMOVE_HOST_READS (22) [ 23%] 18 of 76
+[b1/86f738] process > RUN_KRAKEN2 (16)       [  0%] 0 of 18
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (93)
+[2f/3b96f0] process > REMOVE_HOST_READS (22) [ 23%] 18 of 76
+[f9/c0d18a] process > RUN_KRAKEN2 (17)       [  0%] 0 of 18
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (94)
+[2f/3b96f0] process > REMOVE_HOST_READS (22) [ 23%] 18 of 76
+[c4/de3298] process > RUN_KRAKEN2 (18)       [  0%] 0 of 18
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (94)
+[32/f00c77] process > REMOVE_HOST_READS (19) [ 26%] 20 of 76
+[c4/de3298] process > RUN_KRAKEN2 (18)       [  0%] 0 of 20
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (94)
+[b6/5f7ede] process > REMOVE_HOST_READS (28) [ 30%] 23 of 76
+[c4/de3298] process > RUN_KRAKEN2 (18)       [  0%] 0 of 23
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (95)
+[b6/5f7ede] process > REMOVE_HOST_READS (28) [ 30%] 23 of 76
+[3c/1c7d09] process > RUN_KRAKEN2 (19)       [  0%] 0 of 23
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (96)
+[b6/5f7ede] process > REMOVE_HOST_READS (28) [ 30%] 23 of 76
+[1a/b38457] process > RUN_KRAKEN2 (20)       [  0%] 0 of 23
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (97)
+[b6/5f7ede] process > REMOVE_HOST_READS (28) [ 30%] 23 of 76
+[72/2cb835] process > RUN_KRAKEN2 (21)       [  0%] 0 of 23
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (98)
+[b6/5f7ede] process > REMOVE_HOST_READS (28) [ 30%] 23 of 76
+[e9/afe758] process > RUN_KRAKEN2 (22)       [  0%] 0 of 23
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (99)
+[b6/5f7ede] process > REMOVE_HOST_READS (28) [ 30%] 23 of 76
+[2d/163166] process > RUN_KRAKEN2 (23)       [  0%] 0 of 23
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (99)
+[be/5ea7a5] process > REMOVE_HOST_READS (33) [ 34%] 26 of 76
+[2d/163166] process > RUN_KRAKEN2 (23)       [  0%] 0 of 26
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (99)
+[31/c7c4a0] process > REMOVE_HOST_READS (34) [ 35%] 27 of 76
+[2d/163166] process > RUN_KRAKEN2 (23)       [  0%] 0 of 27
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (100)
+[31/c7c4a0] process > REMOVE_HOST_READS (34) [ 35%] 27 of 76
+[6c/d70874] process > RUN_KRAKEN2 (24)       [  0%] 0 of 27
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (101)
+[31/c7c4a0] process > REMOVE_HOST_READS (34) [ 35%] 27 of 76
+[a6/2ed107] process > RUN_KRAKEN2 (25)       [  0%] 0 of 27
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (102)
+[31/c7c4a0] process > REMOVE_HOST_READS (34) [ 35%] 27 of 76
+[e1/bcac2d] process > RUN_KRAKEN2 (26)       [  0%] 0 of 27
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (103)
+[31/c7c4a0] process > REMOVE_HOST_READS (34) [ 35%] 27 of 76
+[54/67a531] process > RUN_KRAKEN2 (27)       [  0%] 0 of 27
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (103)
+[f9/8e871d] process > REMOVE_HOST_READS (36) [ 40%] 31 of 76
+[54/67a531] process > RUN_KRAKEN2 (27)       [  0%] 0 of 30
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (104)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [ 46%] 35 of 76
+[a1/f3f097] process > RUN_KRAKEN2 (28)       [  0%] 0 of 35
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (105)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [ 46%] 35 of 76
+[a9/8889f7] process > RUN_KRAKEN2 (29)       [  0%] 0 of 35
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (106)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [ 46%] 35 of 76
+[76/624adf] process > RUN_KRAKEN2 (30)       [  0%] 0 of 35
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (107)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [ 46%] 35 of 76
+[7a/df449a] process > RUN_KRAKEN2 (32)       [  0%] 0 of 35
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (108)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [ 46%] 35 of 76
+[8d/b0c843] process > RUN_KRAKEN2 (31)       [  0%] 0 of 35
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (109)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [ 46%] 35 of 76
+[5b/526a7e] process > RUN_KRAKEN2 (33)       [  0%] 0 of 35
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (110)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [ 46%] 35 of 76
+[cc/ebc963] process > RUN_KRAKEN2 (34)       [  0%] 0 of 35
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (111)
+[bb/bc3ebb] process > REMOVE_HOST_READS (38) [ 46%] 35 of 76
+[34/4d23a9] process > RUN_KRAKEN2 (35)       [  0%] 0 of 35
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (111)
+[0f/636137] process > REMOVE_HOST_READS (39) [ 50%] 38 of 76
+[34/4d23a9] process > RUN_KRAKEN2 (35)       [  0%] 0 of 37
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (111)
+[53/6a4aca] process > REMOVE_HOST_READS (41) [ 51%] 39 of 76
+[34/4d23a9] process > RUN_KRAKEN2 (35)       [  0%] 0 of 39
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (112)
+[53/6a4aca] process > REMOVE_HOST_READS (41) [ 51%] 39 of 76
+[a8/f355b2] process > RUN_KRAKEN2 (36)       [  0%] 0 of 39
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (113)
+[53/6a4aca] process > REMOVE_HOST_READS (41) [ 51%] 39 of 76
+[47/e89626] process > RUN_KRAKEN2 (37)       [  0%] 0 of 39
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (114)
+[53/6a4aca] process > REMOVE_HOST_READS (41) [ 51%] 39 of 76
+[17/49884c] process > RUN_KRAKEN2 (38)       [  0%] 0 of 39
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (115)
+[53/6a4aca] process > REMOVE_HOST_READS (41) [ 51%] 39 of 76
+[53/434e6d] process > RUN_KRAKEN2 (39)       [  0%] 0 of 39
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (115)
+[62/2a8c07] process > REMOVE_HOST_READS (44) [ 55%] 42 of 76
+[53/434e6d] process > RUN_KRAKEN2 (39)       [  0%] 0 of 42
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (116)
+[88/1ff62b] process > REMOVE_HOST_READS (51) [ 56%] 43 of 76
+[4e/a4c4d5] process > RUN_KRAKEN2 (40)       [  0%] 0 of 43
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (117)
+[88/1ff62b] process > REMOVE_HOST_READS (51) [ 56%] 43 of 76
+[9a/a1e41b] process > RUN_KRAKEN2 (41)       [  0%] 0 of 43
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (118)
+[88/1ff62b] process > REMOVE_HOST_READS (51) [ 56%] 43 of 76
+[fb/a1e312] process > RUN_KRAKEN2 (42)       [  0%] 0 of 43
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (119)
+[88/1ff62b] process > REMOVE_HOST_READS (51) [ 56%] 43 of 76
+[5c/c9f712] process > RUN_KRAKEN2 (43)       [  0%] 0 of 43
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (119)
+[55/8e8d92] process > REMOVE_HOST_READS (61) [ 60%] 46 of 76
+[5c/c9f712] process > RUN_KRAKEN2 (43)       [  0%] 0 of 46
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (119)
+[55/8e8d92] process > REMOVE_HOST_READS (61) [ 60%] 46 of 76
+[5c/c9f712] process > RUN_KRAKEN2 (43)       [  0%] 0 of 46
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (120)
+[55/8e8d92] process > REMOVE_HOST_READS (61) [ 60%] 46 of 76
+[41/19faa1] process > RUN_KRAKEN2 (44)       [  0%] 0 of 46
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (121)
+[55/8e8d92] process > REMOVE_HOST_READS (61) [ 60%] 46 of 76
+[d3/143a73] process > RUN_KRAKEN2 (45)       [  0%] 0 of 46
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (122)
+[55/8e8d92] process > REMOVE_HOST_READS (61) [ 60%] 46 of 76
+[36/8e13b9] process > RUN_KRAKEN2 (46)       [  0%] 0 of 46
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (122)
+[90/a8d0b2] process > REMOVE_HOST_READS (59) [ 65%] 50 of 76
+[36/8e13b9] process > RUN_KRAKEN2 (46)       [  0%] 0 of 50
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (122)
+[94/8d752c] process > REMOVE_HOST_READS (58) [ 67%] 51 of 76
+[36/8e13b9] process > RUN_KRAKEN2 (46)       [  0%] 0 of 51
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (123)
+[94/8d752c] process > REMOVE_HOST_READS (58) [ 67%] 51 of 76
+[fc/854ff8] process > RUN_KRAKEN2 (47)       [  0%] 0 of 51
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (124)
+[94/8d752c] process > REMOVE_HOST_READS (58) [ 67%] 51 of 76
+[52/f9b80c] process > RUN_KRAKEN2 (48)       [  0%] 0 of 51
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (125)
+[94/8d752c] process > REMOVE_HOST_READS (58) [ 67%] 51 of 76
+[14/d73134] process > RUN_KRAKEN2 (49)       [  0%] 0 of 51
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (126)
+[94/8d752c] process > REMOVE_HOST_READS (58) [ 67%] 51 of 76
+[d4/53674d] process > RUN_KRAKEN2 (50)       [  0%] 0 of 51
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (127)
+[94/8d752c] process > REMOVE_HOST_READS (58) [ 67%] 51 of 76
+[eb/570656] process > RUN_KRAKEN2 (51)       [  0%] 0 of 51
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (127)
+[b5/5a74b6] process > REMOVE_HOST_READS (52) [ 75%] 57 of 76
+[eb/570656] process > RUN_KRAKEN2 (51)       [  0%] 0 of 57
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (128)
+[45/35c466] process > REMOVE_HOST_READS (62) [ 76%] 58 of 76
+[3f/be1da3] process > RUN_KRAKEN2 (52)       [  0%] 0 of 58
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (129)
+[45/35c466] process > REMOVE_HOST_READS (62) [ 76%] 58 of 76
+[36/48b71a] process > RUN_KRAKEN2 (53)       [  0%] 0 of 58
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (130)
+[45/35c466] process > REMOVE_HOST_READS (62) [ 76%] 58 of 76
+[28/43f146] process > RUN_KRAKEN2 (54)       [  0%] 0 of 58
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (131)
+[45/35c466] process > REMOVE_HOST_READS (62) [ 76%] 58 of 76
+[a6/f1f591] process > RUN_KRAKEN2 (55)       [  0%] 0 of 58
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (132)
+[45/35c466] process > REMOVE_HOST_READS (62) [ 76%] 58 of 76
+[83/b57f05] process > RUN_KRAKEN2 (56)       [  0%] 0 of 58
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (133)
+[45/35c466] process > REMOVE_HOST_READS (62) [ 76%] 58 of 76
+[2a/65bc29] process > RUN_KRAKEN2 (57)       [  0%] 0 of 58
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (134)
+[45/35c466] process > REMOVE_HOST_READS (62) [ 76%] 58 of 76
+[b4/96f2b3] process > RUN_KRAKEN2 (58)       [  0%] 0 of 58
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (134)
+[22/36fad8] process > REMOVE_HOST_READS (65) [ 81%] 62 of 76
+[b4/96f2b3] process > RUN_KRAKEN2 (58)       [  0%] 0 of 62
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (135)
+[22/36fad8] process > REMOVE_HOST_READS (65) [ 81%] 62 of 76
+[67/f46ee2] process > RUN_KRAKEN2 (59)       [  0%] 0 of 62
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (136)
+[22/36fad8] process > REMOVE_HOST_READS (65) [ 81%] 62 of 76
+[11/6ec0ac] process > RUN_KRAKEN2 (60)       [  0%] 0 of 62
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (137)
+[22/36fad8] process > REMOVE_HOST_READS (65) [ 81%] 62 of 76
+[9d/600561] process > RUN_KRAKEN2 (61)       [  0%] 0 of 62
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (138)
+[22/36fad8] process > REMOVE_HOST_READS (65) [ 81%] 62 of 76
+[da/5d7225] process > RUN_KRAKEN2 (62)       [  0%] 0 of 62
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (138)
+[49/fe209e] process > REMOVE_HOST_READS (73) [ 88%] 67 of 76
+[da/5d7225] process > RUN_KRAKEN2 (62)       [  0%] 0 of 67
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (139)
+[49/fe209e] process > REMOVE_HOST_READS (73) [ 88%] 67 of 76
+[55/5d78a8] process > RUN_KRAKEN2 (63)       [  0%] 0 of 67
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (140)
+[49/fe209e] process > REMOVE_HOST_READS (73) [ 88%] 67 of 76
+[c7/2c0273] process > RUN_KRAKEN2 (64)       [  0%] 0 of 67
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (141)
+[49/fe209e] process > REMOVE_HOST_READS (73) [ 88%] 67 of 76
+[27/05b4ff] process > RUN_KRAKEN2 (65)       [  0%] 0 of 67
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (142)
+[49/fe209e] process > REMOVE_HOST_READS (73) [ 88%] 67 of 76
+[d7/3848e2] process > RUN_KRAKEN2 (66)       [  0%] 0 of 67
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (143)
+[49/fe209e] process > REMOVE_HOST_READS (73) [ 88%] 67 of 76
+[5d/0b01b5] process > RUN_KRAKEN2 (67)       [  0%] 0 of 67
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (143)
+[dc/1fc758] process > REMOVE_HOST_READS (53) [ 89%] 68 of 76
+[5d/0b01b5] process > RUN_KRAKEN2 (67)       [  0%] 0 of 68
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (143)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 94%] 72 of 76
+[5d/0b01b5] process > RUN_KRAKEN2 (67)       [  0%] 0 of 72
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (144)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 94%] 72 of 76
+[83/093f21] process > RUN_KRAKEN2 (68)       [  0%] 0 of 72
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (145)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 94%] 72 of 76
+[7c/34422a] process > RUN_KRAKEN2 (69)       [  0%] 0 of 72
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (146)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 94%] 72 of 76
+[84/0fde07] process > RUN_KRAKEN2 (70)       [  0%] 0 of 72
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (147)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 94%] 72 of 76
+[fb/110793] process > RUN_KRAKEN2 (71)       [  0%] 0 of 72
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (148)
+[98/8ffe40] process > REMOVE_HOST_READS (74) [ 94%] 72 of 76
+[e0/10f7e6] process > RUN_KRAKEN2 (72)       [  0%] 0 of 72
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (148)
+[4a/b75ddb] process > REMOVE_HOST_READS (75) [ 97%] 74 of 76
+[e0/10f7e6] process > RUN_KRAKEN2 (72)       [  0%] 0 of 74
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (149)
+[4a/b75ddb] process > REMOVE_HOST_READS (75) [ 97%] 74 of 76
+[10/f8eb8f] process > RUN_KRAKEN2 (73)       [  0%] 0 of 74
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (150)
+[4a/b75ddb] process > REMOVE_HOST_READS (75) [ 97%] 74 of 76
+[45/0f372b] process > RUN_KRAKEN2 (74)       [  0%] 0 of 74
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (150)
+[4a/b75ddb] process > REMOVE_HOST_READS (75) [ 97%] 74 of 76
+[45/0f372b] process > RUN_KRAKEN2 (74)       [  0%] 0 of 74
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (150)
+[4a/b75ddb] process > REMOVE_HOST_READS (75) [ 97%] 74 of 76
+[45/0f372b] process > RUN_KRAKEN2 (74)       [  0%] 0 of 74
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (150)
+[4a/b75ddb] process > REMOVE_HOST_READS (75) [ 97%] 74 of 76
+[45/0f372b] process > RUN_KRAKEN2 (74)       [  0%] 0 of 74
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (150)
+[4a/b75ddb] process > REMOVE_HOST_READS (75) [ 97%] 74 of 76
+[45/0f372b] process > RUN_KRAKEN2 (74)       [  0%] 0 of 74
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (150)
+[e7/141d60] process > REMOVE_HOST_READS (2)  [ 98%] 75 of 76
+[45/0f372b] process > RUN_KRAKEN2 (74)       [  0%] 0 of 75
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (151)
+[e7/141d60] process > REMOVE_HOST_READS (2)  [ 98%] 75 of 76
+[20/7d2313] process > RUN_KRAKEN2 (75)       [  0%] 0 of 75
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (151)
+[e7/141d60] process > REMOVE_HOST_READS (2)  [ 98%] 75 of 76
+[20/7d2313] process > RUN_KRAKEN2 (75)       [  0%] 0 of 75
+[-        ] process > KRAKEN_TOOLS           -
+
+executor >  lsf (151)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[20/7d2313] process > RUN_KRAKEN2 (75)      [  0%] 0 of 75
+[-        ] process > KRAKEN_TOOLS          -
+
+executor >  lsf (151)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[29/724c9b] process > RUN_KRAKEN2 (8)       [  1%] 1 of 75
+[-        ] process > KRAKEN_TOOLS          [  0%] 0 of 1
+
+executor >  lsf (152)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[29/724c9b] process > RUN_KRAKEN2 (8)       [  1%] 1 of 75
+[fa/c80cbe] process > KRAKEN_TOOLS (1)      [  0%] 0 of 1
+
+executor >  lsf (152)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[68/08a51d] process > RUN_KRAKEN2 (5)       [  2%] 2 of 75
+[fa/c80cbe] process > KRAKEN_TOOLS (1)      [  0%] 0 of 2
+
+executor >  lsf (153)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[68/08a51d] process > RUN_KRAKEN2 (5)       [  2%] 2 of 75
+[f5/6a239e] process > KRAKEN_TOOLS (2)      [  0%] 0 of 2
+
+executor >  lsf (153)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[68/08a51d] process > RUN_KRAKEN2 (5)       [  2%] 2 of 75
+[fa/c80cbe] process > KRAKEN_TOOLS (1)      [ 50%] 1 of 2
+
+executor >  lsf (153)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[68/08a51d] process > RUN_KRAKEN2 (5)       [  2%] 2 of 75
+[f5/6a239e] process > KRAKEN_TOOLS (2)      [100%] 2 of 2
+
+executor >  lsf (153)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[6f/d296bb] process > RUN_KRAKEN2 (12)      [  4%] 3 of 75
+[f5/6a239e] process > KRAKEN_TOOLS (2)      [ 66%] 2 of 3
+
+executor >  lsf (154)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[6f/d296bb] process > RUN_KRAKEN2 (12)      [  4%] 3 of 75
+[b4/4d213f] process > KRAKEN_TOOLS (3)      [ 66%] 2 of 3
+
+executor >  lsf (154)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[b8/0ad164] process > RUN_KRAKEN2 (10)      [  6%] 5 of 75
+[b4/4d213f] process > KRAKEN_TOOLS (3)      [ 60%] 3 of 5
+
+executor >  lsf (155)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[b8/0ad164] process > RUN_KRAKEN2 (10)      [  6%] 5 of 75
+[b2/08ac12] process > KRAKEN_TOOLS (4)      [ 60%] 3 of 5
+
+executor >  lsf (156)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[b8/0ad164] process > RUN_KRAKEN2 (10)      [  6%] 5 of 75
+[ae/12296f] process > KRAKEN_TOOLS (5)      [ 60%] 3 of 5
+
+executor >  lsf (156)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[26/05dce5] process > RUN_KRAKEN2 (4)       [  8%] 6 of 75
+[ae/12296f] process > KRAKEN_TOOLS (5)      [ 83%] 5 of 6
+
+executor >  lsf (157)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[26/05dce5] process > RUN_KRAKEN2 (4)       [  8%] 6 of 75
+[78/4581b1] process > KRAKEN_TOOLS (6)      [ 83%] 5 of 6
+
+executor >  lsf (157)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[54/923b1b] process > RUN_KRAKEN2 (9)       [ 10%] 8 of 75
+[78/4581b1] process > KRAKEN_TOOLS (6)      [ 62%] 5 of 8
+
+executor >  lsf (158)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[54/923b1b] process > RUN_KRAKEN2 (9)       [ 10%] 8 of 75
+[74/300744] process > KRAKEN_TOOLS (7)      [ 62%] 5 of 8
+
+executor >  lsf (159)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[54/923b1b] process > RUN_KRAKEN2 (9)       [ 10%] 8 of 75
+[49/3a6dad] process > KRAKEN_TOOLS (8)      [ 62%] 5 of 8
+
+executor >  lsf (159)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[54/923b1b] process > RUN_KRAKEN2 (9)       [ 10%] 8 of 75
+[49/3a6dad] process > KRAKEN_TOOLS (8)      [ 62%] 5 of 8
+
+executor >  lsf (159)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[54/923b1b] process > RUN_KRAKEN2 (9)       [ 10%] 8 of 75
+[78/4581b1] process > KRAKEN_TOOLS (6)      [ 75%] 6 of 8
+
+executor >  lsf (159)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[54/923b1b] process > RUN_KRAKEN2 (9)       [ 10%] 8 of 75
+[78/4581b1] process > KRAKEN_TOOLS (6)      [ 75%] 6 of 8
+
+executor >  lsf (159)
+[e7/141d60] process > REMOVE_HOST_READS (2) [ 98%] 75 of 76
+[54/923b1b] process > RUN_KRAKEN2 (9)       [ 10%] 8 of 75
+[74/300744] process > KRAKEN_TOOLS (7)      [ 87%] 7 of 8
+
+executor >  lsf (159)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[cb/cd1e08] process > RUN_KRAKEN2 (7)       [ 11%] 9 of 76
+[74/300744] process > KRAKEN_TOOLS (7)      [ 77%] 7 of 9
+
+executor >  lsf (160)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [ 13%] 10 of 76
+[74/300744] process > KRAKEN_TOOLS (7)      [ 70%] 7 of 10
+
+executor >  lsf (161)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [ 13%] 10 of 76
+[d0/57001b] process > KRAKEN_TOOLS (9)      [ 70%] 7 of 10
+
+executor >  lsf (162)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [ 13%] 10 of 76
+[de/48e226] process > KRAKEN_TOOLS (10)     [ 70%] 7 of 10
+
+executor >  lsf (162)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [ 13%] 10 of 76
+[de/48e226] process > KRAKEN_TOOLS (10)     [ 70%] 7 of 10
+
+executor >  lsf (162)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [ 13%] 10 of 76
+[de/48e226] process > KRAKEN_TOOLS (10)     [ 70%] 7 of 10
+
+executor >  lsf (162)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[f9/c0d18a] process > RUN_KRAKEN2 (17)      [ 14%] 11 of 76
+[de/48e226] process > KRAKEN_TOOLS (10)     [ 63%] 7 of 11
+
+executor >  lsf (163)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[f9/c0d18a] process > RUN_KRAKEN2 (17)      [ 14%] 11 of 76
+[f7/78a70b] process > KRAKEN_TOOLS (11)     [ 63%] 7 of 11
+
+executor >  lsf (163)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[13/35a8fc] process > RUN_KRAKEN2 (14)      [ 15%] 12 of 76
+[49/3a6dad] process > KRAKEN_TOOLS (8)      [ 66%] 8 of 12
+
+executor >  lsf (164)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[13/35a8fc] process > RUN_KRAKEN2 (14)      [ 15%] 12 of 76
+[9d/27da6a] process > KRAKEN_TOOLS (12)     [ 66%] 8 of 12
+
+executor >  lsf (164)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[c4/de3298] process > RUN_KRAKEN2 (18)      [ 17%] 13 of 76
+[9d/27da6a] process > KRAKEN_TOOLS (12)     [ 61%] 8 of 13
+
+executor >  lsf (165)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[c4/de3298] process > RUN_KRAKEN2 (18)      [ 17%] 13 of 76
+[cb/9d83db] process > KRAKEN_TOOLS (13)     [ 61%] 8 of 13
+
+executor >  lsf (165)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[c4/de3298] process > RUN_KRAKEN2 (18)      [ 17%] 13 of 76
+[cb/9d83db] process > KRAKEN_TOOLS (13)     [ 61%] 8 of 13
+
+executor >  lsf (165)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[c4/de3298] process > RUN_KRAKEN2 (18)      [ 17%] 13 of 76
+[cb/9d83db] process > KRAKEN_TOOLS (13)     [ 61%] 8 of 13
+
+executor >  lsf (165)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[72/2cb835] process > RUN_KRAKEN2 (21)      [ 18%] 14 of 76
+[cb/9d83db] process > KRAKEN_TOOLS (13)     [ 57%] 8 of 14
+
+executor >  lsf (166)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[72/2cb835] process > RUN_KRAKEN2 (21)      [ 18%] 14 of 76
+[d9/69883d] process > KRAKEN_TOOLS (14)     [ 57%] 8 of 14
+
+executor >  lsf (166)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[72/2cb835] process > RUN_KRAKEN2 (21)      [ 18%] 14 of 76
+[d9/69883d] process > KRAKEN_TOOLS (14)     [ 64%] 9 of 14
+
+executor >  lsf (166)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[72/2cb835] process > RUN_KRAKEN2 (21)      [ 18%] 14 of 76
+[d9/69883d] process > KRAKEN_TOOLS (14)     [ 64%] 9 of 14
+
+executor >  lsf (166)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2d/163166] process > RUN_KRAKEN2 (23)      [ 19%] 15 of 76
+[d9/69883d] process > KRAKEN_TOOLS (14)     [ 60%] 9 of 15
+
+executor >  lsf (167)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2d/163166] process > RUN_KRAKEN2 (23)      [ 19%] 15 of 76
+[85/de4457] process > KRAKEN_TOOLS (15)     [ 60%] 9 of 15
+
+executor >  lsf (167)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2d/163166] process > RUN_KRAKEN2 (23)      [ 19%] 15 of 76
+[85/de4457] process > KRAKEN_TOOLS (15)     [ 73%] 11 of 15
+
+executor >  lsf (167)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2d/163166] process > RUN_KRAKEN2 (23)      [ 19%] 15 of 76
+[85/de4457] process > KRAKEN_TOOLS (15)     [ 73%] 11 of 15
+
+executor >  lsf (167)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[1a/b38457] process > RUN_KRAKEN2 (20)      [ 21%] 16 of 76
+[de/48e226] process > KRAKEN_TOOLS (10)     [ 81%] 13 of 16
+
+executor >  lsf (168)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[1a/b38457] process > RUN_KRAKEN2 (20)      [ 21%] 16 of 76
+[a3/c5b833] process > KRAKEN_TOOLS (16)     [ 81%] 13 of 16
+
+executor >  lsf (168)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[1a/b38457] process > RUN_KRAKEN2 (20)      [ 21%] 16 of 76
+[a3/c5b833] process > KRAKEN_TOOLS (16)     [ 87%] 14 of 16
+
+executor >  lsf (168)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[3c/1c7d09] process > RUN_KRAKEN2 (19)      [ 22%] 17 of 76
+[a3/c5b833] process > KRAKEN_TOOLS (16)     [ 82%] 14 of 17
+
+executor >  lsf (169)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[3c/1c7d09] process > RUN_KRAKEN2 (19)      [ 22%] 17 of 76
+[ad/53b656] process > KRAKEN_TOOLS (17)     [ 82%] 14 of 17
+
+executor >  lsf (169)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a6/2ed107] process > RUN_KRAKEN2 (25)      [ 23%] 18 of 76
+[ad/53b656] process > KRAKEN_TOOLS (17)     [ 77%] 14 of 18
+
+executor >  lsf (170)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a6/2ed107] process > RUN_KRAKEN2 (25)      [ 23%] 18 of 76
+[2f/d8427b] process > KRAKEN_TOOLS (18)     [ 77%] 14 of 18
+
+executor >  lsf (170)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a6/2ed107] process > RUN_KRAKEN2 (25)      [ 23%] 18 of 76
+[2f/d8427b] process > KRAKEN_TOOLS (18)     [ 83%] 15 of 18
+
+executor >  lsf (170)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e9/afe758] process > RUN_KRAKEN2 (22)      [ 26%] 20 of 76
+[2f/d8427b] process > KRAKEN_TOOLS (18)     [ 75%] 15 of 20
+
+executor >  lsf (171)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e9/afe758] process > RUN_KRAKEN2 (22)      [ 26%] 20 of 76
+[15/234f29] process > KRAKEN_TOOLS (19)     [ 75%] 15 of 20
+
+executor >  lsf (172)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e9/afe758] process > RUN_KRAKEN2 (22)      [ 26%] 20 of 76
+[12/ee00ed] process > KRAKEN_TOOLS (20)     [ 75%] 15 of 20
+
+executor >  lsf (172)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e9/afe758] process > RUN_KRAKEN2 (22)      [ 26%] 20 of 76
+[12/ee00ed] process > KRAKEN_TOOLS (20)     [ 75%] 15 of 20
+
+executor >  lsf (172)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e9/afe758] process > RUN_KRAKEN2 (22)      [ 26%] 20 of 76
+[15/234f29] process > KRAKEN_TOOLS (19)     [ 80%] 16 of 20
+
+executor >  lsf (172)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[76/624adf] process > RUN_KRAKEN2 (30)      [ 27%] 21 of 76
+[15/234f29] process > KRAKEN_TOOLS (19)     [ 76%] 16 of 21
+
+executor >  lsf (173)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[76/624adf] process > RUN_KRAKEN2 (30)      [ 27%] 21 of 76
+[a2/19cdfd] process > KRAKEN_TOOLS (21)     [ 76%] 16 of 21
+
+executor >  lsf (173)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[a2/19cdfd] process > KRAKEN_TOOLS (21)     [ 70%] 17 of 24
+
+executor >  lsf (174)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[12/cc0823] process > KRAKEN_TOOLS (22)     [ 70%] 17 of 24
+
+executor >  lsf (175)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[00/65806a] process > KRAKEN_TOOLS (23)     [ 70%] 17 of 24
+
+executor >  lsf (176)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[9a/9ba906] process > KRAKEN_TOOLS (24)     [ 70%] 17 of 24
+
+executor >  lsf (176)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[9a/9ba906] process > KRAKEN_TOOLS (24)     [ 70%] 17 of 24
+
+executor >  lsf (176)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[9a/9ba906] process > KRAKEN_TOOLS (24)     [ 83%] 20 of 24
+
+executor >  lsf (176)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[9d/27da6a] process > KRAKEN_TOOLS (12)     [ 91%] 22 of 24
+
+executor >  lsf (176)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[9d/27da6a] process > KRAKEN_TOOLS (12)     [ 91%] 22 of 24
+
+executor >  lsf (176)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[54/67a531] process > RUN_KRAKEN2 (27)      [ 31%] 24 of 76
+[9d/27da6a] process > KRAKEN_TOOLS (12)     [ 91%] 22 of 24
+
+executor >  lsf (176)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[8d/b0c843] process > RUN_KRAKEN2 (31)      [ 32%] 25 of 76
+[9d/27da6a] process > KRAKEN_TOOLS (12)     [ 88%] 22 of 25
+
+executor >  lsf (177)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[8d/b0c843] process > RUN_KRAKEN2 (31)      [ 32%] 25 of 76
+[f2/4baf51] process > KRAKEN_TOOLS (25)     [ 88%] 22 of 25
+
+executor >  lsf (177)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[8d/b0c843] process > RUN_KRAKEN2 (31)      [ 32%] 25 of 76
+[f2/4baf51] process > KRAKEN_TOOLS (25)     [ 88%] 22 of 25
+
+executor >  lsf (177)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[8d/b0c843] process > RUN_KRAKEN2 (31)      [ 32%] 25 of 76
+[f2/4baf51] process > KRAKEN_TOOLS (25)     [ 92%] 23 of 25
+
+executor >  lsf (177)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[8d/b0c843] process > RUN_KRAKEN2 (31)      [ 32%] 25 of 76
+[f2/4baf51] process > KRAKEN_TOOLS (25)     [ 92%] 23 of 25
+
+executor >  lsf (177)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7a/df449a] process > RUN_KRAKEN2 (32)      [ 34%] 26 of 76
+[f2/4baf51] process > KRAKEN_TOOLS (25)     [ 88%] 23 of 26
+
+executor >  lsf (178)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7a/df449a] process > RUN_KRAKEN2 (32)      [ 34%] 26 of 76
+[42/d214e7] process > KRAKEN_TOOLS (26)     [ 88%] 23 of 26
+
+executor >  lsf (178)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a9/b6156f] process > RUN_KRAKEN2 (15)      [ 35%] 27 of 76
+[42/d214e7] process > KRAKEN_TOOLS (26)     [ 88%] 24 of 27
+
+executor >  lsf (179)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a9/b6156f] process > RUN_KRAKEN2 (15)      [ 35%] 27 of 76
+[97/2cf5d9] process > KRAKEN_TOOLS (27)     [ 88%] 24 of 27
+
+executor >  lsf (179)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[cc/ebc963] process > RUN_KRAKEN2 (34)      [ 38%] 29 of 76
+[12/ee00ed] process > KRAKEN_TOOLS (20)     [ 86%] 25 of 29
+
+executor >  lsf (180)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[cc/ebc963] process > RUN_KRAKEN2 (34)      [ 38%] 29 of 76
+[28/e89325] process > KRAKEN_TOOLS (28)     [ 86%] 25 of 29
+
+executor >  lsf (181)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[cc/ebc963] process > RUN_KRAKEN2 (34)      [ 38%] 29 of 76
+[6c/bbd525] process > KRAKEN_TOOLS (29)     [ 86%] 25 of 29
+
+executor >  lsf (181)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[cc/ebc963] process > RUN_KRAKEN2 (34)      [ 38%] 29 of 76
+[6c/bbd525] process > KRAKEN_TOOLS (29)     [ 89%] 26 of 29
+
+executor >  lsf (181)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[cc/ebc963] process > RUN_KRAKEN2 (34)      [ 38%] 29 of 76
+[28/e89325] process > KRAKEN_TOOLS (28)     [ 93%] 27 of 29
+
+executor >  lsf (181)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a8/f355b2] process > RUN_KRAKEN2 (36)      [ 39%] 30 of 76
+[28/e89325] process > KRAKEN_TOOLS (28)     [ 90%] 27 of 30
+
+executor >  lsf (182)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a8/f355b2] process > RUN_KRAKEN2 (36)      [ 39%] 30 of 76
+[06/5fea5a] process > KRAKEN_TOOLS (30)     [ 90%] 27 of 30
+
+executor >  lsf (182)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[5b/526a7e] process > RUN_KRAKEN2 (33)      [ 40%] 31 of 76
+[06/5fea5a] process > KRAKEN_TOOLS (30)     [ 87%] 27 of 31
+
+executor >  lsf (183)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[5b/526a7e] process > RUN_KRAKEN2 (33)      [ 40%] 31 of 76
+[e0/ba6174] process > KRAKEN_TOOLS (31)     [ 87%] 27 of 31
+
+executor >  lsf (183)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[53/434e6d] process > RUN_KRAKEN2 (39)      [ 42%] 32 of 76
+[e0/ba6174] process > KRAKEN_TOOLS (31)     [ 90%] 29 of 32
+
+executor >  lsf (184)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[53/434e6d] process > RUN_KRAKEN2 (39)      [ 42%] 32 of 76
+[a9/c92764] process > KRAKEN_TOOLS (32)     [ 90%] 29 of 32
+
+executor >  lsf (184)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[53/434e6d] process > RUN_KRAKEN2 (39)      [ 42%] 32 of 76
+[a9/c92764] process > KRAKEN_TOOLS (32)     [ 90%] 29 of 32
+
+executor >  lsf (184)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fb/a1e312] process > RUN_KRAKEN2 (42)      [ 43%] 33 of 76
+[a9/c92764] process > KRAKEN_TOOLS (32)     [ 87%] 29 of 33
+
+executor >  lsf (185)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fb/a1e312] process > RUN_KRAKEN2 (42)      [ 43%] 33 of 76
+[6b/74a5e3] process > KRAKEN_TOOLS (33)     [ 87%] 29 of 33
+
+executor >  lsf (185)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fb/a1e312] process > RUN_KRAKEN2 (42)      [ 43%] 33 of 76
+[6b/74a5e3] process > KRAKEN_TOOLS (33)     [ 87%] 29 of 33
+
+executor >  lsf (185)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[4e/a4c4d5] process > RUN_KRAKEN2 (40)      [ 44%] 34 of 76
+[ad/53b656] process > KRAKEN_TOOLS (17)     [ 88%] 30 of 34
+
+executor >  lsf (186)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[4e/a4c4d5] process > RUN_KRAKEN2 (40)      [ 44%] 34 of 76
+[db/7f468d] process > KRAKEN_TOOLS (34)     [ 88%] 30 of 34
+
+executor >  lsf (186)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[9a/a1e41b] process > RUN_KRAKEN2 (41)      [ 46%] 35 of 76
+[db/7f468d] process > KRAKEN_TOOLS (34)     [ 88%] 31 of 35
+
+executor >  lsf (187)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[9a/a1e41b] process > RUN_KRAKEN2 (41)      [ 46%] 35 of 76
+[fe/8cbf3d] process > KRAKEN_TOOLS (35)     [ 88%] 31 of 35
+
+executor >  lsf (187)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[9a/a1e41b] process > RUN_KRAKEN2 (41)      [ 46%] 35 of 76
+[fe/8cbf3d] process > KRAKEN_TOOLS (35)     [ 91%] 32 of 35
+
+executor >  lsf (187)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[9a/a1e41b] process > RUN_KRAKEN2 (41)      [ 46%] 35 of 76
+[a9/c92764] process > KRAKEN_TOOLS (32)     [ 94%] 33 of 35
+
+executor >  lsf (187)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a1/f3f097] process > RUN_KRAKEN2 (28)      [ 47%] 36 of 76
+[a9/c92764] process > KRAKEN_TOOLS (32)     [ 91%] 33 of 36
+
+executor >  lsf (188)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a1/f3f097] process > RUN_KRAKEN2 (28)      [ 47%] 36 of 76
+[54/3df106] process > KRAKEN_TOOLS (36)     [ 91%] 33 of 36
+
+executor >  lsf (188)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[a1/f3f097] process > RUN_KRAKEN2 (28)      [ 47%] 36 of 76
+[54/3df106] process > KRAKEN_TOOLS (36)     [ 94%] 34 of 36
+
+executor >  lsf (188)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/8e13b9] process > RUN_KRAKEN2 (46)      [ 50%] 38 of 76
+[54/3df106] process > KRAKEN_TOOLS (36)     [ 89%] 34 of 38
+
+executor >  lsf (189)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/8e13b9] process > RUN_KRAKEN2 (46)      [ 50%] 38 of 76
+[e3/692ea2] process > KRAKEN_TOOLS (37)     [ 89%] 34 of 38
+
+executor >  lsf (190)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/8e13b9] process > RUN_KRAKEN2 (46)      [ 50%] 38 of 76
+[87/be05ac] process > KRAKEN_TOOLS (38)     [ 89%] 34 of 38
+
+executor >  lsf (190)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/8e13b9] process > RUN_KRAKEN2 (46)      [ 50%] 38 of 76
+[6b/74a5e3] process > KRAKEN_TOOLS (33)     [ 92%] 35 of 38
+
+executor >  lsf (190)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/8e13b9] process > RUN_KRAKEN2 (46)      [ 50%] 38 of 76
+[e3/692ea2] process > KRAKEN_TOOLS (37)     [ 94%] 36 of 38
+
+executor >  lsf (190)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/8e13b9] process > RUN_KRAKEN2 (46)      [ 50%] 38 of 76
+[e3/692ea2] process > KRAKEN_TOOLS (37)     [ 94%] 36 of 38
+
+executor >  lsf (190)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[d3/143a73] process > RUN_KRAKEN2 (45)      [ 51%] 39 of 76
+[e3/692ea2] process > KRAKEN_TOOLS (37)     [ 92%] 36 of 39
+
+executor >  lsf (191)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[d3/143a73] process > RUN_KRAKEN2 (45)      [ 51%] 39 of 76
+[f2/dd7a6b] process > KRAKEN_TOOLS (39)     [ 92%] 36 of 39
+
+executor >  lsf (191)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e1/bcac2d] process > RUN_KRAKEN2 (26)      [ 52%] 40 of 76
+[f2/dd7a6b] process > KRAKEN_TOOLS (39)     [ 90%] 36 of 40
+
+executor >  lsf (192)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e1/bcac2d] process > RUN_KRAKEN2 (26)      [ 52%] 40 of 76
+[d9/c46f2b] process > KRAKEN_TOOLS (40)     [ 90%] 36 of 40
+
+executor >  lsf (192)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e1/bcac2d] process > RUN_KRAKEN2 (26)      [ 52%] 40 of 76
+[87/be05ac] process > KRAKEN_TOOLS (38)     [ 92%] 37 of 40
+
+executor >  lsf (192)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e1/bcac2d] process > RUN_KRAKEN2 (26)      [ 52%] 40 of 76
+[87/be05ac] process > KRAKEN_TOOLS (38)     [ 92%] 37 of 40
+
+executor >  lsf (192)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e1/bcac2d] process > RUN_KRAKEN2 (26)      [ 52%] 40 of 76
+[87/be05ac] process > KRAKEN_TOOLS (38)     [ 92%] 37 of 40
+
+executor >  lsf (192)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e1/bcac2d] process > RUN_KRAKEN2 (26)      [ 52%] 40 of 76
+[f2/dd7a6b] process > KRAKEN_TOOLS (39)     [ 95%] 38 of 40
+
+executor >  lsf (192)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e1/bcac2d] process > RUN_KRAKEN2 (26)      [ 52%] 40 of 76
+[f2/dd7a6b] process > KRAKEN_TOOLS (39)     [ 95%] 38 of 40
+
+executor >  lsf (192)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[d4/53674d] process > RUN_KRAKEN2 (50)      [ 53%] 41 of 76
+[f2/dd7a6b] process > KRAKEN_TOOLS (39)     [ 92%] 38 of 41
+
+executor >  lsf (193)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[d4/53674d] process > RUN_KRAKEN2 (50)      [ 53%] 41 of 76
+[53/a0803a] process > KRAKEN_TOOLS (41)     [ 92%] 38 of 41
+
+executor >  lsf (193)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[14/d73134] process > RUN_KRAKEN2 (49)      [ 56%] 43 of 76
+[53/a0803a] process > KRAKEN_TOOLS (41)     [ 88%] 38 of 43
+
+executor >  lsf (194)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[14/d73134] process > RUN_KRAKEN2 (49)      [ 56%] 43 of 76
+[2d/581140] process > KRAKEN_TOOLS (42)     [ 88%] 38 of 43
+
+executor >  lsf (195)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[14/d73134] process > RUN_KRAKEN2 (49)      [ 56%] 43 of 76
+[9a/104cde] process > KRAKEN_TOOLS (43)     [ 88%] 38 of 43
+
+executor >  lsf (195)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[14/d73134] process > RUN_KRAKEN2 (49)      [ 56%] 43 of 76
+[9a/104cde] process > KRAKEN_TOOLS (43)     [ 93%] 40 of 43
+
+executor >  lsf (195)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[3f/be1da3] process > RUN_KRAKEN2 (52)      [ 57%] 44 of 76
+[9a/104cde] process > KRAKEN_TOOLS (43)     [ 90%] 40 of 44
+
+executor >  lsf (196)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[3f/be1da3] process > RUN_KRAKEN2 (52)      [ 57%] 44 of 76
+[7e/9830f0] process > KRAKEN_TOOLS (44)     [ 90%] 40 of 44
+
+executor >  lsf (196)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[3f/be1da3] process > RUN_KRAKEN2 (52)      [ 57%] 44 of 76
+[06/5fea5a] process > KRAKEN_TOOLS (30)     [ 93%] 41 of 44
+
+executor >  lsf (196)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[eb/570656] process > RUN_KRAKEN2 (51)      [ 60%] 46 of 76
+[06/5fea5a] process > KRAKEN_TOOLS (30)     [ 89%] 41 of 46
+
+executor >  lsf (197)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[eb/570656] process > RUN_KRAKEN2 (51)      [ 60%] 46 of 76
+[c4/7ee0d5] process > KRAKEN_TOOLS (45)     [ 89%] 41 of 46
+
+executor >  lsf (198)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[eb/570656] process > RUN_KRAKEN2 (51)      [ 60%] 46 of 76
+[58/0ad85a] process > KRAKEN_TOOLS (46)     [ 89%] 41 of 46
+
+executor >  lsf (198)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[eb/570656] process > RUN_KRAKEN2 (51)      [ 60%] 46 of 76
+[58/0ad85a] process > KRAKEN_TOOLS (46)     [ 89%] 41 of 46
+
+executor >  lsf (198)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[eb/570656] process > RUN_KRAKEN2 (51)      [ 60%] 46 of 76
+[58/0ad85a] process > KRAKEN_TOOLS (46)     [ 89%] 41 of 46
+
+executor >  lsf (198)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[eb/570656] process > RUN_KRAKEN2 (51)      [ 60%] 46 of 76
+[58/0ad85a] process > KRAKEN_TOOLS (46)     [ 89%] 41 of 46
+
+executor >  lsf (198)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[eb/570656] process > RUN_KRAKEN2 (51)      [ 60%] 46 of 76
+[d9/c46f2b] process > KRAKEN_TOOLS (40)     [ 91%] 42 of 46
+
+executor >  lsf (198)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[eb/570656] process > RUN_KRAKEN2 (51)      [ 60%] 46 of 76
+[d9/c46f2b] process > KRAKEN_TOOLS (40)     [ 91%] 42 of 46
+
+executor >  lsf (198)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[28/43f146] process > RUN_KRAKEN2 (54)      [ 61%] 47 of 76
+[d9/c46f2b] process > KRAKEN_TOOLS (40)     [ 89%] 42 of 47
+
+executor >  lsf (199)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[28/43f146] process > RUN_KRAKEN2 (54)      [ 61%] 47 of 76
+[11/48e4d1] process > KRAKEN_TOOLS (47)     [ 89%] 42 of 47
+
+executor >  lsf (199)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[47/e89626] process > RUN_KRAKEN2 (37)      [ 64%] 49 of 76
+[11/48e4d1] process > KRAKEN_TOOLS (47)     [ 85%] 42 of 49
+
+executor >  lsf (200)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[47/e89626] process > RUN_KRAKEN2 (37)      [ 64%] 49 of 76
+[90/020946] process > KRAKEN_TOOLS (48)     [ 85%] 42 of 49
+
+executor >  lsf (201)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[47/e89626] process > RUN_KRAKEN2 (37)      [ 64%] 49 of 76
+[dc/aca5c3] process > KRAKEN_TOOLS (49)     [ 85%] 42 of 49
+
+executor >  lsf (201)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[b4/96f2b3] process > RUN_KRAKEN2 (58)      [ 65%] 50 of 76
+[dc/aca5c3] process > KRAKEN_TOOLS (49)     [ 84%] 42 of 50
+
+executor >  lsf (202)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[b4/96f2b3] process > RUN_KRAKEN2 (58)      [ 65%] 50 of 76
+[b0/416c07] process > KRAKEN_TOOLS (50)     [ 84%] 42 of 50
+
+executor >  lsf (202)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[83/b57f05] process > RUN_KRAKEN2 (56)      [ 67%] 51 of 76
+[b0/416c07] process > KRAKEN_TOOLS (50)     [ 82%] 42 of 51
+
+executor >  lsf (203)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[83/b57f05] process > RUN_KRAKEN2 (56)      [ 67%] 51 of 76
+[40/fb461d] process > KRAKEN_TOOLS (51)     [ 82%] 42 of 51
+
+executor >  lsf (203)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[5c/c9f712] process > RUN_KRAKEN2 (43)      [ 68%] 52 of 76
+[40/fb461d] process > KRAKEN_TOOLS (51)     [ 80%] 42 of 52
+
+executor >  lsf (204)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[5c/c9f712] process > RUN_KRAKEN2 (43)      [ 68%] 52 of 76
+[6a/a54380] process > KRAKEN_TOOLS (52)     [ 80%] 42 of 52
+
+executor >  lsf (204)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[5c/c9f712] process > RUN_KRAKEN2 (43)      [ 68%] 52 of 76
+[40/fb461d] process > KRAKEN_TOOLS (51)     [ 82%] 43 of 52
+
+executor >  lsf (204)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[5c/c9f712] process > RUN_KRAKEN2 (43)      [ 68%] 52 of 76
+[53/a0803a] process > KRAKEN_TOOLS (41)     [ 84%] 44 of 52
+
+executor >  lsf (204)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[11/6ec0ac] process > RUN_KRAKEN2 (60)      [ 69%] 53 of 76
+[53/a0803a] process > KRAKEN_TOOLS (41)     [ 84%] 44 of 52
+
+executor >  lsf (204)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[11/6ec0ac] process > RUN_KRAKEN2 (60)      [ 69%] 53 of 76
+[53/a0803a] process > KRAKEN_TOOLS (41)     [ 83%] 44 of 53
+
+executor >  lsf (205)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[11/6ec0ac] process > RUN_KRAKEN2 (60)      [ 69%] 53 of 76
+[cf/ecc18f] process > KRAKEN_TOOLS (53)     [ 83%] 44 of 53
+
+executor >  lsf (205)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[9d/600561] process > RUN_KRAKEN2 (61)      [ 71%] 54 of 76
+[cf/ecc18f] process > KRAKEN_TOOLS (53)     [ 81%] 44 of 54
+
+executor >  lsf (206)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[9d/600561] process > RUN_KRAKEN2 (61)      [ 71%] 54 of 76
+[ca/842460] process > KRAKEN_TOOLS (54)     [ 81%] 44 of 54
+
+executor >  lsf (206)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[9d/600561] process > RUN_KRAKEN2 (61)      [ 71%] 54 of 76
+[ca/842460] process > KRAKEN_TOOLS (54)     [ 81%] 44 of 54
+
+executor >  lsf (206)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[da/5d7225] process > RUN_KRAKEN2 (62)      [ 72%] 55 of 76
+[ca/842460] process > KRAKEN_TOOLS (54)     [ 81%] 45 of 55
+
+executor >  lsf (207)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[da/5d7225] process > RUN_KRAKEN2 (62)      [ 72%] 55 of 76
+[d9/43a774] process > KRAKEN_TOOLS (55)     [ 81%] 45 of 55
+
+executor >  lsf (207)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[da/5d7225] process > RUN_KRAKEN2 (62)      [ 72%] 55 of 76
+[7e/9830f0] process > KRAKEN_TOOLS (44)     [ 83%] 46 of 55
+
+executor >  lsf (207)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[55/5d78a8] process > RUN_KRAKEN2 (63)      [ 73%] 56 of 76
+[7e/9830f0] process > KRAKEN_TOOLS (44)     [ 82%] 46 of 56
+
+executor >  lsf (208)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[55/5d78a8] process > RUN_KRAKEN2 (63)      [ 73%] 56 of 76
+[c7/dbb503] process > KRAKEN_TOOLS (56)     [ 82%] 46 of 56
+
+executor >  lsf (208)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[55/5d78a8] process > RUN_KRAKEN2 (63)      [ 73%] 56 of 76
+[c7/dbb503] process > KRAKEN_TOOLS (56)     [ 83%] 47 of 56
+
+executor >  lsf (208)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[55/5d78a8] process > RUN_KRAKEN2 (63)      [ 73%] 56 of 76
+[c4/7ee0d5] process > KRAKEN_TOOLS (45)     [ 85%] 48 of 56
+
+executor >  lsf (208)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[27/05b4ff] process > RUN_KRAKEN2 (65)      [ 75%] 57 of 76
+[c4/7ee0d5] process > KRAKEN_TOOLS (45)     [ 84%] 48 of 57
+
+executor >  lsf (209)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[27/05b4ff] process > RUN_KRAKEN2 (65)      [ 75%] 57 of 76
+[cf/4a3d08] process > KRAKEN_TOOLS (57)     [ 84%] 48 of 57
+
+executor >  lsf (209)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[67/f46ee2] process > RUN_KRAKEN2 (59)      [ 76%] 58 of 76
+[58/0ad85a] process > KRAKEN_TOOLS (46)     [ 84%] 49 of 58
+
+executor >  lsf (210)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[67/f46ee2] process > RUN_KRAKEN2 (59)      [ 76%] 58 of 76
+[94/564dcd] process > KRAKEN_TOOLS (58)     [ 84%] 49 of 58
+
+executor >  lsf (210)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[67/f46ee2] process > RUN_KRAKEN2 (59)      [ 76%] 58 of 76
+[94/564dcd] process > KRAKEN_TOOLS (58)     [ 84%] 49 of 58
+
+executor >  lsf (210)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[67/f46ee2] process > RUN_KRAKEN2 (59)      [ 76%] 58 of 76
+[11/48e4d1] process > KRAKEN_TOOLS (47)     [ 86%] 50 of 58
+
+executor >  lsf (210)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[67/f46ee2] process > RUN_KRAKEN2 (59)      [ 76%] 58 of 76
+[6a/a54380] process > KRAKEN_TOOLS (52)     [ 87%] 51 of 58
+
+executor >  lsf (210)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fc/854ff8] process > RUN_KRAKEN2 (47)      [ 77%] 59 of 76
+[6a/a54380] process > KRAKEN_TOOLS (52)     [ 86%] 51 of 59
+
+executor >  lsf (211)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fc/854ff8] process > RUN_KRAKEN2 (47)      [ 77%] 59 of 76
+[33/b477c2] process > KRAKEN_TOOLS (59)     [ 86%] 51 of 59
+
+executor >  lsf (211)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fc/854ff8] process > RUN_KRAKEN2 (47)      [ 77%] 59 of 76
+[b0/416c07] process > KRAKEN_TOOLS (50)     [ 88%] 52 of 59
+
+executor >  lsf (211)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fc/854ff8] process > RUN_KRAKEN2 (47)      [ 77%] 59 of 76
+[b0/416c07] process > KRAKEN_TOOLS (50)     [ 88%] 52 of 59
+
+executor >  lsf (211)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fc/854ff8] process > RUN_KRAKEN2 (47)      [ 77%] 59 of 76
+[b0/416c07] process > KRAKEN_TOOLS (50)     [ 88%] 52 of 59
+
+executor >  lsf (211)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fc/854ff8] process > RUN_KRAKEN2 (47)      [ 77%] 59 of 76
+[dc/aca5c3] process > KRAKEN_TOOLS (49)     [ 91%] 54 of 59
+
+executor >  lsf (211)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[d7/3848e2] process > RUN_KRAKEN2 (66)      [ 78%] 60 of 76
+[dc/aca5c3] process > KRAKEN_TOOLS (49)     [ 90%] 54 of 60
+
+executor >  lsf (212)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[d7/3848e2] process > RUN_KRAKEN2 (66)      [ 78%] 60 of 76
+[ac/e3929c] process > KRAKEN_TOOLS (60)     [ 90%] 54 of 60
+
+executor >  lsf (212)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[84/0fde07] process > RUN_KRAKEN2 (70)      [ 81%] 62 of 76
+[ac/e3929c] process > KRAKEN_TOOLS (60)     [ 87%] 54 of 62
+
+executor >  lsf (213)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[84/0fde07] process > RUN_KRAKEN2 (70)      [ 81%] 62 of 76
+[d5/22b738] process > KRAKEN_TOOLS (61)     [ 87%] 54 of 62
+
+executor >  lsf (214)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[84/0fde07] process > RUN_KRAKEN2 (70)      [ 81%] 62 of 76
+[99/b2329a] process > KRAKEN_TOOLS (62)     [ 87%] 54 of 62
+
+executor >  lsf (214)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[84/0fde07] process > RUN_KRAKEN2 (70)      [ 81%] 62 of 76
+[d9/43a774] process > KRAKEN_TOOLS (55)     [ 88%] 55 of 62
+
+executor >  lsf (214)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e0/10f7e6] process > RUN_KRAKEN2 (72)      [ 82%] 63 of 76
+[d9/43a774] process > KRAKEN_TOOLS (55)     [ 87%] 55 of 63
+
+executor >  lsf (215)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[e0/10f7e6] process > RUN_KRAKEN2 (72)      [ 82%] 63 of 76
+[a1/e5afde] process > KRAKEN_TOOLS (63)     [ 87%] 55 of 63
+
+executor >  lsf (215)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fb/110793] process > RUN_KRAKEN2 (71)      [ 84%] 64 of 76
+[a1/e5afde] process > KRAKEN_TOOLS (63)     [ 85%] 55 of 64
+
+executor >  lsf (216)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fb/110793] process > RUN_KRAKEN2 (71)      [ 84%] 64 of 76
+[20/9fd238] process > KRAKEN_TOOLS (64)     [ 85%] 55 of 64
+
+executor >  lsf (216)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[fb/110793] process > RUN_KRAKEN2 (71)      [ 84%] 64 of 76
+[20/9fd238] process > KRAKEN_TOOLS (64)     [ 87%] 56 of 64
+
+executor >  lsf (216)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/48b71a] process > RUN_KRAKEN2 (53)      [ 85%] 65 of 76
+[cf/ecc18f] process > KRAKEN_TOOLS (53)     [ 87%] 57 of 65
+
+executor >  lsf (217)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/48b71a] process > RUN_KRAKEN2 (53)      [ 85%] 65 of 76
+[93/996369] process > KRAKEN_TOOLS (65)     [ 87%] 57 of 65
+
+executor >  lsf (217)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/48b71a] process > RUN_KRAKEN2 (53)      [ 85%] 65 of 76
+[cf/4a3d08] process > KRAKEN_TOOLS (57)     [ 89%] 58 of 65
+
+executor >  lsf (217)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[36/48b71a] process > RUN_KRAKEN2 (53)      [ 85%] 65 of 76
+[cf/4a3d08] process > KRAKEN_TOOLS (57)     [ 89%] 58 of 65
+
+executor >  lsf (217)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[45/0f372b] process > RUN_KRAKEN2 (74)      [ 88%] 67 of 76
+[cf/4a3d08] process > KRAKEN_TOOLS (57)     [ 86%] 58 of 67
+
+executor >  lsf (218)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[45/0f372b] process > RUN_KRAKEN2 (74)      [ 88%] 67 of 76
+[0a/a58003] process > KRAKEN_TOOLS (66)     [ 86%] 58 of 67
+
+executor >  lsf (219)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[45/0f372b] process > RUN_KRAKEN2 (74)      [ 88%] 67 of 76
+[1f/5381e5] process > KRAKEN_TOOLS (67)     [ 86%] 58 of 67
+
+executor >  lsf (219)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[10/f8eb8f] process > RUN_KRAKEN2 (73)      [ 89%] 68 of 76
+[1f/5381e5] process > KRAKEN_TOOLS (67)     [ 85%] 58 of 68
+
+executor >  lsf (220)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[10/f8eb8f] process > RUN_KRAKEN2 (73)      [ 89%] 68 of 76
+[38/80381d] process > KRAKEN_TOOLS (68)     [ 85%] 58 of 68
+
+executor >  lsf (220)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[10/f8eb8f] process > RUN_KRAKEN2 (73)      [ 89%] 68 of 76
+[a1/e5afde] process > KRAKEN_TOOLS (63)     [ 88%] 60 of 68
+
+executor >  lsf (220)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[c7/2c0273] process > RUN_KRAKEN2 (64)      [ 90%] 69 of 76
+[a1/e5afde] process > KRAKEN_TOOLS (63)     [ 86%] 60 of 69
+
+executor >  lsf (221)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[c7/2c0273] process > RUN_KRAKEN2 (64)      [ 90%] 69 of 76
+[11/d6504c] process > KRAKEN_TOOLS (69)     [ 86%] 60 of 69
+
+executor >  lsf (221)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[c7/2c0273] process > RUN_KRAKEN2 (64)      [ 90%] 69 of 76
+[11/d6504c] process > KRAKEN_TOOLS (69)     [ 89%] 62 of 69
+
+executor >  lsf (221)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2a/65bc29] process > RUN_KRAKEN2 (57)      [ 92%] 70 of 76
+[11/d6504c] process > KRAKEN_TOOLS (69)     [ 88%] 62 of 70
+
+executor >  lsf (222)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2a/65bc29] process > RUN_KRAKEN2 (57)      [ 92%] 70 of 76
+[6f/06d000] process > KRAKEN_TOOLS (70)     [ 88%] 62 of 70
+
+executor >  lsf (222)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2a/65bc29] process > RUN_KRAKEN2 (57)      [ 92%] 70 of 76
+[0a/a58003] process > KRAKEN_TOOLS (66)     [ 90%] 63 of 70
+
+executor >  lsf (222)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2a/65bc29] process > RUN_KRAKEN2 (57)      [ 92%] 70 of 76
+[38/80381d] process > KRAKEN_TOOLS (68)     [ 91%] 64 of 70
+
+executor >  lsf (222)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2a/65bc29] process > RUN_KRAKEN2 (57)      [ 92%] 70 of 76
+[38/80381d] process > KRAKEN_TOOLS (68)     [ 91%] 64 of 70
+
+executor >  lsf (222)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2a/65bc29] process > RUN_KRAKEN2 (57)      [ 92%] 70 of 76
+[38/80381d] process > KRAKEN_TOOLS (68)     [ 91%] 64 of 70
+
+executor >  lsf (222)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[2a/65bc29] process > RUN_KRAKEN2 (57)      [ 92%] 70 of 76
+[99/b2329a] process > KRAKEN_TOOLS (62)     [ 95%] 67 of 70
+
+executor >  lsf (222)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[83/093f21] process > RUN_KRAKEN2 (68)      [ 93%] 71 of 76
+[99/b2329a] process > KRAKEN_TOOLS (62)     [ 94%] 67 of 71
+
+executor >  lsf (223)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[83/093f21] process > RUN_KRAKEN2 (68)      [ 93%] 71 of 76
+[59/a6ae86] process > KRAKEN_TOOLS (71)     [ 94%] 67 of 71
+
+executor >  lsf (223)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[83/093f21] process > RUN_KRAKEN2 (68)      [ 93%] 71 of 76
+[1f/5381e5] process > KRAKEN_TOOLS (67)     [ 95%] 68 of 71
+
+executor >  lsf (223)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[17/49884c] process > RUN_KRAKEN2 (38)      [ 94%] 72 of 76
+[1f/5381e5] process > KRAKEN_TOOLS (67)     [ 94%] 68 of 72
+
+executor >  lsf (224)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[17/49884c] process > RUN_KRAKEN2 (38)      [ 94%] 72 of 76
+[6f/31afef] process > KRAKEN_TOOLS (72)     [ 94%] 68 of 72
+
+executor >  lsf (224)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[17/49884c] process > RUN_KRAKEN2 (38)      [ 94%] 72 of 76
+[6f/31afef] process > KRAKEN_TOOLS (72)     [ 94%] 68 of 72
+
+executor >  lsf (224)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[17/49884c] process > RUN_KRAKEN2 (38)      [ 94%] 72 of 76
+[59/a6ae86] process > KRAKEN_TOOLS (71)     [ 95%] 69 of 72
+
+executor >  lsf (224)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[20/7d2313] process > RUN_KRAKEN2 (75)      [ 97%] 74 of 76
+[59/a6ae86] process > KRAKEN_TOOLS (71)     [ 93%] 69 of 74
+
+executor >  lsf (225)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[20/7d2313] process > RUN_KRAKEN2 (75)      [ 97%] 74 of 76
+[14/10dde3] process > KRAKEN_TOOLS (73)     [ 93%] 69 of 74
+
+executor >  lsf (226)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[20/7d2313] process > RUN_KRAKEN2 (75)      [ 97%] 74 of 76
+[39/948a58] process > KRAKEN_TOOLS (74)     [ 93%] 69 of 74
+
+executor >  lsf (226)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[20/7d2313] process > RUN_KRAKEN2 (75)      [ 97%] 74 of 76
+[14/10dde3] process > KRAKEN_TOOLS (73)     [ 94%] 70 of 74
+
+executor >  lsf (226)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[20/7d2313] process > RUN_KRAKEN2 (75)      [ 97%] 74 of 76
+[39/948a58] process > KRAKEN_TOOLS (74)     [ 97%] 72 of 74
+
+executor >  lsf (226)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7c/34422a] process > RUN_KRAKEN2 (69)      [ 98%] 75 of 76
+[6f/31afef] process > KRAKEN_TOOLS (72)     [ 97%] 73 of 75
+
+executor >  lsf (227)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7c/34422a] process > RUN_KRAKEN2 (69)      [ 98%] 75 of 76
+[f8/0b6a62] process > KRAKEN_TOOLS (75)     [ 97%] 73 of 75
+
+executor >  lsf (227)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7c/34422a] process > RUN_KRAKEN2 (69)      [ 98%] 75 of 76
+[f8/0b6a62] process > KRAKEN_TOOLS (75)     [ 98%] 74 of 75
+
+executor >  lsf (227)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7c/34422a] process > RUN_KRAKEN2 (69)      [ 98%] 75 of 76
+[94/564dcd] process > KRAKEN_TOOLS (58)     [100%] 75 of 75
+
+executor >  lsf (227)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [100%] 76 of 76 ✔
+[94/564dcd] process > KRAKEN_TOOLS (58)     [ 98%] 75 of 76
+
+executor >  lsf (228)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [100%] 76 of 76 ✔
+[06/1671ae] process > KRAKEN_TOOLS (76)     [ 98%] 75 of 76
+
+executor >  lsf (228)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [100%] 76 of 76 ✔
+[06/1671ae] process > KRAKEN_TOOLS (76)     [ 98%] 75 of 76
+
+executor >  lsf (228)
+[c3/7a2194] process > REMOVE_HOST_READS (1) [100%] 76 of 76 ✔
+[7f/6d9e88] process > RUN_KRAKEN2 (76)      [100%] 76 of 76 ✔
+[06/1671ae] process > KRAKEN_TOOLS (76)     [100%] 76 of 76 ✔
+Completed at: 31-Jul-2024 17:42:30
+Duration    : 32m 16s
+CPU hours   : 39.7
+Succeeded   : 228
+
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@farm22-os0000001>
+Subject: Job 761562: <nextflow run scripts/kraken2/main.nf -w analysis/6841_2964/work -params-file analysis/6841_2964/params.json -c analysis/6841_2964/nextflow.config -profile farm22> in cluster <farm22> Done
+
+Job <nextflow run scripts/kraken2/main.nf -w analysis/6841_2964/work -params-file analysis/6841_2964/params.json -c analysis/6841_2964/nextflow.config -profile farm22> was submitted from host <farm22-head1> by user <jb63> in cluster <farm22> at Wed Jul 31 17:10:06 2024
+Job was executed on host(s) <farm22-os0000001>, in queue <oversubscribed>, as user <jb63> in cluster <farm22> at Wed Jul 31 17:10:07 2024
+</nfs/users/nfs_j/jb63> was used as the home directory.
+</lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification> was used as the working directory.
+Started at Wed Jul 31 17:10:07 2024
+Terminated at Wed Jul 31 17:42:33 2024
+Results reported at Wed Jul 31 17:42:33 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+nextflow run scripts/kraken2/main.nf -w analysis/6841_2964/work -params-file analysis/6841_2964/params.json -c analysis/6841_2964/nextflow.config -profile farm22
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   179.08 sec.
+    Max Memory :                                 674 MB
+    Average Memory :                             657.25 MB
+    Total Requested Memory :                     2000.00 MB
+    Delta Memory :                               1326.00 MB
+    Max Swap :                                   -
+    Max Processes :                              11
+    Max Threads :                                75
+    Run time :                                   1944 sec.
+    Turnaround time :                            1947 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <logs/6841_2964_761562.err> for stderr output of this job.
+
