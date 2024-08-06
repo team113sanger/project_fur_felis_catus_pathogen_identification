@@ -1,0 +1,95 @@
+ 97.72	49506	49506	0	0	U	0	unclassified
+  2.28	1155	48	34121	25862	R	1	root
+  2.18	1106	135	33652	25808	R1	131567	  cellular organisms
+  1.82	920	473	29628	22175	D	2759	    Eukaryota
+  0.84	425	1	17606	13834	D1	33154	      Opisthokonta
+  0.84	424	0	17408	13622	K	33208	        Metazoa
+  0.84	424	0	17408	13622	K1	6072	          Eumetazoa
+  0.84	424	0	17408	13622	K2	33213	            Bilateria
+  0.84	424	0	17408	13622	K3	33511	              Deuterostomia
+  0.84	424	0	17408	13622	P	7711	                Chordata
+  0.84	424	0	17408	13622	P1	89593	                  Craniata
+  0.84	424	0	17408	13622	P2	7742	                    Vertebrata
+  0.84	424	0	17408	13622	P3	7776	                      Gnathostomata
+  0.84	424	0	17408	13622	P4	117570	                        Teleostomi
+  0.84	424	0	17408	13622	P5	117571	                          Euteleostomi
+  0.84	424	0	17408	13622	P6	8287	                            Sarcopterygii
+  0.84	424	0	17408	13622	P7	1338369	                              Dipnotetrapodomorpha
+  0.84	424	0	17408	13622	P8	32523	                                Tetrapoda
+  0.84	424	0	17408	13622	P9	32524	                                  Amniota
+  0.84	424	0	17408	13622	C	40674	                                    Mammalia
+  0.84	424	0	17408	13622	C1	32525	                                      Theria
+  0.84	424	0	17408	13622	C2	9347	                                        Eutheria
+  0.84	424	0	17408	13622	C3	1437010	                                          Boreoeutheria
+  0.84	424	0	17408	13622	C4	314146	                                            Euarchontoglires
+  0.84	424	0	17408	13622	O	9443	                                              Primates
+  0.84	424	0	17408	13622	O1	376913	                                                Haplorrhini
+  0.84	424	0	17408	13622	O2	314293	                                                  Simiiformes
+  0.84	424	0	17408	13622	O3	9526	                                                    Catarrhini
+  0.84	424	0	17408	13622	O4	314295	                                                      Hominoidea
+  0.84	424	0	17408	13622	F	9604	                                                        Hominidae
+  0.84	424	0	17408	13622	F1	207598	                                                          Homininae
+  0.84	424	0	17408	13622	G	9605	                                                            Homo
+  0.84	424	424	17408	13622	S	9606	                                                              Homo sapiens
+  0.04	22	0	9285	7069	K	33090	      Viridiplantae
+  0.04	22	0	9150	7038	P	35493	        Streptophyta
+  0.04	22	0	9150	7038	P1	131221	          Streptophytina
+  0.04	22	0	9150	7038	P2	3193	            Embryophyta
+  0.04	22	0	9089	6978	P3	58023	              Tracheophyta
+  0.04	22	0	9089	6978	P4	78536	                Euphyllophyta
+  0.04	22	0	9089	6978	P5	58024	                  Spermatophyta
+  0.04	22	0	9089	6978	C	3398	                    Magnoliopsida
+  0.04	22	15	9054	6943	C1	1437183	                      Mesangiospermae
+  0.01	7	0	5662	4760	C2	71240	                        eudicotyledons
+  0.01	7	0	5662	4760	C3	91827	                          Gunneridae
+  0.01	7	6	5662	4760	C4	1437201	                            Pentapetalae
+  0.00	1	1	3031	2694	C5	71275	                              rosids
+  0.10	51	7	3618	3179	D	2	    Bacteria
+  0.07	37	2	1360	1134	P	1224	      Pseudomonadota
+  0.06	31	4	596	499	C	28216	        Betaproteobacteria
+  0.05	27	2	544	463	O	80840	          Burkholderiales
+  0.05	25	6	414	341	F	119060	            Burkholderiaceae
+  0.03	17	13	226	187	G	32008	              Burkholderia
+  0.01	3	2	87	74	G1	87882	                Burkholderia cepacia complex
+  0.00	1	1	10	10	S	152480	                  Burkholderia ambifaria
+  0.00	1	0	16	14	G1	2613784	                unclassified Burkholderia
+  0.00	1	1	4	4	S	1705310	                  Burkholderia sp. IDO3
+  0.00	1	0	46	31	G	106589	              Cupriavidus
+  0.00	1	1	8	8	S	68895	                Cupriavidus basilensis
+  0.00	1	0	29	28	G	1822464	              Paraburkholderia
+  0.00	1	1	6	6	S	2026199	                Paraburkholderia aromaticivorans
+  0.01	3	2	313	268	C	28211	        Alphaproteobacteria
+  0.00	1	1	68	51	O	204457	          Sphingomonadales
+  0.00	1	0	367	312	C	1236	        Gammaproteobacteria
+  0.00	1	0	72	69	O	72274	          Pseudomonadales
+  0.00	1	0	72	69	F	135621	            Pseudomonadaceae
+  0.00	1	0	63	60	G	286	              Pseudomonas
+  0.00	1	1	10	10	S	1691904	                Pseudomonas sediminis
+  0.01	7	0	1775	1619	D1	1783272	      Terrabacteria group
+  0.01	5	0	1316	1186	P	201174	        Actinomycetota
+  0.01	5	2	1293	1164	C	1760	          Actinomycetes
+  0.00	2	0	84	77	O	85009	            Propionibacteriales
+  0.00	2	0	52	46	F	31957	              Propionibacteriaceae
+  0.00	2	0	34	34	G	1912216	                Cutibacterium
+  0.00	2	2	29	29	S	1747	                  Cutibacterium acnes
+  0.00	1	0	215	181	O	85006	            Micrococcales
+  0.00	1	0	21	21	F	145357	              Dermacoccaceae
+  0.00	1	0	21	21	G	57495	                Dermacoccus
+  0.00	1	1	9	9	S	1274	                  Dermacoccus nishinomiyaensis
+  0.00	2	0	353	338	P	1239	        Bacillota
+  0.00	2	0	163	152	C	186801	          Clostridia
+  0.00	2	0	156	145	O	186802	            Eubacteriales
+  0.00	2	0	110	99	F	31979	              Clostridiaceae
+  0.00	2	0	98	87	G	1485	                Clostridium
+  0.00	2	2	46	36	S	1491	                  Clostridium botulinum
+  0.00	1	0	63	56	D	10239	  Viruses
+  0.00	1	0	22	22	D1	2731342	    Monodnaviria
+  0.00	1	0	22	22	K	2732092	      Shotokuvirae
+  0.00	1	0	22	22	P	2732415	        Cossaviricota
+  0.00	1	0	22	22	C	2732421	          Papovaviricetes
+  0.00	1	0	22	22	O	2732533	            Zurhausenvirales
+  0.00	1	0	22	22	F	151340	              Papillomaviridae
+  0.00	1	0	22	22	F1	2169595	                Firstpapillomavirinae
+  0.00	1	0	22	22	G	934799	                  Taupapillomavirus
+  0.00	1	0	22	22	S	1961786	                    Taupapillomavirus 3
+  0.00	1	1	22	22	S1	1336600	                      Felis catus papillomavirus 3

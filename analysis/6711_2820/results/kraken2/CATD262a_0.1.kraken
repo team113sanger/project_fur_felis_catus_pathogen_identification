@@ -1,0 +1,91 @@
+ 96.80	57583	57583	0	0	U	0	unclassified
+  3.20	1905	84	50526	37909	R	1	root
+  2.99	1781	215	49587	37745	R1	131567	  cellular organisms
+  2.60	1545	805	44476	33399	D	2759	    Eukaryota
+  1.11	660	6	25075	19817	D1	33154	      Opisthokonta
+  1.10	654	0	24846	19644	K	33208	        Metazoa
+  1.10	654	0	24846	19644	K1	6072	          Eumetazoa
+  1.10	654	0	24846	19644	K2	33213	            Bilateria
+  1.10	654	0	24846	19644	K3	33511	              Deuterostomia
+  1.10	654	0	24846	19644	P	7711	                Chordata
+  1.10	654	0	24846	19644	P1	89593	                  Craniata
+  1.10	654	0	24846	19644	P2	7742	                    Vertebrata
+  1.10	654	0	24846	19644	P3	7776	                      Gnathostomata
+  1.10	654	0	24846	19644	P4	117570	                        Teleostomi
+  1.10	654	0	24846	19644	P5	117571	                          Euteleostomi
+  1.10	654	0	24846	19644	P6	8287	                            Sarcopterygii
+  1.10	654	0	24846	19644	P7	1338369	                              Dipnotetrapodomorpha
+  1.10	654	0	24846	19644	P8	32523	                                Tetrapoda
+  1.10	654	0	24846	19644	P9	32524	                                  Amniota
+  1.10	654	0	24846	19644	C	40674	                                    Mammalia
+  1.10	654	0	24846	19644	C1	32525	                                      Theria
+  1.10	654	0	24846	19644	C2	9347	                                        Eutheria
+  1.10	654	0	24846	19644	C3	1437010	                                          Boreoeutheria
+  1.10	654	0	24846	19644	C4	314146	                                            Euarchontoglires
+  1.10	654	0	24846	19644	O	9443	                                              Primates
+  1.10	654	0	24846	19644	O1	376913	                                                Haplorrhini
+  1.10	654	0	24846	19644	O2	314293	                                                  Simiiformes
+  1.10	654	0	24846	19644	O3	9526	                                                    Catarrhini
+  1.10	654	0	24846	19644	O4	314295	                                                      Hominoidea
+  1.10	654	0	24846	19644	F	9604	                                                        Hominidae
+  1.10	654	0	24846	19644	F1	207598	                                                          Homininae
+  1.10	654	0	24846	19644	G	9605	                                                            Homo
+  1.10	654	654	24846	19644	S	9606	                                                              Homo sapiens
+  0.13	80	2	15231	11453	K	33090	      Viridiplantae
+  0.13	78	0	15105	11413	P	35493	        Streptophyta
+  0.13	78	0	15105	11413	P1	131221	          Streptophytina
+  0.13	78	4	15105	11413	P2	3193	            Embryophyta
+  0.12	74	0	15000	11309	P3	58023	              Tracheophyta
+  0.12	74	0	15000	11309	P4	78536	                Euphyllophyta
+  0.12	74	0	15000	11309	P5	58024	                  Spermatophyta
+  0.12	74	1	15000	11309	C	3398	                    Magnoliopsida
+  0.12	73	37	14945	11255	C1	1437183	                      Mesangiospermae
+  0.06	35	0	9595	8049	C2	71240	                        eudicotyledons
+  0.06	35	0	9595	8049	C3	91827	                          Gunneridae
+  0.06	35	21	9595	8049	C4	1437201	                            Pentapetalae
+  0.02	11	7	5037	4578	C5	71275	                              rosids
+  0.01	4	4	3684	3310	C6	91835	                                fabids
+  0.01	3	2	4245	3227	C5	71274	                              asterids
+  0.00	1	1	3064	2188	C6	91888	                                lamiids
+  0.00	1	0	3564	2427	C2	4447	                        Liliopsida
+  0.00	1	0	3564	2427	C3	1437197	                          Petrosaviidae
+  0.00	1	0	2902	2085	C4	4734	                            commelinids
+  0.00	1	0	2398	1627	O	38820	                              Poales
+  0.00	1	0	2288	1556	F	4479	                                Poaceae
+  0.00	1	0	1841	1190	F1	359160	                                  BOP clade
+  0.00	1	0	1710	1080	F2	147368	                                    Pooideae
+  0.00	1	0	1394	892	F3	1648038	                                      Triticodae
+  0.00	1	0	1394	892	F4	147389	                                        Triticeae
+  0.00	1	0	1233	739	F5	1648030	                                          Triticinae
+  0.00	1	0	739	505	G	4564	                                            Triticum
+  0.00	1	1	121	118	S	4565	                                              Triticum aestivum
+  0.04	21	5	4418	3789	D	2	    Bacteria
+  0.02	13	2	1371	1042	P	1224	      Pseudomonadota
+  0.01	8	0	408	273	C	28216	        Betaproteobacteria
+  0.01	8	0	353	240	O	80840	          Burkholderiales
+  0.01	8	5	207	136	F	119060	            Burkholderiaceae
+  0.01	3	3	87	62	G	32008	              Burkholderia
+  0.00	2	0	542	445	C	1236	        Gammaproteobacteria
+  0.00	2	0	30	20	O	135625	          Pasteurellales
+  0.00	2	0	30	20	F	712	            Pasteurellaceae
+  0.00	2	0	22	12	G	745	              Pasteurella
+  0.00	2	0	21	11	S	747	                Pasteurella multocida
+  0.00	2	2	20	10	S1	44283	                  Pasteurella multocida subsp. multocida
+  0.00	1	0	409	313	C	28211	        Alphaproteobacteria
+  0.00	1	0	98	52	O	204457	          Sphingomonadales
+  0.00	1	0	69	40	F	41297	            Sphingomonadaceae
+  0.00	1	1	5	5	G	165696	              Novosphingobium
+  0.01	3	0	2349	2084	D1	1783272	      Terrabacteria group
+  0.01	3	0	1658	1415	P	201174	        Actinomycetota
+  0.01	3	0	1627	1384	C	1760	          Actinomycetes
+  0.00	1	0	220	216	O	85006	            Micrococcales
+  0.00	1	0	63	61	F	1268	              Micrococcaceae
+  0.00	1	1	30	30	G	1269	                Micrococcus
+  0.00	1	0	68	68	O	85009	            Propionibacteriales
+  0.00	1	0	31	31	F	31957	              Propionibacteriaceae
+  0.00	1	0	21	21	G	1912216	                Cutibacterium
+  0.00	1	1	20	20	S	1747	                  Cutibacterium acnes
+  0.00	1	0	674	632	O	85011	            Kitasatosporales
+  0.00	1	1	674	632	F	2062	              Streptomycetaceae
+  0.07	40	0	632	38	R1	2787854	  other entries
+  0.07	40	40	632	38	R2	28384	    other sequences

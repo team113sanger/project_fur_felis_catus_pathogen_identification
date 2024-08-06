@@ -1,0 +1,94 @@
+ 97.85	54898	54898	0	0	U	0	unclassified
+  2.15	1209	67	36800	30768	R	1	root
+  2.04	1142	133	36369	30625	R1	131567	  cellular organisms
+  1.77	994	509	32488	26689	D	2759	    Eukaryota
+  0.78	440	4	18182	15153	D1	33154	      Opisthokonta
+  0.78	435	0	17932	14929	K	33208	        Metazoa
+  0.78	435	0	17932	14929	K1	6072	          Eumetazoa
+  0.78	435	0	17932	14929	K2	33213	            Bilateria
+  0.78	435	0	17932	14929	K3	33511	              Deuterostomia
+  0.78	435	0	17932	14929	P	7711	                Chordata
+  0.78	435	0	17932	14929	P1	89593	                  Craniata
+  0.78	435	0	17932	14929	P2	7742	                    Vertebrata
+  0.78	435	0	17932	14929	P3	7776	                      Gnathostomata
+  0.78	435	0	17932	14929	P4	117570	                        Teleostomi
+  0.78	435	0	17932	14929	P5	117571	                          Euteleostomi
+  0.78	435	0	17932	14929	P6	8287	                            Sarcopterygii
+  0.78	435	0	17932	14929	P7	1338369	                              Dipnotetrapodomorpha
+  0.78	435	0	17932	14929	P8	32523	                                Tetrapoda
+  0.78	435	0	17932	14929	P9	32524	                                  Amniota
+  0.78	435	0	17932	14929	C	40674	                                    Mammalia
+  0.78	435	0	17932	14929	C1	32525	                                      Theria
+  0.78	435	0	17932	14929	C2	9347	                                        Eutheria
+  0.78	435	0	17932	14929	C3	1437010	                                          Boreoeutheria
+  0.78	435	0	17932	14929	C4	314146	                                            Euarchontoglires
+  0.78	435	0	17932	14929	O	9443	                                              Primates
+  0.78	435	0	17932	14929	O1	376913	                                                Haplorrhini
+  0.78	435	0	17932	14929	O2	314293	                                                  Simiiformes
+  0.78	435	0	17932	14929	O3	9526	                                                    Catarrhini
+  0.78	435	0	17932	14929	O4	314295	                                                      Hominoidea
+  0.78	435	0	17932	14929	F	9604	                                                        Hominidae
+  0.78	435	0	17932	14929	F1	207598	                                                          Homininae
+  0.78	435	0	17932	14929	G	9605	                                                            Homo
+  0.78	435	435	17932	14929	S	9606	                                                              Homo sapiens
+  0.00	1	0	225	188	K	4751	        Fungi
+  0.00	1	0	225	188	K1	451864	          Dikarya
+  0.00	1	0	66	50	P	5204	            Basidiomycota
+  0.00	1	0	27	26	P1	452284	              Ustilaginomycotina
+  0.00	1	0	21	21	C	1538075	                Malasseziomycetes
+  0.00	1	0	21	21	O	162474	                  Malasseziales
+  0.00	1	0	21	21	F	742845	                    Malasseziaceae
+  0.00	1	0	21	21	G	55193	                      Malassezia
+  0.00	1	1	21	21	S	76775	                        Malassezia restricta
+  0.08	45	1	11640	10042	K	33090	      Viridiplantae
+  0.08	44	0	11524	10009	P	35493	        Streptophyta
+  0.08	44	0	11524	10009	P1	131221	          Streptophytina
+  0.08	44	0	11524	10009	P2	3193	            Embryophyta
+  0.08	44	0	11441	9928	P3	58023	              Tracheophyta
+  0.08	44	0	11441	9928	P4	78536	                Euphyllophyta
+  0.08	44	0	11441	9928	P5	58024	                  Spermatophyta
+  0.08	44	0	11441	9928	C	3398	                    Magnoliopsida
+  0.08	44	26	11385	9872	C1	1437183	                      Mesangiospermae
+  0.03	18	0	7790	7101	C2	71240	                        eudicotyledons
+  0.03	18	0	7790	7101	C3	91827	                          Gunneridae
+  0.03	18	13	7790	7101	C4	1437201	                            Pentapetalae
+  0.01	4	1	4469	4187	C5	71275	                              rosids
+  0.00	2	2	3291	3056	C6	91835	                                fabids
+  0.00	1	0	1010	977	C6	91836	                                malvids
+  0.00	1	0	438	430	O	41938	                                  Malvales
+  0.00	1	1	438	430	F	3629	                                    Malvaceae
+  0.00	1	1	3086	2696	C5	71274	                              asterids
+  0.03	15	2	3428	3089	D	2	    Bacteria
+  0.01	7	2	942	859	P	1224	      Pseudomonadota
+  0.01	4	0	263	237	C	28216	        Betaproteobacteria
+  0.01	4	0	232	212	O	80840	          Burkholderiales
+  0.01	3	1	123	105	F	119060	            Burkholderiaceae
+  0.00	1	0	42	39	G	32008	              Burkholderia
+  0.00	1	0	29	26	G1	87882	                Burkholderia cepacia complex
+  0.00	1	1	7	7	S	488447	                  Burkholderia contaminans
+  0.00	1	1	14	14	G	1822464	              Paraburkholderia
+  0.00	1	0	47	47	F	506	            Alcaligenaceae
+  0.00	1	1	26	26	G	222	              Achromobacter
+  0.00	1	0	280	255	C	28211	        Alphaproteobacteria
+  0.00	1	0	67	50	O	204457	          Sphingomonadales
+  0.00	1	0	53	41	F	41297	            Sphingomonadaceae
+  0.00	1	0	20	20	G	165697	              Sphingopyxis
+  0.00	1	0	19	19	S	33052	                Sphingopyxis terrae
+  0.00	1	1	19	19	S1	2448440	                  Sphingopyxis terrae subsp. terrae
+  0.01	6	0	1851	1643	D1	1783272	      Terrabacteria group
+  0.01	5	0	1196	1020	P	201174	        Actinomycetota
+  0.01	5	0	1180	1004	C	1760	          Actinomycetes
+  0.01	3	0	110	84	O	85009	            Propionibacteriales
+  0.01	3	0	80	54	F	31957	              Propionibacteriaceae
+  0.01	3	0	69	46	G	1912216	                Cutibacterium
+  0.01	3	3	63	43	S	1747	                  Cutibacterium acnes
+  0.00	2	0	68	42	O	2037	            Actinomycetales
+  0.00	2	0	68	42	F	2049	              Actinomycetaceae
+  0.00	2	0	67	41	G	1654	                Actinomyces
+  0.00	2	2	18	9	S	544580	                  Actinomyces oris
+  0.00	1	0	510	491	P	1239	        Bacillota
+  0.00	1	0	178	177	C	186801	          Clostridia
+  0.00	1	0	159	158	O	186802	            Eubacteriales
+  0.00	1	0	102	101	F	31979	              Clostridiaceae
+  0.00	1	0	84	84	G	1485	                Clostridium
+  0.00	1	1	22	22	S	1491	                  Clostridium botulinum

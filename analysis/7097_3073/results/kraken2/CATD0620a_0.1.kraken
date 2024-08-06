@@ -1,0 +1,94 @@
+ 96.22	73636	73636	0	0	U	0	unclassified
+  3.78	2895	737	65771	46548	R	1	root
+  2.82	2155	292	61286	46365	R1	131567	  cellular organisms
+  2.40	1835	973	54644	41260	D	2759	    Eukaryota
+  1.04	793	8	32152	25546	D1	33154	      Opisthokonta
+  1.03	785	0	31851	25303	K	33208	        Metazoa
+  1.03	785	0	31851	25303	K1	6072	          Eumetazoa
+  1.03	785	0	31851	25303	K2	33213	            Bilateria
+  1.03	785	0	31851	25303	K3	33511	              Deuterostomia
+  1.03	785	0	31851	25303	P	7711	                Chordata
+  1.03	785	0	31851	25303	P1	89593	                  Craniata
+  1.03	785	0	31851	25303	P2	7742	                    Vertebrata
+  1.03	785	0	31851	25303	P3	7776	                      Gnathostomata
+  1.03	785	0	31851	25303	P4	117570	                        Teleostomi
+  1.03	785	0	31851	25303	P5	117571	                          Euteleostomi
+  1.03	785	0	31851	25303	P6	8287	                            Sarcopterygii
+  1.03	785	0	31851	25303	P7	1338369	                              Dipnotetrapodomorpha
+  1.03	785	0	31851	25303	P8	32523	                                Tetrapoda
+  1.03	785	0	31851	25303	P9	32524	                                  Amniota
+  1.03	785	0	31851	25303	C	40674	                                    Mammalia
+  1.03	785	0	31851	25303	C1	32525	                                      Theria
+  1.03	785	0	31851	25303	C2	9347	                                        Eutheria
+  1.03	785	0	31851	25303	C3	1437010	                                          Boreoeutheria
+  1.03	785	0	31851	25303	C4	314146	                                            Euarchontoglires
+  1.03	785	0	31851	25303	O	9443	                                              Primates
+  1.03	785	0	31851	25303	O1	376913	                                                Haplorrhini
+  1.03	785	0	31851	25303	O2	314293	                                                  Simiiformes
+  1.03	785	0	31851	25303	O3	9526	                                                    Catarrhini
+  1.03	785	0	31851	25303	O4	314295	                                                      Hominoidea
+  1.03	785	0	31851	25303	F	9604	                                                        Hominidae
+  1.03	785	0	31851	25303	F1	207598	                                                          Homininae
+  1.03	785	0	31851	25303	G	9605	                                                            Homo
+  1.03	785	785	31851	25303	S	9606	                                                              Homo sapiens
+  0.09	69	2	17460	13594	K	33090	      Viridiplantae
+  0.09	67	0	17287	13542	P	35493	        Streptophyta
+  0.09	67	0	17287	13542	P1	131221	          Streptophytina
+  0.09	67	2	17287	13542	P2	3193	            Embryophyta
+  0.08	65	0	17146	13404	P3	58023	              Tracheophyta
+  0.08	65	0	17146	13404	P4	78536	                Euphyllophyta
+  0.08	65	0	17146	13404	P5	58024	                  Spermatophyta
+  0.08	65	2	17146	13404	C	3398	                    Magnoliopsida
+  0.08	63	34	17095	13353	C1	1437183	                      Mesangiospermae
+  0.04	29	0	11113	9473	C2	71240	                        eudicotyledons
+  0.04	29	0	11113	9473	C3	91827	                          Gunneridae
+  0.04	29	24	11113	9473	C4	1437201	                            Pentapetalae
+  0.01	4	3	6078	5588	C5	71275	                              rosids
+  0.00	1	1	4446	4035	C6	91835	                                fabids
+  0.00	1	1	4672	3607	C5	71274	                              asterids
+  0.04	28	4	5897	4726	D	2	    Bacteria
+  0.02	17	2	1672	1364	P	1224	      Pseudomonadota
+  0.01	6	0	440	343	C	28216	        Betaproteobacteria
+  0.01	6	0	385	301	O	80840	          Burkholderiales
+  0.01	6	0	245	182	F	119060	            Burkholderiaceae
+  0.00	3	2	103	64	G	106589	              Cupriavidus
+  0.00	1	0	14	13	G1	2640874	                unclassified Cupriavidus
+  0.00	1	1	14	13	S	2839983	                  Cupriavidus sp. EM10
+  0.00	2	1	109	85	G	32008	              Burkholderia
+  0.00	1	0	69	45	G1	87882	                Burkholderia cepacia complex
+  0.00	1	1	33	12	S	95486	                  Burkholderia cenocepacia
+  0.00	1	0	14	14	G	1822464	              Paraburkholderia
+  0.00	1	1	6	6	S	92647	                Paraburkholderia tropica
+  0.01	5	2	751	625	C	1236	        Gammaproteobacteria
+  0.00	2	0	125	113	O	72274	          Pseudomonadales
+  0.00	2	0	121	109	F	135621	            Pseudomonadaceae
+  0.00	1	0	99	87	G	286	              Pseudomonas
+  0.00	1	0	11	11	G1	136841	                Pseudomonas aeruginosa group
+  0.00	1	1	10	10	S	287	                  Pseudomonas aeruginosa
+  0.00	1	0	17	17	G	2901164	              Stutzerimonas
+  0.00	1	0	15	15	G1	136846	                Stutzerimonas stutzeri group
+  0.00	1	0	15	15	G2	578833	                  Stutzerimonas stutzeri subgroup
+  0.00	1	1	15	15	S	316	                    Stutzerimonas stutzeri
+  0.00	1	0	241	155	O	91347	          Enterobacterales
+  0.00	1	0	38	37	F	1903409	            Erwiniaceae
+  0.00	1	0	28	27	G	53335	              Pantoea
+  0.00	1	0	9	9	G1	1654067	                Pantoea agglomerans group
+  0.00	1	1	9	9	S	549	                  Pantoea agglomerans
+  0.01	4	1	467	387	C	28211	        Alphaproteobacteria
+  0.00	3	0	189	162	O	356	          Hyphomicrobiales
+  0.00	3	0	65	59	F	119045	            Methylobacteriaceae
+  0.00	3	0	24	18	G	186650	              Microvirga
+  0.00	3	3	19	13	S	1882682	                Microvirga ossetica
+  0.01	7	0	3299	2600	D1	1783272	      Terrabacteria group
+  0.01	7	0	2509	1853	P	201174	        Actinomycetota
+  0.01	7	3	2459	1804	C	1760	          Actinomycetes
+  0.00	3	0	343	290	O	85006	            Micrococcales
+  0.00	2	0	96	77	F	1268	              Micrococcaceae
+  0.00	2	2	40	22	G	1269	                Micrococcus
+  0.00	1	1	125	95	F	85023	              Microbacteriaceae
+  0.00	1	0	575	252	O	85007	            Mycobacteriales
+  0.00	1	0	32	32	F	1653	              Corynebacteriaceae
+  0.00	1	0	32	32	G	1716	                Corynebacterium
+  0.00	1	1	7	7	S	43990	                  Corynebacterium segmentosum
+  0.00	3	0	1962	51	R1	2787854	  other entries
+  0.00	3	3	1962	51	R2	28384	    other sequences

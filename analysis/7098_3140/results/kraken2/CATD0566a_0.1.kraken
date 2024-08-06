@@ -1,0 +1,109 @@
+ 96.61	94114	94114	0	0	U	0	unclassified
+  3.39	3301	427	83941	63937	R	1	root
+  2.95	2873	384	81061	63717	R1	131567	  cellular organisms
+  2.52	2452	1370	72219	56470	D	2759	    Eukaryota
+  0.98	950	13	40671	31999	D1	33154	      Opisthokonta
+  0.96	937	0	40266	31570	K	33208	        Metazoa
+  0.96	937	0	40266	31570	K1	6072	          Eumetazoa
+  0.96	937	0	40266	31570	K2	33213	            Bilateria
+  0.96	937	0	40266	31570	K3	33511	              Deuterostomia
+  0.96	937	0	40266	31570	P	7711	                Chordata
+  0.96	937	0	40266	31570	P1	89593	                  Craniata
+  0.96	937	0	40266	31570	P2	7742	                    Vertebrata
+  0.96	937	0	40266	31570	P3	7776	                      Gnathostomata
+  0.96	937	0	40266	31570	P4	117570	                        Teleostomi
+  0.96	937	0	40266	31570	P5	117571	                          Euteleostomi
+  0.96	937	0	40266	31570	P6	8287	                            Sarcopterygii
+  0.96	937	0	40266	31570	P7	1338369	                              Dipnotetrapodomorpha
+  0.96	937	0	40266	31570	P8	32523	                                Tetrapoda
+  0.96	937	0	40266	31570	P9	32524	                                  Amniota
+  0.96	937	0	40266	31570	C	40674	                                    Mammalia
+  0.96	937	0	40266	31570	C1	32525	                                      Theria
+  0.96	937	0	40266	31570	C2	9347	                                        Eutheria
+  0.96	937	0	40266	31570	C3	1437010	                                          Boreoeutheria
+  0.96	937	0	40266	31570	C4	314146	                                            Euarchontoglires
+  0.96	937	0	40266	31570	O	9443	                                              Primates
+  0.96	937	0	40266	31570	O1	376913	                                                Haplorrhini
+  0.96	937	0	40266	31570	O2	314293	                                                  Simiiformes
+  0.96	937	0	40266	31570	O3	9526	                                                    Catarrhini
+  0.96	937	0	40266	31570	O4	314295	                                                      Hominoidea
+  0.96	937	0	40266	31570	F	9604	                                                        Hominidae
+  0.96	937	0	40266	31570	F1	207598	                                                          Homininae
+  0.96	937	0	40266	31570	G	9605	                                                            Homo
+  0.96	937	937	40266	31570	S	9606	                                                              Homo sapiens
+  0.14	132	1	25081	20511	K	33090	      Viridiplantae
+  0.13	131	0	25004	20444	P	35493	        Streptophyta
+  0.13	131	0	25004	20444	P1	131221	          Streptophytina
+  0.13	131	5	25004	20444	P2	3193	            Embryophyta
+  0.13	126	0	24829	20272	P3	58023	              Tracheophyta
+  0.13	126	0	24829	20272	P4	78536	                Euphyllophyta
+  0.13	126	0	24829	20272	P5	58024	                  Spermatophyta
+  0.13	126	2	24829	20272	C	3398	                    Magnoliopsida
+  0.13	124	65	24732	20179	C1	1437183	                      Mesangiospermae
+  0.06	58	0	16574	14595	C2	71240	                        eudicotyledons
+  0.06	58	0	16574	14595	C3	91827	                          Gunneridae
+  0.06	58	45	16574	14595	C4	1437201	                            Pentapetalae
+  0.01	11	6	9236	8730	C5	71275	                              rosids
+  0.00	4	4	6670	6278	C6	91835	                                fabids
+  0.00	1	0	2176	2092	C6	91836	                                malvids
+  0.00	1	0	926	911	O	41938	                                  Malvales
+  0.00	1	0	926	911	F	3629	                                    Malvaceae
+  0.00	1	0	115	110	F1	214909	                                      Byttnerioideae
+  0.00	1	0	115	110	G	3640	                                        Theobroma
+  0.00	1	1	115	110	S	3641	                                          Theobroma cacao
+  0.00	2	0	6767	5418	C5	71274	                              asterids
+  0.00	1	0	399	398	O	41945	                                Ericales
+  0.00	1	0	171	170	F	19955	                                  Ebenaceae
+  0.00	1	0	171	170	G	13492	                                    Diospyros
+  0.00	1	1	171	170	S	55363	                                      Diospyros lotus
+  0.00	1	0	4810	3621	C6	91888	                                lamiids
+  0.00	1	1	3251	2537	O	4069	                                  Solanales
+  0.00	1	0	5691	4307	C2	4447	                        Liliopsida
+  0.00	1	1	5691	4307	C3	1437197	                          Petrosaviidae
+  0.04	37	8	7820	6601	D	2	    Bacteria
+  0.02	23	1	2271	1771	P	1224	      Pseudomonadota
+  0.01	13	0	655	425	C	28216	        Betaproteobacteria
+  0.01	13	0	597	387	O	80840	          Burkholderiales
+  0.01	13	0	412	220	F	119060	            Burkholderiaceae
+  0.01	12	7	255	137	G	32008	              Burkholderia
+  0.01	5	0	121	64	G1	87882	                Burkholderia cepacia complex
+  0.00	3	3	25	10	S	292	                  Burkholderia cepacia
+  0.00	2	2	45	17	S	95486	                  Burkholderia cenocepacia
+  0.00	1	0	18	16	G	1822464	              Paraburkholderia
+  0.00	1	1	7	7	S	2026199	                Paraburkholderia aromaticivorans
+  0.01	5	1	674	543	C	28211	        Alphaproteobacteria
+  0.00	3	0	182	124	O	204455	          Rhodobacterales
+  0.00	3	0	138	80	F	31989	            Paracoccaceae
+  0.00	3	0	96	46	G	265	              Paracoccus
+  0.00	3	3	21	7	S	59779	                Paracoccus marcusii
+  0.00	1	0	37	37	O	204458	          Caulobacterales
+  0.00	1	0	37	37	F	76892	            Caulobacteraceae
+  0.00	1	0	20	20	G	41275	              Brevundimonas
+  0.00	1	1	9	9	S	293	                Brevundimonas diminuta
+  0.00	4	0	916	785	C	1236	        Gammaproteobacteria
+  0.00	3	0	155	113	O	72274	          Pseudomonadales
+  0.00	3	0	154	112	F	135621	            Pseudomonadaceae
+  0.00	3	0	50	18	G	2901164	              Stutzerimonas
+  0.00	3	0	50	18	G1	136846	                Stutzerimonas stutzeri group
+  0.00	3	0	50	18	G2	578833	                  Stutzerimonas stutzeri subgroup
+  0.00	3	3	50	18	S	316	                    Stutzerimonas stutzeri
+  0.00	1	0	73	71	O	2887326	          Moraxellales
+  0.00	1	0	73	71	F	468	            Moraxellaceae
+  0.00	1	0	55	55	G	469	              Acinetobacter
+  0.00	1	0	18	18	G1	196816	                unclassified Acinetobacter
+  0.00	1	1	4	4	S	3027470	                  Acinetobacter sp. TAC-1
+  0.01	6	0	4206	3600	D1	1783272	      Terrabacteria group
+  0.00	4	0	999	984	P	1239	        Bacillota
+  0.00	4	0	611	599	C	91061	          Bacilli
+  0.00	4	0	459	447	O	1385	            Bacillales
+  0.00	4	0	159	150	F	90964	              Staphylococcaceae
+  0.00	4	0	135	126	G	1279	                Staphylococcus
+  0.00	3	3	56	48	S	1280	                  Staphylococcus aureus
+  0.00	1	1	18	18	S	29382	                  Staphylococcus cohnii
+  0.00	2	0	2919	2356	P	201174	        Actinomycetota
+  0.00	2	1	2870	2310	C	1760	          Actinomycetes
+  0.00	1	0	543	300	O	85007	            Mycobacteriales
+  0.00	1	0	36	36	F	1653	              Corynebacteriaceae
+  0.00	1	1	36	36	G	1716	                Corynebacterium
+  0.00	1	0	1520	52	R1	2787854	  other entries
+  0.00	1	1	1520	52	R2	28384	    other sequences

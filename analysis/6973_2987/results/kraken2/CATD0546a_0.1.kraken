@@ -1,0 +1,96 @@
+ 97.66	59628	59628	0	0	U	0	unclassified
+  2.34	1430	61	43109	33650	R	1	root
+  2.24	1369	148	42746	33559	R1	131567	  cellular organisms
+  1.95	1188	593	37943	29470	D	2759	    Eukaryota
+  0.89	543	2	21846	17286	D1	33154	      Opisthokonta
+  0.88	540	0	21590	17126	K	33208	        Metazoa
+  0.88	540	0	21590	17126	K1	6072	          Eumetazoa
+  0.88	540	0	21590	17126	K2	33213	            Bilateria
+  0.88	540	0	21590	17126	K3	33511	              Deuterostomia
+  0.88	540	0	21590	17126	P	7711	                Chordata
+  0.88	540	0	21590	17126	P1	89593	                  Craniata
+  0.88	540	0	21590	17126	P2	7742	                    Vertebrata
+  0.88	540	0	21590	17126	P3	7776	                      Gnathostomata
+  0.88	540	0	21590	17126	P4	117570	                        Teleostomi
+  0.88	540	0	21590	17126	P5	117571	                          Euteleostomi
+  0.88	540	0	21590	17126	P6	8287	                            Sarcopterygii
+  0.88	540	0	21590	17126	P7	1338369	                              Dipnotetrapodomorpha
+  0.88	540	0	21590	17126	P8	32523	                                Tetrapoda
+  0.88	540	0	21590	17126	P9	32524	                                  Amniota
+  0.88	540	0	21590	17126	C	40674	                                    Mammalia
+  0.88	540	0	21590	17126	C1	32525	                                      Theria
+  0.88	540	0	21590	17126	C2	9347	                                        Eutheria
+  0.88	540	0	21590	17126	C3	1437010	                                          Boreoeutheria
+  0.88	540	0	21590	17126	C4	314146	                                            Euarchontoglires
+  0.88	540	0	21590	17126	O	9443	                                              Primates
+  0.88	540	0	21590	17126	O1	376913	                                                Haplorrhini
+  0.88	540	0	21590	17126	O2	314293	                                                  Simiiformes
+  0.88	540	0	21590	17126	O3	9526	                                                    Catarrhini
+  0.88	540	0	21590	17126	O4	314295	                                                      Hominoidea
+  0.88	540	0	21590	17126	F	9604	                                                        Hominidae
+  0.88	540	0	21590	17126	F1	207598	                                                          Homininae
+  0.88	540	0	21590	17126	G	9605	                                                            Homo
+  0.88	540	540	21590	17126	S	9606	                                                              Homo sapiens
+  0.00	1	0	236	171	K	4751	        Fungi
+  0.00	1	0	236	171	K1	451864	          Dikarya
+  0.00	1	0	66	28	P	5204	            Basidiomycota
+  0.00	1	0	12	12	P1	452284	              Ustilaginomycotina
+  0.00	1	0	7	7	C	1538075	                Malasseziomycetes
+  0.00	1	0	7	7	O	162474	                  Malasseziales
+  0.00	1	0	7	7	F	742845	                    Malasseziaceae
+  0.00	1	0	7	7	G	55193	                      Malassezia
+  0.00	1	1	6	6	S	76775	                        Malassezia restricta
+  0.09	52	0	13003	10698	K	33090	      Viridiplantae
+  0.09	52	0	12883	10667	P	35493	        Streptophyta
+  0.09	52	0	12883	10667	P1	131221	          Streptophytina
+  0.09	52	0	12883	10667	P2	3193	            Embryophyta
+  0.09	52	0	12808	10593	P3	58023	              Tracheophyta
+  0.09	52	0	12808	10593	P4	78536	                Euphyllophyta
+  0.09	52	0	12808	10593	P5	58024	                  Spermatophyta
+  0.09	52	0	12808	10593	C	3398	                    Magnoliopsida
+  0.09	52	29	12755	10543	C1	1437183	                      Mesangiospermae
+  0.04	23	0	8679	7650	C2	71240	                        eudicotyledons
+  0.04	23	0	8679	7650	C3	91827	                          Gunneridae
+  0.04	23	15	8679	7650	C4	1437201	                            Pentapetalae
+  0.01	6	3	4922	4512	C5	71275	                              rosids
+  0.00	2	2	3659	3319	C6	91835	                                fabids
+  0.00	1	1	1070	1009	C6	91836	                                malvids
+  0.00	2	2	3474	2910	C5	71274	                              asterids
+  0.05	32	6	4219	3782	D	2	    Bacteria
+  0.04	23	0	2428	2197	D1	1783272	      Terrabacteria group
+  0.04	22	0	1740	1571	P	201174	        Actinomycetota
+  0.04	22	1	1712	1543	C	1760	          Actinomycetes
+  0.02	15	0	329	277	O	85009	            Propionibacteriales
+  0.02	15	0	282	231	F	31957	              Propionibacteriaceae
+  0.02	15	0	268	220	G	1912216	                Cutibacterium
+  0.02	15	15	238	192	S	1747	                  Cutibacterium acnes
+  0.01	6	0	297	271	O	85006	            Micrococcales
+  0.01	6	0	142	142	F	1268	              Micrococcaceae
+  0.01	4	3	86	86	G	1269	                Micrococcus
+  0.00	1	1	9	9	S	1270	                  Micrococcus luteus
+  0.00	2	0	26	26	G	57493	                Kocuria
+  0.00	2	2	20	20	S	72000	                  Kocuria rhizophila
+  0.00	1	0	530	491	P	1239	        Bacillota
+  0.00	1	0	323	293	C	91061	          Bacilli
+  0.00	1	0	88	72	O	186826	            Lactobacillales
+  0.00	1	0	41	25	F	1300	              Streptococcaceae
+  0.00	1	0	35	19	G	1301	                Streptococcus
+  0.00	1	0	8	8	G1	2608887	                  unclassified Streptococcus
+  0.00	1	1	6	6	S	712623	                    Streptococcus sp. oral taxon 061
+  0.00	3	0	1074	930	P	1224	      Pseudomonadota
+  0.00	2	0	522	441	C	1236	        Gammaproteobacteria
+  0.00	2	0	59	35	O	135624	          Aeromonadales
+  0.00	2	0	59	35	F	84642	            Aeromonadaceae
+  0.00	2	2	59	35	G	642	              Aeromonas
+  0.00	1	0	264	230	C	28216	        Betaproteobacteria
+  0.00	1	0	228	198	O	80840	          Burkholderiales
+  0.00	1	0	117	98	F	119060	            Burkholderiaceae
+  0.00	1	1	57	52	G	32008	              Burkholderia
+  0.00	1	0	117	113	D	2157	    Archaea
+  0.00	1	0	89	86	P	28890	      Euryarchaeota
+  0.00	1	0	63	60	P1	2290931	        Stenosarchaea group
+  0.00	1	0	51	49	C	183963	          Halobacteria
+  0.00	1	0	34	34	O	2235	            Halobacteriales
+  0.00	1	0	19	19	F	2236	              Halobacteriaceae
+  0.00	1	0	12	12	G	1980514	                Halodesulfurarchaeum
+  0.00	1	1	12	12	S	1873524	                  Halodesulfurarchaeum formicicum

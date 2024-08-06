@@ -1,0 +1,94 @@
+ 97.33	32542	32542	0	0	U	0	unclassified
+  2.67	892	13	24534	19670	R	1	root
+  2.63	879	104	24390	19641	R1	131567	  cellular organisms
+  2.22	743	357	21532	17202	D	2759	    Eukaryota
+  1.07	358	3	12715	10469	D1	33154	      Opisthokonta
+  1.06	354	0	12571	10336	K	33208	        Metazoa
+  1.06	354	0	12571	10336	K1	6072	          Eumetazoa
+  1.06	354	0	12571	10336	K2	33213	            Bilateria
+  1.06	354	0	12571	10336	K3	33511	              Deuterostomia
+  1.06	354	0	12571	10336	P	7711	                Chordata
+  1.06	354	0	12571	10336	P1	89593	                  Craniata
+  1.06	354	0	12571	10336	P2	7742	                    Vertebrata
+  1.06	354	0	12571	10336	P3	7776	                      Gnathostomata
+  1.06	354	0	12571	10336	P4	117570	                        Teleostomi
+  1.06	354	0	12571	10336	P5	117571	                          Euteleostomi
+  1.06	354	0	12571	10336	P6	8287	                            Sarcopterygii
+  1.06	354	0	12571	10336	P7	1338369	                              Dipnotetrapodomorpha
+  1.06	354	0	12571	10336	P8	32523	                                Tetrapoda
+  1.06	354	0	12571	10336	P9	32524	                                  Amniota
+  1.06	354	0	12571	10336	C	40674	                                    Mammalia
+  1.06	354	0	12571	10336	C1	32525	                                      Theria
+  1.06	354	0	12571	10336	C2	9347	                                        Eutheria
+  1.06	354	0	12571	10336	C3	1437010	                                          Boreoeutheria
+  1.06	354	0	12571	10336	C4	314146	                                            Euarchontoglires
+  1.06	354	0	12571	10336	O	9443	                                              Primates
+  1.06	354	0	12571	10336	O1	376913	                                                Haplorrhini
+  1.06	354	0	12571	10336	O2	314293	                                                  Simiiformes
+  1.06	354	0	12571	10336	O3	9526	                                                    Catarrhini
+  1.06	354	0	12571	10336	O4	314295	                                                      Hominoidea
+  1.06	354	0	12571	10336	F	9604	                                                        Hominidae
+  1.06	354	0	12571	10336	F1	207598	                                                          Homininae
+  1.06	354	0	12571	10336	G	9605	                                                            Homo
+  1.06	354	354	12571	10336	S	9606	                                                              Homo sapiens
+  0.00	1	0	132	105	K	4751	        Fungi
+  0.00	1	0	130	103	K1	451864	          Dikarya
+  0.00	1	0	92	83	P	4890	            Ascomycota
+  0.00	1	0	87	78	P1	716545	              saccharomyceta
+  0.00	1	0	60	53	P2	147538	                Pezizomycotina
+  0.00	1	0	60	53	P3	716546	                  leotiomyceta
+  0.00	1	0	16	14	C	147545	                    Eurotiomycetes
+  0.00	1	0	16	14	C1	451871	                      Eurotiomycetidae
+  0.00	1	0	16	14	O	5042	                        Eurotiales
+  0.00	1	0	13	12	F	1131492	                          Aspergillaceae
+  0.00	1	0	12	11	G	5052	                            Aspergillus
+  0.00	1	1	4	4	S	182096	                              Aspergillus chevalieri
+  0.08	28	0	7006	5817	K	33090	      Viridiplantae
+  0.08	28	0	6906	5793	P	35493	        Streptophyta
+  0.08	28	0	6906	5793	P1	131221	          Streptophytina
+  0.08	28	0	6906	5793	P2	3193	            Embryophyta
+  0.08	28	0	6858	5745	P3	58023	              Tracheophyta
+  0.08	28	0	6858	5745	P4	78536	                Euphyllophyta
+  0.08	28	0	6858	5745	P5	58024	                  Spermatophyta
+  0.08	28	0	6858	5745	C	3398	                    Magnoliopsida
+  0.08	28	18	6833	5720	C1	1437183	                      Mesangiospermae
+  0.03	10	0	4570	4050	C2	71240	                        eudicotyledons
+  0.03	10	0	4570	4050	C3	91827	                          Gunneridae
+  0.03	10	8	4570	4050	C4	1437201	                            Pentapetalae
+  0.01	2	2	2590	2335	C5	71275	                              rosids
+  0.10	32	4	2510	2287	D	2	    Bacteria
+  0.07	25	2	907	819	P	1224	      Pseudomonadota
+  0.06	20	1	390	343	C	28216	        Betaproteobacteria
+  0.06	19	0	354	307	O	80840	          Burkholderiales
+  0.05	18	8	260	220	F	119060	            Burkholderiaceae
+  0.01	5	2	80	61	G	32008	              Burkholderia
+  0.01	2	0	46	29	G1	87882	                Burkholderia cepacia complex
+  0.01	2	2	23	11	S	95486	                  Burkholderia cenocepacia
+  0.00	1	0	8	8	G1	111527	                pseudomallei group
+  0.00	1	1	6	6	S	28450	                  Burkholderia pseudomallei
+  0.01	4	2	79	74	G	1822464	              Paraburkholderia
+  0.01	2	0	37	37	S	261302	                Paraburkholderia phytofirmans
+  0.01	2	2	37	37	S1	1417228	                  Paraburkholderia phytofirmans OLGA172
+  0.00	1	0	47	38	G	106589	              Cupriavidus
+  0.00	1	1	13	13	S	68895	                Cupriavidus basilensis
+  0.00	1	0	22	22	F	75682	            Oxalobacteraceae
+  0.00	1	1	16	16	F1	2895353	              Massilia group
+  0.01	2	0	205	182	C	28211	        Alphaproteobacteria
+  0.00	1	0	58	48	O	204457	          Sphingomonadales
+  0.00	1	0	53	44	F	41297	            Sphingomonadaceae
+  0.00	1	1	36	29	G	13687	              Sphingomonas
+  0.00	1	0	84	73	O	356	          Hyphomicrobiales
+  0.00	1	0	31	26	F	119045	            Methylobacteriaceae
+  0.00	1	1	17	17	G	2282523	              Methylorubrum
+  0.00	1	0	269	252	C	1236	        Gammaproteobacteria
+  0.00	1	0	60	59	O	72274	          Pseudomonadales
+  0.00	1	0	60	59	F	135621	            Pseudomonadaceae
+  0.00	1	0	59	58	G	286	              Pseudomonas
+  0.00	1	1	23	23	G1	196821	                unclassified Pseudomonas
+  0.01	3	0	1186	1073	D1	1783272	      Terrabacteria group
+  0.01	3	0	776	699	P	201174	        Actinomycetota
+  0.01	3	1	754	680	C	1760	          Actinomycetes
+  0.01	2	0	68	63	O	85009	            Propionibacteriales
+  0.01	2	0	48	43	F	31957	              Propionibacteriaceae
+  0.01	2	0	37	37	G	1912216	                Cutibacterium
+  0.01	2	2	36	36	S	1747	                  Cutibacterium acnes

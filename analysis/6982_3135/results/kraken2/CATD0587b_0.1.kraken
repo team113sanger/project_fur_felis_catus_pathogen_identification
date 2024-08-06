@@ -1,0 +1,83 @@
+ 97.28	89869	89869	0	0	U	0	unclassified
+  2.72	2515	88	70084	47739	R	1	root
+  2.63	2427	322	68954	47613	R1	131567	  cellular organisms
+  2.25	2080	1087	61743	42420	D	2759	    Eukaryota
+  0.99	912	12	36664	26568	D1	33154	      Opisthokonta
+  0.97	900	0	36257	26272	K	33208	        Metazoa
+  0.97	900	0	36257	26272	K1	6072	          Eumetazoa
+  0.97	900	0	36257	26272	K2	33213	            Bilateria
+  0.97	900	0	36257	26272	K3	33511	              Deuterostomia
+  0.97	900	0	36257	26272	P	7711	                Chordata
+  0.97	900	0	36257	26272	P1	89593	                  Craniata
+  0.97	900	0	36257	26272	P2	7742	                    Vertebrata
+  0.97	900	0	36257	26272	P3	7776	                      Gnathostomata
+  0.97	900	0	36257	26272	P4	117570	                        Teleostomi
+  0.97	900	0	36257	26272	P5	117571	                          Euteleostomi
+  0.97	900	0	36257	26272	P6	8287	                            Sarcopterygii
+  0.97	900	0	36257	26272	P7	1338369	                              Dipnotetrapodomorpha
+  0.97	900	0	36257	26272	P8	32523	                                Tetrapoda
+  0.97	900	0	36257	26272	P9	32524	                                  Amniota
+  0.97	900	0	36257	26272	C	40674	                                    Mammalia
+  0.97	900	0	36257	26272	C1	32525	                                      Theria
+  0.97	900	0	36257	26272	C2	9347	                                        Eutheria
+  0.97	900	0	36257	26272	C3	1437010	                                          Boreoeutheria
+  0.97	900	0	36257	26272	C4	314146	                                            Euarchontoglires
+  0.97	900	0	36257	26272	O	9443	                                              Primates
+  0.97	900	0	36257	26272	O1	376913	                                                Haplorrhini
+  0.97	900	0	36257	26272	O2	314293	                                                  Simiiformes
+  0.97	900	0	36257	26272	O3	9526	                                                    Catarrhini
+  0.97	900	0	36257	26272	O4	314295	                                                      Hominoidea
+  0.97	900	0	36257	26272	F	9604	                                                        Hominidae
+  0.97	900	0	36257	26272	F1	207598	                                                          Homininae
+  0.97	900	0	36257	26272	G	9605	                                                            Homo
+  0.97	900	900	36257	26272	S	9606	                                                              Homo sapiens
+  0.09	81	1	19297	13604	K	33090	      Viridiplantae
+  0.09	80	0	19035	13542	P	35493	        Streptophyta
+  0.09	80	0	19035	13542	P1	131221	          Streptophytina
+  0.09	80	0	19035	13542	P2	3193	            Embryophyta
+  0.09	80	0	18925	13434	P3	58023	              Tracheophyta
+  0.09	80	0	18925	13434	P4	78536	                Euphyllophyta
+  0.09	80	0	18925	13434	P5	58024	                  Spermatophyta
+  0.09	80	4	18925	13434	C	3398	                    Magnoliopsida
+  0.08	76	46	18853	13362	C1	1437183	                      Mesangiospermae
+  0.03	30	0	11669	9334	C2	71240	                        eudicotyledons
+  0.03	30	0	11669	9334	C3	91827	                          Gunneridae
+  0.03	30	22	11669	9334	C4	1437201	                            Pentapetalae
+  0.01	6	2	6248	5479	C5	71275	                              rosids
+  0.00	4	3	4553	3930	C6	91835	                                fabids
+  0.00	1	0	2381	2054	O	72025	                                  Fabales
+  0.00	1	0	2381	2054	F	3803	                                    Fabaceae
+  0.00	1	0	2381	2054	F1	3814	                                      Papilionoideae
+  0.00	1	1	2381	2054	F2	2231393	                                        50 kb inversion clade
+  0.00	2	1	5032	3560	C5	71274	                              asterids
+  0.00	1	1	3657	2410	C6	91888	                                lamiids
+  0.03	25	11	6351	5272	D	2	    Bacteria
+  0.01	10	2	1799	1407	P	1224	      Pseudomonadota
+  0.01	7	0	524	384	C	28216	        Betaproteobacteria
+  0.01	7	0	449	333	O	80840	          Burkholderiales
+  0.01	7	3	224	144	F	119060	            Burkholderiaceae
+  0.00	2	2	79	62	G	32008	              Burkholderia
+  0.00	2	0	24	18	G	1822464	              Paraburkholderia
+  0.00	2	0	12	6	S	261302	                Paraburkholderia phytofirmans
+  0.00	2	2	12	6	S1	1417228	                  Paraburkholderia phytofirmans OLGA172
+  0.00	1	0	560	454	C	28211	        Alphaproteobacteria
+  0.00	1	0	221	199	O	356	          Hyphomicrobiales
+  0.00	1	0	69	69	F	119045	            Methylobacteriaceae
+  0.00	1	0	32	32	G	2282523	              Methylorubrum
+  0.00	1	0	26	26	S	408	                Methylorubrum extorquens
+  0.00	1	1	21	21	S1	661410	                  Methylorubrum extorquens DM4
+  0.00	4	0	3577	3028	D1	1783272	      Terrabacteria group
+  0.00	4	0	2746	2264	P	201174	        Actinomycetota
+  0.00	4	0	2684	2203	C	1760	          Actinomycetes
+  0.00	2	0	118	88	O	85009	            Propionibacteriales
+  0.00	2	0	65	37	F	31957	              Propionibacteriaceae
+  0.00	2	0	45	23	G	1912216	                Cutibacterium
+  0.00	2	2	40	20	S	1747	                  Cutibacterium acnes
+  0.00	1	0	405	319	O	85006	            Micrococcales
+  0.00	1	0	30	23	F	85019	              Brevibacteriaceae
+  0.00	1	0	30	23	G	1696	                Brevibacterium
+  0.00	1	0	27	20	G1	2614124	                  unclassified Brevibacterium
+  0.00	1	1	21	16	S	2575923	                    Brevibacterium sp. CS2
+  0.00	1	0	1133	1030	O	85011	            Kitasatosporales
+  0.00	1	0	1133	1030	F	2062	              Streptomycetaceae
+  0.00	1	1	1082	980	G	1883	                Streptomyces
