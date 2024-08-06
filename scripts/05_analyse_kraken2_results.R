@@ -4,6 +4,7 @@ library(readr)
 library(fs)
 library(stringr)
 library(glue)
+library(purrr)
 
 source("constants.R")
 
@@ -25,6 +26,8 @@ krakentools_files <- fs::dir_ls(
   recurse = TRUE
 )
 
+krakentools_files <- krakentools_files[!grepl(krakentools_files, pattern = "work")]
+
 safe_read_tsv <- function(file, ...) {
   if (file_info(file)$size > 0) {
     return(read_tsv(file, ...))
@@ -38,7 +41,7 @@ krakentools_df <- purrr::map_dfr(krakentools_files, ~ safe_read_tsv(.x, col_name
   separate(id, into = taxonomy, sep = "\\|") |> # Split rows by "|" into primrary taxa
   mutate(across(taxonomy, ~ str_remove(.x, pattern = "[a-z]__"))) |> # Cleanup the names in the taxonomy columns
   mutate(sample_id = str_remove(basename(file_id), ".kraken.mpa"), .after = file_id) |> # Simplify sample ids
-  mutate(cohort = str_match(file_id, pattern = ".*/analysis/(.*)/krakentools/.*")[, 2], .after = sample_id) |> # Simplify sample ids
+  mutate(cohort = str_match(file_id, pattern = ".*/analysis/(.*)/results/krakentools/.*")[, 2], .after = sample_id) |> # Simplify sample ids
   mutate(
     taxon_leaf =
       coalesce(Species, Genus, Family, Order, Class, Phylum, Kingdom, Domain),
@@ -53,6 +56,9 @@ kraken_files <- fs::dir_ls(project_dir,
   recurse = TRUE,
   glob = "*0.1.kraken"
 )
+
+kraken_files <- kraken_files[!grepl(kraken_files, pattern = "work")]
+
 
 kraken2_df <- read_tsv(kraken_files,
   col_names = c(
@@ -69,7 +75,7 @@ kraken2_df <- read_tsv(kraken_files,
 ) |>
   filter(!grepl(rank, pattern = "[0-9]")) |> # Remove the non-primary ranks
   mutate(sample_id = str_remove(basename(file_id), "_0.1.kraken"), .after = file_id) |>
-  mutate(cohort = str_match(file_id, pattern = ".*/analysis/(.*)/kraken2.*")[, 2], .after = sample_id)
+  mutate(cohort = str_match(file_id, pattern = ".*/analysis/(.*)/results/kraken2.*")[, 2], .after = sample_id)
 
 
 
@@ -92,10 +98,11 @@ combined_df <- left_join(kraken2_df, krakentools_df,
 ) |>
   left_join(ref_db, by = c("name" = "taxon", "rank" = "rank"))
 
-combined_df |> split(f = combined_df[["cohort"]])
 
 
-cohort_analysis <- function(x, project_dir, ref_db) {
+
+cohort_analysis <- function(x,  cohort, project_dir, ref_db) {
+  
   class_unclass_df <- x |>
     dplyr::filter(name %in% c("unclassified", "root")) |>
     dplyr::rename(
@@ -110,7 +117,7 @@ cohort_analysis <- function(x, project_dir, ref_db) {
     dplyr::summarise(total_read = sum(n_reads))
 
   # Plot classification
-  png(glue::glue("{project_dir}/results/sparki/classification.png"))
+  png(glue::glue("{project_dir}/{cohort}/results/sparki/classification.png"))
   classification_plot <- ggplot2::ggplot(
     class_unclass_df,
     ggplot2::aes(x = type, y = log10(n_reads))
@@ -141,7 +148,7 @@ cohort_analysis <- function(x, project_dir, ref_db) {
     dplyr::filter(rank == "D") |>
     dplyr::select(c(n_fragments_clade, rank, Domain, sample_id))
 
-  png(glue::glue("{project_dir}/results/sparki/per_domain_reads.png"))
+  png(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_reads.png"))
   per_domain_reads_plot <- ggplot2::ggplot(
     by_domain,
     ggplot2::aes(x = Domain, y = log10(n_fragments_clade), fill = Domain)
@@ -166,14 +173,14 @@ cohort_analysis <- function(x, project_dir, ref_db) {
   print(per_domain_reads_plot)
   dev.off()
 
-  png(glue::glue("{project_dir}/results/sparki/per_domain_proportions.png"))
+  png(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions.png"))
   x_lab <- "\nProportion of classified reads\n(all domains)"
   filename <- "nReadsDomains_barplot_with_eukaryotes"
   colours <- c("royalblue", "snow4", "indianred2", "gold")
   domain_barplot(by_domain)
   dev.off()
 
-  png(glue::glue("{project_dir}/results/sparki/per_domain_proportions_no_euks.png"))
+  png(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions_no_euks.png"))
   x_lab <- "\nProportion of classified reads\n(non-eukaryotes only)"
   filename <- "nReadsDomains_barplot_without_eukaryotes"
   colours <- c("royalblue", "indianred2", "gold")
@@ -249,17 +256,21 @@ cohort_analysis <- function(x, project_dir, ref_db) {
   bacterial_plot <- plot_minimisers(bacteria)
   viral_plot <- plot_minimisers(viruses)
 
-  png(glue::glue("{project_dir}/results/sparki/bacterial_minimisers.png"),
+  png(glue::glue("{project_dir}/{cohort}results/sparki/bacterial_minimisers.png"),
     width = 1500, height = 2600
   )
   print(bacterial_plot) # Ensure the plot is printed
   dev.off()
 
-  png(glue::glue("{project_dir}/results/sparki/viral_minimisers.png"),
+  png(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.png"),
     width = 1500, height = 500
   )
   print(viral_plot) # Ensure the plot is printed
   dev.off()
 }
 
-cohort_analysis(combined_df, project_dir, ref_db)
+
+
+cohort_dfs <- combined_df |> split(f = combined_df[["cohort"]])
+
+imap(cohort_dfs, ~cohort_analysis(x= .x, cohort = .y,project_dir, ref_db))
