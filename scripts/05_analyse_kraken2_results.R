@@ -220,7 +220,7 @@ cohort_analysis <- function(x,  cohort, project_dir, ref_db) {
 
   q_domain <- "Bacteria"
   bacteria <- stats_df |>
-    dplyr::filter(rank == "S") |>
+    dplyr::filter(rank == "G") |>
     dplyr::filter(Domain == q_domain) |>
     dplyr::group_by(name) |>
     dplyr::filter(n() > 3) |>
@@ -229,7 +229,7 @@ cohort_analysis <- function(x,  cohort, project_dir, ref_db) {
     tidyr::complete(sample_id, name,
       fill = list(
         significance = "Non-significant",
-        rank = "S",
+        rank = "G",
         Domain = q_domain
       )
     ) |>
@@ -275,4 +275,4 @@ cohort_dfs <- combined_df |> split(f = combined_df[["cohort"]])
 
 imap(cohort_dfs, ~cohort_analysis(x= .x, cohort = .y, project_dir, ref_db))
 
-imap(cohort_dfs, ~dir.create(glue("{project_dir}/{.y}/results/sparki")))
+# imap(cohort_dfs, ~dir.create(glue("{project_dir}/{.y}/results/sparki")))
