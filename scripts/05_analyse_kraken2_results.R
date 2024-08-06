@@ -101,8 +101,7 @@ combined_df <- left_join(kraken2_df, krakentools_df,
 
 
 
-cohort_analysis <- function(x,  cohort, project_dir, ref_db) {
-  
+cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   class_unclass_df <- x |>
     dplyr::filter(name %in% c("unclassified", "root")) |>
     dplyr::rename(
@@ -273,6 +272,6 @@ cohort_analysis <- function(x,  cohort, project_dir, ref_db) {
 
 cohort_dfs <- combined_df |> split(f = combined_df[["cohort"]])
 
-imap(cohort_dfs, ~cohort_analysis(x= .x, cohort = .y, project_dir, ref_db))
+imap(cohort_dfs, ~ cohort_analysis(x = .x, cohort = .y, project_dir, ref_db))
 
 # imap(cohort_dfs, ~dir.create(glue("{project_dir}/{.y}/results/sparki")))

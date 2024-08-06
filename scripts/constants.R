@@ -1,8 +1,8 @@
 ######################
-## HELPER CONSTANTS ##
+##  HELPER CONSTANTS ##
 #####################################################################
 
-#### Reference database ####
+####  Reference database ####
 COLNAME_REF_DB_PCT_FRAG_CLADE <- "pct_fragments_clade"
 COLNAME_REF_DB_MINIMISERS_CLADE <- "n_minimisers_clade"
 COLNAME_REF_DB_MINIMISERS_TAXON <- "n_minimisers_taxon"
@@ -10,7 +10,7 @@ COLNAME_REF_DB_RANK <- "rank"
 COLNAME_REF_DB_NCBI_ID <- "ncbi_id"
 COLNAME_REF_DB_TAXON <- "taxon"
 
-#### Standard report ####
+####  Standard report ####
 COLNAME_STD_SAMPLE <- "sample"
 COLNAME_STD_PCT_FRAG_CLADE <- "pct_fragments_clade"
 COLNAME_STD_N_FRAG_CLADE <- "n_fragments_clade"
@@ -31,7 +31,7 @@ COLNAME_STD_PVALUE <- "pvalue"
 COLNAME_STD_PADJ <- "padj"
 COLNAME_STD_SIGNIF <- "significance"
 
-#### MPA-style report #### 
+####  MPA-style report ####
 COLNAME_MPA_SAMPLE <- "sample"
 COLNAME_MPA_N_FRAG_CLADE <- "n_fragments_clade"
 COLNAME_MPA_TAXON <- "taxon_hierarchy"
@@ -42,7 +42,7 @@ COLNAME_MPA_DB_MINIMISERS_CLADE <- "db_n_minimisers_clade"
 COLNAME_MPA_DB_MINIMISERS_TAXON <- "db_n_minimisers_taxon"
 COLNAME_MPA_RATIO_CLADE <- "ratio_clade"
 
-#### Auxiliary dataframes ####
+####  Auxiliary dataframes ####
 
 # Number of domain reads per sample.
 COLNAME_DOMAIN_READS_SAMPLE <- "sample"
@@ -54,7 +54,7 @@ COLNAME_CLASSIF_SUMMARY_SAMPLE <- "sample"
 COLNAME_CLASSIF_SUMMARY_READ_TYPE <- "type"
 COLNAME_CLASSIF_SUMMARY_N_READS <- "n_reads"
 
-#### Rank names ####
+####  Rank names ####
 NAME_RANK_UNCLASS <- "unclassified"
 NAME_RANK_ROOT <- "root"
 NAME_RANK_SUBROOT_1 <- "subroot_1"
@@ -114,69 +114,68 @@ NAME_RANK_SUBSPECIES_4 <- "subspecies_4"
 
 
 
-domain_barplot <- function(df, x_lab, colors){
-    ggplot2::ggplot(
-  df, ggplot2::aes(x = n_fragments_clade, y = sample_id, fill = Domain)
-) +
-  ggplot2::geom_bar(position = "fill", stat = "identity") +
-  ggplot2::theme_void() +
-  ggplot2::theme(
-    #  x-axis
-    axis.text.x = ggplot2::element_text(size = 15),
-    axis.title.x = ggplot2::element_text(size = 16),
-    # y-axis
-    axis.text.y = ggplot2::element_text(size = 0),
-    axis.title.y = ggplot2::element_text(size = 16, angle = 90),
-    axis.ticks.y= ggplot2::element_blank(),
-    # legend
-    legend.text = ggplot2::element_text(size = 15),
-    legend.title = ggplot2::element_text(size = 16),
-    legend.justification = "top"
+domain_barplot <- function(df, x_lab, colors) {
+  ggplot2::ggplot(
+    df, ggplot2::aes(x = n_fragments_clade, y = sample_id, fill = Domain)
   ) +
-  ggplot2::xlab(x_lab) +
-  ggplot2::scale_fill_manual(
-    name = "Domain", values = colours
-  ) +
-  ggplot2::geom_vline(xintercept = c(0.25, 0.5, 0.75), linetype = "dashed")
-
+    ggplot2::geom_bar(position = "fill", stat = "identity") +
+    ggplot2::theme_void() +
+    ggplot2::theme(
+      #  x-axis
+      axis.text.x = ggplot2::element_text(size = 15),
+      axis.title.x = ggplot2::element_text(size = 16),
+      # y-axis
+      axis.text.y = ggplot2::element_text(size = 0),
+      axis.title.y = ggplot2::element_text(size = 16, angle = 90),
+      axis.ticks.y = ggplot2::element_blank(),
+      # legend
+      legend.text = ggplot2::element_text(size = 15),
+      legend.title = ggplot2::element_text(size = 16),
+      legend.justification = "top"
+    ) +
+    ggplot2::xlab(x_lab) +
+    ggplot2::scale_fill_manual(
+      name = "Domain", values = colours
+    ) +
+    ggplot2::geom_vline(xintercept = c(0.25, 0.5, 0.75), linetype = "dashed")
 }
 
 
 
-plot_minimisers <- function(stats_filtered){
-plot <- ggplot2::ggplot(
-  stats_filtered,
-  ggplot2::aes(x = sample_id, y = name, fill = ratio_clade, color = significance, size = log10(n_fragments_clade))
-) +
-  ggplot2::geom_point(shape = 21, stroke = 1.25) +
-  ggplot2::facet_grid(
-    rows = ggplot2::vars(rank),
-    scales = "free_y",
-    space = "free_y"
+plot_minimisers <- function(stats_filtered) {
+  plot <- ggplot2::ggplot(
+    stats_filtered,
+    ggplot2::aes(x = sample_id, y = name, fill = ratio_clade, color = significance, size = log10(n_fragments_clade))
   ) +
-  ggplot2::theme_bw() +
-  ggplot2::theme(
-    axis.text.x = ggplot2::element_text(size = 10, angle = 90, vjust = 0.5, hjust = 1),
-    axis.text.y = ggplot2::element_text(size = 12),
-    legend.text = ggplot2::element_text(size = 15),
-    legend.text.align = 0,
-    legend.title = ggplot2::element_text(size = 15),
-    axis.title = ggplot2::element_text(size = 15),
-    plot.title = ggplot2::element_text(size = 16.5, face = "bold", hjust = 0.5),
-    strip.text.y = ggplot2::element_text(size = 15, face = "bold")
-  ) +
-  ggplot2::scale_fill_gradientn(
-    colors = colorRampPalette((RColorBrewer::brewer.pal(9, "Reds")))(100),
-    name = "Ratio between unique minimisers found in sample\nand total clade-level minimisers in database",
-    limits = c(0, 1)
-  ) +
-  ggplot2::scale_color_manual(
-    values = c("snow3", "black"),
-    name = "Significance",
-    labels = c("Non-significant", expression("Adjusted p-value" <= "0.05"))
-  ) +
-  ggplot2::scale_size_continuous(name = expression("log"[10] ~ "(clade-level reads)")) +
-  ggplot2::xlab("Sample") +
-  ggplot2::ylab("Taxon")
-return(plot)
+    ggplot2::geom_point(shape = 21, stroke = 1.25) +
+    ggplot2::facet_grid(
+      rows = ggplot2::vars(rank),
+      scales = "free_y",
+      space = "free_y"
+    ) +
+    ggplot2::theme_bw() +
+    ggplot2::theme(
+      axis.text.x = ggplot2::element_text(size = 10, angle = 90, vjust = 0.5, hjust = 1),
+      axis.text.y = ggplot2::element_text(size = 12),
+      legend.text = ggplot2::element_text(size = 15),
+      legend.text.align = 0,
+      legend.title = ggplot2::element_text(size = 15),
+      axis.title = ggplot2::element_text(size = 15),
+      plot.title = ggplot2::element_text(size = 16.5, face = "bold", hjust = 0.5),
+      strip.text.y = ggplot2::element_text(size = 15, face = "bold")
+    ) +
+    ggplot2::scale_fill_gradientn(
+      colors = colorRampPalette((RColorBrewer::brewer.pal(9, "Reds")))(100),
+      name = "Ratio between unique minimisers found in sample\nand total clade-level minimisers in database",
+      limits = c(0, 1)
+    ) +
+    ggplot2::scale_color_manual(
+      values = c("snow3", "black"),
+      name = "Significance",
+      labels = c("Non-significant", expression("Adjusted p-value" <= "0.05"))
+    ) +
+    ggplot2::scale_size_continuous(name = expression("log"[10] ~ "(clade-level reads)")) +
+    ggplot2::xlab("Sample") +
+    ggplot2::ylab("Taxon")
+  return(plot)
 }
