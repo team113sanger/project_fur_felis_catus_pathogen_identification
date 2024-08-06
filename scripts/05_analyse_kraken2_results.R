@@ -16,7 +16,7 @@ taxonomy <- c(
 project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis"
 ref_db_file <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023/inspect.txt"
 
-dir.create(glue("{project_dir}/results/sparki"))
+# dir.create(glue("{project_dir}/results/sparki"))
 
 # Use a filesystem helper to gather all files
 krakentools_files <- fs::dir_ls(
@@ -177,14 +177,14 @@ cohort_analysis <- function(x,  cohort, project_dir, ref_db) {
   x_lab <- "\nProportion of classified reads\n(all domains)"
   filename <- "nReadsDomains_barplot_with_eukaryotes"
   colours <- c("royalblue", "snow4", "indianred2", "gold")
-  domain_barplot(by_domain)
+  domain_barplot(by_domain, x_lab = x_lab, colours)
   dev.off()
 
   png(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions_no_euks.png"))
   x_lab <- "\nProportion of classified reads\n(non-eukaryotes only)"
   filename <- "nReadsDomains_barplot_without_eukaryotes"
   colours <- c("royalblue", "indianred2", "gold")
-  domain_barplot(by_domain |> dplyr::filter(Domain != "Eukaryota"))
+  domain_barplot(by_domain |> dplyr::filter(Domain != "Eukaryota"), x_lab = x_lab, colours)
   dev.off()
 
   filtered_df <- x |> dplyr::filter(rank %in% c("S", "G", "F"))
@@ -256,7 +256,7 @@ cohort_analysis <- function(x,  cohort, project_dir, ref_db) {
   bacterial_plot <- plot_minimisers(bacteria)
   viral_plot <- plot_minimisers(viruses)
 
-  png(glue::glue("{project_dir}/{cohort}results/sparki/bacterial_minimisers.png"),
+  png(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.png"),
     width = 1500, height = 2600
   )
   print(bacterial_plot) # Ensure the plot is printed
@@ -273,4 +273,6 @@ cohort_analysis <- function(x,  cohort, project_dir, ref_db) {
 
 cohort_dfs <- combined_df |> split(f = combined_df[["cohort"]])
 
-imap(cohort_dfs, ~cohort_analysis(x= .x, cohort = .y,project_dir, ref_db))
+imap(cohort_dfs, ~cohort_analysis(x= .x, cohort = .y, project_dir, ref_db))
+
+imap(cohort_dfs, ~dir.create(glue("{project_dir}/{.y}/results/sparki")))

@@ -1,0 +1,1650 @@
+N E X T F L O W  ~  version 22.04.3
+Launching `../kraken2/main.nf` [stoic_celsius] DSL2 - revision: 4e20173a29
+[-        ] process > RUN_KRAKEN2  -
+[-        ] process > KRAKEN_TOOLS -
+
+[-        ] process > RUN_KRAKEN2  [  0%] 0 of 2
+[-        ] process > KRAKEN_TOOLS -
+
+[-        ] process > RUN_KRAKEN2  [  0%] 0 of 4
+[-        ] process > KRAKEN_TOOLS -
+
+[-        ] process > RUN_KRAKEN2  [  0%] 0 of 15
+[-        ] process > KRAKEN_TOOLS -
+
+[-        ] process > RUN_KRAKEN2  [  0%] 0 of 25
+[-        ] process > KRAKEN_TOOLS -
+
+[c2/5f06d0] process > RUN_KRAKEN2 (31) [  5%] 2 of 35, cached: 2
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 2
+
+[4d/251adc] process > RUN_KRAKEN2 (44) [  8%] 4 of 48, cached: 4
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 4
+
+[4d/251adc] process > RUN_KRAKEN2 (44) [  6%] 4 of 64, cached: 4
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 4
+
+[19/948e3b] process > RUN_KRAKEN2 (73) [  6%] 5 of 76, cached: 5
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 5
+
+[19/948e3b] process > RUN_KRAKEN2 (73) [  5%] 5 of 89, cached: 5
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 5
+
+[c6/587e08] process > RUN_KRAKEN2 (98) [  5%] 6 of 108, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+[c6/587e08] process > RUN_KRAKEN2 (98) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (1)
+[33/3ec82a] process > RUN_KRAKEN2 (1)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (2)
+[fd/c58098] process > RUN_KRAKEN2 (2)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (3)
+[c2/bdd015] process > RUN_KRAKEN2 (4)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (4)
+[4a/066ead] process > RUN_KRAKEN2 (3)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (5)
+[cc/9c0914] process > RUN_KRAKEN2 (5)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (6)
+[d3/bc73db] process > RUN_KRAKEN2 (6)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (7)
+[5d/2c1b68] process > RUN_KRAKEN2 (7)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (8)
+[16/019eb9] process > RUN_KRAKEN2 (8)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (8)
+[16/019eb9] process > RUN_KRAKEN2 (8)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (9)
+[48/807a29] process > RUN_KRAKEN2 (9)  [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (10)
+[b5/79de89] process > RUN_KRAKEN2 (10) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (11)
+[68/a0d55f] process > RUN_KRAKEN2 (11) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (12)
+[d7/2f0796] process > RUN_KRAKEN2 (12) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (13)
+[cd/8588fd] process > RUN_KRAKEN2 (13) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (14)
+[e8/148d11] process > RUN_KRAKEN2 (14) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (15)
+[a8/e2e46a] process > RUN_KRAKEN2 (15) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (16)
+[ac/288d9b] process > RUN_KRAKEN2 (16) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (17)
+[ea/ba0472] process > RUN_KRAKEN2 (17) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (18)
+[ff/ac1dcf] process > RUN_KRAKEN2 (18) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (19)
+[59/2b66b7] process > RUN_KRAKEN2 (19) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (20)
+[57/be0fd1] process > RUN_KRAKEN2 (20) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (21)
+[55/7be84c] process > RUN_KRAKEN2 (21) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (22)
+[f3/89fcfd] process > RUN_KRAKEN2 (22) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (23)
+[f1/e1c90f] process > RUN_KRAKEN2 (23) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (24)
+[cb/b22c8b] process > RUN_KRAKEN2 (25) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (25)
+[d8/5d081c] process > RUN_KRAKEN2 (26) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (26)
+[c1/5228bd] process > RUN_KRAKEN2 (27) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (27)
+[e0/05b5a8] process > RUN_KRAKEN2 (28) [  4%] 6 of 136, cached: 6
+[-        ] process > KRAKEN_TOOLS     [  0%] 0 of 6
+
+executor >  lsf (28)
+[e0/05b5a8] process > RUN_KRAKEN2 (28) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [  0%] 0 of 6
+
+executor >  lsf (29)
+[c7/6bb703] process > RUN_KRAKEN2 (29) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [  0%] 0 of 6
+
+executor >  lsf (30)
+[32/b71e52] process > RUN_KRAKEN2 (30) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [  0%] 0 of 6
+
+executor >  lsf (31)
+[d6/b01ec9] process > RUN_KRAKEN2 (32) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [  0%] 0 of 6
+
+executor >  lsf (32)
+[b7/3587f1] process > RUN_KRAKEN2 (33) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [  0%] 0 of 6
+
+executor >  lsf (33)
+[b7/3587f1] process > RUN_KRAKEN2 (33) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [  0%] 0 of 6
+
+executor >  lsf (34)
+[7e/bca04f] process > RUN_KRAKEN2 (34) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [  0%] 0 of 6
+
+executor >  lsf (35)
+[92/e5aa17] process > RUN_KRAKEN2 (35) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [  0%] 0 of 6
+
+executor >  lsf (36)
+[1a/5ca752] process > RUN_KRAKEN2 (36) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [  0%] 0 of 6
+
+executor >  lsf (37)
+[ad/315435] process > RUN_KRAKEN2 (37) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [  0%] 0 of 6
+
+executor >  lsf (38)
+[45/207e87] process > RUN_KRAKEN2 (39) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [  0%] 0 of 6
+
+executor >  lsf (39)
+[95/167aa2] process > RUN_KRAKEN2 (40) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [  0%] 0 of 6
+
+executor >  lsf (40)
+[95/167aa2] process > RUN_KRAKEN2 (40) [  4%] 6 of 136, cached: 6
+[a5/5b4d91] process > KRAKEN_TOOLS (3) [  0%] 0 of 6
+
+executor >  lsf (41)
+[0e/9769d6] process > RUN_KRAKEN2 (41) [  4%] 6 of 136, cached: 6
+[a5/5b4d91] process > KRAKEN_TOOLS (3) [  0%] 0 of 6
+
+executor >  lsf (42)
+[c0/f1f810] process > RUN_KRAKEN2 (42) [  4%] 6 of 136, cached: 6
+[a5/5b4d91] process > KRAKEN_TOOLS (3) [  0%] 0 of 6
+
+executor >  lsf (43)
+[e1/f1d2b3] process > RUN_KRAKEN2 (43) [  4%] 6 of 136, cached: 6
+[a5/5b4d91] process > KRAKEN_TOOLS (3) [  0%] 0 of 6
+
+executor >  lsf (44)
+[d9/60eb82] process > RUN_KRAKEN2 (45) [  4%] 6 of 136, cached: 6
+[a5/5b4d91] process > KRAKEN_TOOLS (3) [  0%] 0 of 6
+
+executor >  lsf (45)
+[f4/3a8034] process > RUN_KRAKEN2 (46) [  4%] 6 of 136, cached: 6
+[a5/5b4d91] process > KRAKEN_TOOLS (3) [  0%] 0 of 6
+
+executor >  lsf (46)
+[f4/3a8034] process > RUN_KRAKEN2 (46) [  4%] 6 of 136, cached: 6
+[d9/543061] process > KRAKEN_TOOLS (4) [  0%] 0 of 6
+
+executor >  lsf (47)
+[bb/206107] process > RUN_KRAKEN2 (47) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (48)
+[4f/0be0c8] process > RUN_KRAKEN2 (48) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (49)
+[9e/6336f2] process > RUN_KRAKEN2 (50) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (50)
+[dc/6762dd] process > RUN_KRAKEN2 (49) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (51)
+[78/b9b65f] process > RUN_KRAKEN2 (52) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (52)
+[75/2c1b12] process > RUN_KRAKEN2 (51) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (53)
+[65/3a0db1] process > RUN_KRAKEN2 (54) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (54)
+[79/b1cd9b] process > RUN_KRAKEN2 (53) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (55)
+[34/e61ba9] process > RUN_KRAKEN2 (55) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (56)
+[76/6a11e1] process > RUN_KRAKEN2 (56) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (57)
+[eb/b13f2e] process > RUN_KRAKEN2 (58) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (58)
+[11/53344b] process > RUN_KRAKEN2 (57) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (59)
+[d5/ae26f0] process > RUN_KRAKEN2 (60) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (60)
+[10/cde50c] process > RUN_KRAKEN2 (59) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (61)
+[44/e583dd] process > RUN_KRAKEN2 (62) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (62)
+[73/a596c8] process > RUN_KRAKEN2 (61) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (63)
+[51/599762] process > RUN_KRAKEN2 (63) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (64)
+[76/01e6d3] process > RUN_KRAKEN2 (64) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (65)
+[d9/82e51a] process > RUN_KRAKEN2 (66) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (66)
+[40/a1d6dc] process > RUN_KRAKEN2 (65) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (67)
+[47/51fd99] process > RUN_KRAKEN2 (67) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (68)
+[4e/98e115] process > RUN_KRAKEN2 (69) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (69)
+[b0/e42a4d] process > RUN_KRAKEN2 (68) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (70)
+[f4/8df84a] process > RUN_KRAKEN2 (71) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (71)
+[de/63c278] process > RUN_KRAKEN2 (70) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (72)
+[b8/17aaa2] process > RUN_KRAKEN2 (72) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (73)
+[dd/1907aa] process > RUN_KRAKEN2 (74) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (74)
+[27/7bfc38] process > RUN_KRAKEN2 (75) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (75)
+[39/59c612] process > RUN_KRAKEN2 (76) [  4%] 6 of 136, cached: 6
+[88/88375f] process > KRAKEN_TOOLS (1) [ 16%] 1 of 6
+
+executor >  lsf (76)
+[39/59c612] process > RUN_KRAKEN2 (76) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (77)
+[62/f7f270] process > RUN_KRAKEN2 (77) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (78)
+[a2/89873d] process > RUN_KRAKEN2 (78) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (79)
+[8e/5e47a2] process > RUN_KRAKEN2 (79) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (80)
+[8f/8392de] process > RUN_KRAKEN2 (80) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (81)
+[56/2c2c00] process > RUN_KRAKEN2 (81) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (82)
+[34/328f0e] process > RUN_KRAKEN2 (82) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (83)
+[af/2ccd00] process > RUN_KRAKEN2 (83) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (84)
+[26/24d705] process > RUN_KRAKEN2 (84) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (85)
+[31/be209a] process > RUN_KRAKEN2 (85) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (86)
+[7f/56b84e] process > RUN_KRAKEN2 (86) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 16%] 1 of 6
+
+executor >  lsf (87)
+[35/bc1085] process > RUN_KRAKEN2 (87) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (87)
+[35/bc1085] process > RUN_KRAKEN2 (87) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (88)
+[50/bb38de] process > RUN_KRAKEN2 (89) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (89)
+[f4/b79534] process > RUN_KRAKEN2 (88) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (90)
+[1f/f1782c] process > RUN_KRAKEN2 (90) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (91)
+[3c/b73d27] process > RUN_KRAKEN2 (91) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (92)
+[95/b778f2] process > RUN_KRAKEN2 (92) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (93)
+[ab/e66eac] process > RUN_KRAKEN2 (93) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (94)
+[a8/6ca2cb] process > RUN_KRAKEN2 (94) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (95)
+[a7/af0bbb] process > RUN_KRAKEN2 (96) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (96)
+[a0/4fd3ef] process > RUN_KRAKEN2 (95) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (97)
+[9c/42f4dc] process > RUN_KRAKEN2 (97) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (98)
+[12/6b4fe9] process > RUN_KRAKEN2 (99) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2) [ 33%] 2 of 6
+
+executor >  lsf (99)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2)  [ 33%] 2 of 6
+
+executor >  lsf (100)
+[25/2b3b94] process > RUN_KRAKEN2 (101) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2)  [ 33%] 2 of 6
+
+executor >  lsf (101)
+[87/0fc709] process > RUN_KRAKEN2 (102) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2)  [ 33%] 2 of 6
+
+executor >  lsf (102)
+[be/1c5636] process > RUN_KRAKEN2 (103) [  4%] 6 of 136, cached: 6
+[fc/2ab09c] process > KRAKEN_TOOLS (2)  [ 33%] 2 of 6
+
+executor >  lsf (102)
+[be/1c5636] process > RUN_KRAKEN2 (103) [  4%] 6 of 136, cached: 6
+[d9/543061] process > KRAKEN_TOOLS (4)  [ 66%] 4 of 6
+
+executor >  lsf (102)
+[be/1c5636] process > RUN_KRAKEN2 (103) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 83%] 5 of 6
+
+executor >  lsf (103)
+[f6/d24aa0] process > RUN_KRAKEN2 (116) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 83%] 5 of 6
+
+executor >  lsf (104)
+[99/2faa2c] process > RUN_KRAKEN2 (115) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 83%] 5 of 6
+
+executor >  lsf (105)
+[66/92a516] process > RUN_KRAKEN2 (118) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 83%] 5 of 6
+
+executor >  lsf (105)
+[66/92a516] process > RUN_KRAKEN2 (118) [  4%] 6 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 83%] 5 of 6
+
+executor >  lsf (105)
+[fd/c58098] process > RUN_KRAKEN2 (2)  [  5%] 7 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5) [ 71%] 5 of 7
+
+executor >  lsf (106)
+[9e/7a4404] process > RUN_KRAKEN2 (117) [  5%] 7 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 71%] 5 of 7
+
+executor >  lsf (106)
+[47/51fd99] process > RUN_KRAKEN2 (67)  [  6%] 9 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 55%] 5 of 9
+
+executor >  lsf (107)
+[08/5687a4] process > RUN_KRAKEN2 (130) [  6%] 9 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 55%] 5 of 9
+
+executor >  lsf (108)
+[d8/d4d91a] process > RUN_KRAKEN2 (133) [  6%] 9 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 55%] 5 of 9
+
+executor >  lsf (108)
+[3c/b73d27] process > RUN_KRAKEN2 (91)  [  8%] 11 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 45%] 5 of 11
+
+executor >  lsf (109)
+[61/1d684d] process > RUN_KRAKEN2 (123) [  8%] 11 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 45%] 5 of 11
+
+executor >  lsf (110)
+[7f/2db422] process > RUN_KRAKEN2 (124) [  8%] 11 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 45%] 5 of 11
+
+executor >  lsf (110)
+[b8/17aaa2] process > RUN_KRAKEN2 (72)  [  9%] 13 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 38%] 5 of 13
+
+executor >  lsf (111)
+[a1/5448c0] process > RUN_KRAKEN2 (105) [  9%] 13 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 38%] 5 of 13
+
+executor >  lsf (112)
+[1e/23a994] process > RUN_KRAKEN2 (104) [  9%] 13 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 38%] 5 of 13
+
+executor >  lsf (112)
+[be/1c5636] process > RUN_KRAKEN2 (103) [ 10%] 14 of 136, cached: 6
+[af/dcdb06] process > KRAKEN_TOOLS (5)  [ 35%] 5 of 14
+
+executor >  lsf (113)
+[be/1c5636] process > RUN_KRAKEN2 (103) [ 10%] 14 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 35%] 5 of 14
+
+executor >  lsf (113)
+[25/2b3b94] process > RUN_KRAKEN2 (101) [ 11%] 15 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 33%] 5 of 15
+
+executor >  lsf (114)
+[a1/efdef6] process > RUN_KRAKEN2 (129) [ 11%] 15 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 33%] 5 of 15
+
+executor >  lsf (114)
+[a2/89873d] process > RUN_KRAKEN2 (78) [ 13%] 18 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8) [ 27%] 5 of 18
+
+executor >  lsf (115)
+[fb/efa085] process > RUN_KRAKEN2 (121) [ 13%] 18 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 27%] 5 of 18
+
+executor >  lsf (116)
+[19/89ded8] process > RUN_KRAKEN2 (120) [ 13%] 18 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 27%] 5 of 18
+
+executor >  lsf (117)
+[33/6efb3d] process > RUN_KRAKEN2 (122) [ 13%] 18 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 27%] 5 of 18
+
+executor >  lsf (117)
+[f4/b79534] process > RUN_KRAKEN2 (88)  [ 16%] 22 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 22%] 5 of 22
+
+executor >  lsf (118)
+[a6/c87c24] process > RUN_KRAKEN2 (106) [ 16%] 22 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 22%] 5 of 22
+
+executor >  lsf (119)
+[e0/e7f62d] process > RUN_KRAKEN2 (108) [ 16%] 22 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 22%] 5 of 22
+
+executor >  lsf (120)
+[50/27f4e2] process > RUN_KRAKEN2 (110) [ 16%] 22 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 22%] 5 of 22
+
+executor >  lsf (121)
+[49/6603ea] process > RUN_KRAKEN2 (109) [ 16%] 22 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 22%] 5 of 22
+
+executor >  lsf (121)
+[a7/af0bbb] process > RUN_KRAKEN2 (96)  [ 16%] 23 of 136, cached: 6
+[1a/9dc31b] process > KRAKEN_TOOLS (8)  [ 21%] 5 of 23
+
+executor >  lsf (122)
+[a7/af0bbb] process > RUN_KRAKEN2 (96)  [ 16%] 23 of 136, cached: 6
+[f9/246288] process > KRAKEN_TOOLS (15) [ 21%] 5 of 23
+
+executor >  lsf (122)
+[95/167aa2] process > RUN_KRAKEN2 (40)  [ 18%] 25 of 136, cached: 6
+[f9/246288] process > KRAKEN_TOOLS (15) [ 20%] 5 of 25
+
+executor >  lsf (122)
+[26/24d705] process > RUN_KRAKEN2 (84)  [ 19%] 26 of 136, cached: 6
+[f9/246288] process > KRAKEN_TOOLS (15) [ 19%] 5 of 26
+
+executor >  lsf (123)
+[26/24d705] process > RUN_KRAKEN2 (84)  [ 19%] 26 of 136, cached: 6
+[d5/0a3824] process > KRAKEN_TOOLS (7)  [ 19%] 5 of 26
+
+executor >  lsf (124)
+[26/24d705] process > RUN_KRAKEN2 (84)  [ 19%] 26 of 136, cached: 6
+[2d/d244f1] process > KRAKEN_TOOLS (9)  [ 19%] 5 of 26
+
+executor >  lsf (125)
+[26/24d705] process > RUN_KRAKEN2 (84)  [ 19%] 26 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 19%] 5 of 26
+
+executor >  lsf (125)
+[d6/b01ec9] process > RUN_KRAKEN2 (32)  [ 21%] 29 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 17%] 5 of 29
+
+executor >  lsf (125)
+[51/599762] process > RUN_KRAKEN2 (63)  [ 22%] 31 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 16%] 5 of 31
+
+executor >  lsf (126)
+[e2/a9a77d] process > RUN_KRAKEN2 (125) [ 22%] 31 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 16%] 5 of 31
+
+executor >  lsf (127)
+[32/aed1fc] process > RUN_KRAKEN2 (127) [ 22%] 31 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 16%] 5 of 31
+
+executor >  lsf (128)
+[d1/33fbaf] process > RUN_KRAKEN2 (126) [ 22%] 31 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 16%] 5 of 31
+
+executor >  lsf (129)
+[66/2dc0fb] process > RUN_KRAKEN2 (128) [ 22%] 31 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 16%] 5 of 31
+
+executor >  lsf (130)
+[0c/7d93f3] process > RUN_KRAKEN2 (131) [ 22%] 31 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 16%] 5 of 31
+
+executor >  lsf (130)
+[66/92a516] process > RUN_KRAKEN2 (118) [ 25%] 34 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 14%] 5 of 34
+
+executor >  lsf (131)
+[66/92a516] process > RUN_KRAKEN2 (118) [ 25%] 34 of 136, cached: 6
+[27/9afba9] process > KRAKEN_TOOLS (28) [ 17%] 6 of 34
+
+executor >  lsf (132)
+[66/92a516] process > RUN_KRAKEN2 (118) [ 25%] 34 of 136, cached: 6
+[5c/eeb78a] process > KRAKEN_TOOLS (29) [ 17%] 6 of 34
+
+executor >  lsf (133)
+[66/92a516] process > RUN_KRAKEN2 (118) [ 25%] 34 of 136, cached: 6
+[8f/993865] process > KRAKEN_TOOLS (30) [ 17%] 6 of 34
+
+executor >  lsf (134)
+[66/92a516] process > RUN_KRAKEN2 (118) [ 25%] 34 of 136, cached: 6
+[3f/6f7f51] process > KRAKEN_TOOLS (31) [ 17%] 6 of 34
+
+executor >  lsf (134)
+[ac/288d9b] process > RUN_KRAKEN2 (16)  [ 25%] 35 of 136, cached: 6
+[3f/6f7f51] process > KRAKEN_TOOLS (31) [ 17%] 6 of 35
+
+executor >  lsf (134)
+[32/b71e52] process > RUN_KRAKEN2 (30)  [ 26%] 36 of 136, cached: 6
+[3f/6f7f51] process > KRAKEN_TOOLS (31) [ 16%] 6 of 36
+
+executor >  lsf (135)
+[32/b71e52] process > RUN_KRAKEN2 (30)  [ 26%] 36 of 136, cached: 6
+[9a/a3bfbc] process > KRAKEN_TOOLS (19) [ 16%] 6 of 36
+
+executor >  lsf (136)
+[32/b71e52] process > RUN_KRAKEN2 (30)  [ 26%] 36 of 136, cached: 6
+[5c/b94bfc] process > KRAKEN_TOOLS (20) [ 16%] 6 of 36
+
+executor >  lsf (136)
+[4e/98e115] process > RUN_KRAKEN2 (69)  [ 28%] 39 of 136, cached: 6
+[5c/b94bfc] process > KRAKEN_TOOLS (20) [ 15%] 6 of 39
+
+executor >  lsf (137)
+[4e/98e115] process > RUN_KRAKEN2 (69)  [ 28%] 39 of 136, cached: 6
+[23/0494de] process > KRAKEN_TOOLS (11) [ 15%] 6 of 39
+
+executor >  lsf (138)
+[4e/98e115] process > RUN_KRAKEN2 (69)  [ 28%] 39 of 136, cached: 6
+[a7/2c2a24] process > KRAKEN_TOOLS (12) [ 15%] 6 of 39
+
+executor >  lsf (139)
+[4e/98e115] process > RUN_KRAKEN2 (69)  [ 28%] 39 of 136, cached: 6
+[65/eaf019] process > KRAKEN_TOOLS (13) [ 15%] 6 of 39
+
+executor >  lsf (139)
+[99/2faa2c] process > RUN_KRAKEN2 (115) [ 30%] 42 of 136, cached: 6
+[5c/eeb78a] process > KRAKEN_TOOLS (29) [ 19%] 8 of 42
+
+executor >  lsf (140)
+[ed/af9cf2] process > RUN_KRAKEN2 (112) [ 30%] 42 of 136, cached: 6
+[8f/993865] process > KRAKEN_TOOLS (30) [ 21%] 9 of 42
+
+executor >  lsf (141)
+[10/7d9c2f] process > RUN_KRAKEN2 (114) [ 30%] 42 of 136, cached: 6
+[8f/993865] process > KRAKEN_TOOLS (30) [ 21%] 9 of 42
+
+executor >  lsf (142)
+[8b/fbf574] process > RUN_KRAKEN2 (113) [ 30%] 42 of 136, cached: 6
+[8f/993865] process > KRAKEN_TOOLS (30) [ 21%] 9 of 42
+
+executor >  lsf (143)
+[aa/2a1711] process > RUN_KRAKEN2 (119) [ 30%] 42 of 136, cached: 6
+[8f/993865] process > KRAKEN_TOOLS (30) [ 21%] 9 of 42
+
+executor >  lsf (144)
+[e3/7ef037] process > RUN_KRAKEN2 (132) [ 30%] 42 of 136, cached: 6
+[8f/993865] process > KRAKEN_TOOLS (30) [ 21%] 9 of 42
+
+executor >  lsf (145)
+[a7/b25a86] process > RUN_KRAKEN2 (134) [ 30%] 42 of 136, cached: 6
+[8f/993865] process > KRAKEN_TOOLS (30) [ 21%] 9 of 42
+
+executor >  lsf (145)
+[87/0fc709] process > RUN_KRAKEN2 (102) [ 33%] 46 of 136, cached: 6
+[8f/993865] process > KRAKEN_TOOLS (30) [ 19%] 9 of 46
+
+executor >  lsf (146)
+[87/0fc709] process > RUN_KRAKEN2 (102) [ 33%] 46 of 136, cached: 6
+[42/8b47f3] process > KRAKEN_TOOLS (38) [ 19%] 9 of 46
+
+executor >  lsf (147)
+[87/0fc709] process > RUN_KRAKEN2 (102) [ 33%] 46 of 136, cached: 6
+[0a/7c55b4] process > KRAKEN_TOOLS (39) [ 19%] 9 of 46
+
+executor >  lsf (148)
+[87/0fc709] process > RUN_KRAKEN2 (102) [ 33%] 46 of 136, cached: 6
+[66/dd37aa] process > KRAKEN_TOOLS (40) [ 19%] 9 of 46
+
+executor >  lsf (149)
+[87/0fc709] process > RUN_KRAKEN2 (102) [ 33%] 46 of 136, cached: 6
+[b8/f45ee0] process > KRAKEN_TOOLS (41) [ 19%] 9 of 46
+
+executor >  lsf (149)
+[4a/066ead] process > RUN_KRAKEN2 (3)   [ 34%] 47 of 136, cached: 6
+[b8/f45ee0] process > KRAKEN_TOOLS (41) [ 19%] 9 of 46
+
+executor >  lsf (149)
+[39/59c612] process > RUN_KRAKEN2 (76)  [ 37%] 51 of 136, cached: 6
+[b8/f45ee0] process > KRAKEN_TOOLS (41) [ 17%] 9 of 51
+
+executor >  lsf (150)
+[39/59c612] process > RUN_KRAKEN2 (76)  [ 37%] 51 of 136, cached: 6
+[9c/751f2a] process > KRAKEN_TOOLS (32) [ 21%] 11 of 51
+
+executor >  lsf (151)
+[39/59c612] process > RUN_KRAKEN2 (76)  [ 37%] 51 of 136, cached: 6
+[29/8de5bd] process > KRAKEN_TOOLS (33) [ 21%] 11 of 51
+
+executor >  lsf (152)
+[39/59c612] process > RUN_KRAKEN2 (76)  [ 37%] 51 of 136, cached: 6
+[b8/7ab154] process > KRAKEN_TOOLS (34) [ 21%] 11 of 51
+
+executor >  lsf (153)
+[39/59c612] process > RUN_KRAKEN2 (76)  [ 37%] 51 of 136, cached: 6
+[d3/b9d345] process > KRAKEN_TOOLS (35) [ 21%] 11 of 51
+
+executor >  lsf (154)
+[39/59c612] process > RUN_KRAKEN2 (76)  [ 37%] 51 of 136, cached: 6
+[58/6c8803] process > KRAKEN_TOOLS (36) [ 21%] 11 of 51
+
+executor >  lsf (155)
+[39/59c612] process > RUN_KRAKEN2 (76)  [ 37%] 51 of 136, cached: 6
+[02/0bcd8d] process > KRAKEN_TOOLS (37) [ 21%] 11 of 51
+
+executor >  lsf (156)
+[39/59c612] process > RUN_KRAKEN2 (76)  [ 37%] 51 of 136, cached: 6
+[a5/7c3fc1] process > KRAKEN_TOOLS (42) [ 21%] 11 of 51
+
+executor >  lsf (156)
+[d9/60eb82] process > RUN_KRAKEN2 (45)  [ 38%] 52 of 136, cached: 6
+[a5/7c3fc1] process > KRAKEN_TOOLS (42) [ 21%] 11 of 52
+
+executor >  lsf (157)
+[d9/60eb82] process > RUN_KRAKEN2 (45)  [ 38%] 52 of 136, cached: 6
+[70/7ad5f2] process > KRAKEN_TOOLS (21) [ 21%] 11 of 52
+
+executor >  lsf (157)
+[73/a596c8] process > RUN_KRAKEN2 (61)  [ 40%] 55 of 136, cached: 6
+[70/7ad5f2] process > KRAKEN_TOOLS (21) [ 20%] 11 of 55
+
+executor >  lsf (158)
+[73/a596c8] process > RUN_KRAKEN2 (61)  [ 40%] 55 of 136, cached: 6
+[1b/a32dbe] process > KRAKEN_TOOLS (18) [ 20%] 11 of 55
+
+executor >  lsf (159)
+[73/a596c8] process > RUN_KRAKEN2 (61)  [ 40%] 55 of 136, cached: 6
+[21/be7de7] process > KRAKEN_TOOLS (22) [ 20%] 11 of 55
+
+executor >  lsf (160)
+[73/a596c8] process > RUN_KRAKEN2 (61)  [ 40%] 55 of 136, cached: 6
+[75/f9f9e5] process > KRAKEN_TOOLS (23) [ 20%] 11 of 55
+
+executor >  lsf (160)
+[50/bb38de] process > RUN_KRAKEN2 (89)  [ 41%] 57 of 136, cached: 6
+[75/f9f9e5] process > KRAKEN_TOOLS (23) [ 19%] 11 of 56
+
+executor >  lsf (160)
+[50/bb38de] process > RUN_KRAKEN2 (89)  [ 41%] 57 of 136, cached: 6
+[75/f9f9e5] process > KRAKEN_TOOLS (23) [ 19%] 11 of 57
+
+executor >  lsf (161)
+[50/bb38de] process > RUN_KRAKEN2 (89)  [ 41%] 57 of 136, cached: 6
+[3a/fbdc97] process > KRAKEN_TOOLS (14) [ 19%] 11 of 57
+
+executor >  lsf (162)
+[50/bb38de] process > RUN_KRAKEN2 (89)  [ 41%] 57 of 136, cached: 6
+[50/c7fff1] process > KRAKEN_TOOLS (16) [ 19%] 11 of 57
+
+executor >  lsf (162)
+[76/01e6d3] process > RUN_KRAKEN2 (64)  [ 44%] 61 of 136, cached: 6
+[50/c7fff1] process > KRAKEN_TOOLS (16) [ 18%] 11 of 61
+
+executor >  lsf (163)
+[fa/94de4f] process > RUN_KRAKEN2 (135) [ 44%] 61 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 24%] 15 of 61
+
+executor >  lsf (164)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 44%] 61 of 136, cached: 6
+[a2/981245] process > KRAKEN_TOOLS (10) [ 24%] 15 of 61
+
+executor >  lsf (165)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 44%] 61 of 136, cached: 6
+[c0/d7c919] process > KRAKEN_TOOLS (17) [ 24%] 15 of 61
+
+executor >  lsf (166)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 44%] 61 of 136, cached: 6
+[59/7d7425] process > KRAKEN_TOOLS (24) [ 24%] 15 of 61
+
+executor >  lsf (167)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 44%] 61 of 136, cached: 6
+[d5/6dd1b1] process > KRAKEN_TOOLS (25) [ 24%] 15 of 61
+
+executor >  lsf (168)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 44%] 61 of 136, cached: 6
+[ef/3e6599] process > KRAKEN_TOOLS (26) [ 24%] 15 of 61
+
+executor >  lsf (169)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 44%] 61 of 136, cached: 6
+[73/a36ab4] process > KRAKEN_TOOLS (27) [ 24%] 15 of 61
+
+executor >  lsf (170)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 44%] 61 of 136, cached: 6
+[cc/451e2d] process > KRAKEN_TOOLS (43) [ 24%] 15 of 61
+
+executor >  lsf (170)
+[7e/bca04f] process > RUN_KRAKEN2 (34)  [ 45%] 62 of 136, cached: 6
+[cc/451e2d] process > KRAKEN_TOOLS (43) [ 24%] 15 of 62
+
+executor >  lsf (171)
+[7e/bca04f] process > RUN_KRAKEN2 (34)  [ 45%] 62 of 136, cached: 6
+[20/00a154] process > KRAKEN_TOOLS (61) [ 24%] 15 of 62
+
+executor >  lsf (171)
+[f4/8df84a] process > RUN_KRAKEN2 (71)  [ 46%] 63 of 136, cached: 6
+[20/00a154] process > KRAKEN_TOOLS (61) [ 23%] 15 of 63
+
+executor >  lsf (172)
+[f4/8df84a] process > RUN_KRAKEN2 (71)  [ 46%] 63 of 136, cached: 6
+[f6/b49a13] process > KRAKEN_TOOLS (6)  [ 23%] 15 of 63
+
+executor >  lsf (172)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[65/eaf019] process > KRAKEN_TOOLS (13) [ 27%] 18 of 65
+
+executor >  lsf (172)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[0a/7c55b4] process > KRAKEN_TOOLS (39) [ 30%] 20 of 65
+
+executor >  lsf (173)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[54/0aa08f] process > KRAKEN_TOOLS (48) [ 30%] 20 of 65
+
+executor >  lsf (174)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[e9/1f5c24] process > KRAKEN_TOOLS (49) [ 30%] 20 of 65
+
+executor >  lsf (175)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[9d/8a8cad] process > KRAKEN_TOOLS (50) [ 30%] 20 of 65
+
+executor >  lsf (176)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[0a/e1cd48] process > KRAKEN_TOOLS (51) [ 30%] 20 of 65
+
+executor >  lsf (177)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[6d/2fe812] process > KRAKEN_TOOLS (52) [ 30%] 20 of 65
+
+executor >  lsf (178)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[8c/93c86d] process > KRAKEN_TOOLS (53) [ 30%] 20 of 65
+
+executor >  lsf (179)
+[1c/4d7cdd] process > RUN_KRAKEN2 (100) [ 47%] 65 of 136, cached: 6
+[be/c91006] process > KRAKEN_TOOLS (54) [ 30%] 20 of 65
+
+executor >  lsf (179)
+[62/f7f270] process > RUN_KRAKEN2 (77)  [ 48%] 66 of 136, cached: 6
+[be/c91006] process > KRAKEN_TOOLS (54) [ 30%] 20 of 66
+
+executor >  lsf (180)
+[62/f7f270] process > RUN_KRAKEN2 (77)  [ 48%] 66 of 136, cached: 6
+[76/bb280b] process > KRAKEN_TOOLS (57) [ 30%] 20 of 66
+
+executor >  lsf (180)
+[f6/d24aa0] process > RUN_KRAKEN2 (116) [ 50%] 68 of 136, cached: 6
+[ef/3e6599] process > KRAKEN_TOOLS (26) [ 30%] 21 of 68
+
+executor >  lsf (181)
+[4d/480864] process > RUN_KRAKEN2 (107) [ 50%] 68 of 136, cached: 6
+[ef/3e6599] process > KRAKEN_TOOLS (26) [ 30%] 21 of 68
+
+executor >  lsf (182)
+[5c/3404f3] process > RUN_KRAKEN2 (111) [ 50%] 68 of 136, cached: 6
+[ef/3e6599] process > KRAKEN_TOOLS (26) [ 30%] 21 of 68
+
+executor >  lsf (183)
+[5c/3404f3] process > RUN_KRAKEN2 (111) [ 50%] 68 of 136, cached: 6
+[ca/68d1ca] process > KRAKEN_TOOLS (44) [ 30%] 21 of 68
+
+executor >  lsf (183)
+[9e/6336f2] process > RUN_KRAKEN2 (50)  [ 51%] 70 of 136, cached: 6
+[ca/68d1ca] process > KRAKEN_TOOLS (44) [ 30%] 21 of 70
+
+executor >  lsf (183)
+[9e/6336f2] process > RUN_KRAKEN2 (50)  [ 51%] 70 of 136, cached: 6
+[3a/fbdc97] process > KRAKEN_TOOLS (14) [ 31%] 22 of 70
+
+executor >  lsf (184)
+[9e/6336f2] process > RUN_KRAKEN2 (50)  [ 51%] 70 of 136, cached: 6
+[7c/5f4c6e] process > KRAKEN_TOOLS (60) [ 31%] 22 of 70
+
+executor >  lsf (185)
+[9e/6336f2] process > RUN_KRAKEN2 (50)  [ 51%] 70 of 136, cached: 6
+[9f/79155c] process > KRAKEN_TOOLS (62) [ 31%] 22 of 70
+
+executor >  lsf (186)
+[9e/6336f2] process > RUN_KRAKEN2 (50)  [ 51%] 70 of 136, cached: 6
+[33/04c10e] process > KRAKEN_TOOLS (63) [ 31%] 22 of 70
+
+executor >  lsf (186)
+[e0/05b5a8] process > RUN_KRAKEN2 (28)  [ 52%] 71 of 136, cached: 6
+[33/04c10e] process > KRAKEN_TOOLS (63) [ 30%] 22 of 71
+
+executor >  lsf (187)
+[8e/5e47a2] process > RUN_KRAKEN2 (79)  [ 53%] 73 of 136, cached: 6
+[3b/865480] process > KRAKEN_TOOLS (45) [ 30%] 22 of 73
+
+executor >  lsf (188)
+[8e/5e47a2] process > RUN_KRAKEN2 (79)  [ 53%] 73 of 136, cached: 6
+[40/9c2215] process > KRAKEN_TOOLS (46) [ 30%] 22 of 73
+
+executor >  lsf (189)
+[8e/5e47a2] process > RUN_KRAKEN2 (79)  [ 53%] 73 of 136, cached: 6
+[89/81a7ba] process > KRAKEN_TOOLS (47) [ 30%] 22 of 73
+
+executor >  lsf (189)
+[8e/5e47a2] process > RUN_KRAKEN2 (79)  [ 53%] 73 of 136, cached: 6
+[33/04c10e] process > KRAKEN_TOOLS (63) [ 34%] 25 of 73
+
+executor >  lsf (190)
+[8e/5e47a2] process > RUN_KRAKEN2 (79)  [ 53%] 73 of 136, cached: 6
+[70/ffe128] process > KRAKEN_TOOLS (69) [ 34%] 25 of 73
+
+executor >  lsf (191)
+[8e/5e47a2] process > RUN_KRAKEN2 (79)  [ 53%] 73 of 136, cached: 6
+[ee/ee0186] process > KRAKEN_TOOLS (70) [ 34%] 25 of 73
+
+executor >  lsf (192)
+[8e/5e47a2] process > RUN_KRAKEN2 (79)  [ 53%] 73 of 136, cached: 6
+[a4/f69e8f] process > KRAKEN_TOOLS (71) [ 34%] 25 of 73
+
+executor >  lsf (192)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[a4/f69e8f] process > KRAKEN_TOOLS (71) [ 32%] 25 of 76
+
+executor >  lsf (192)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[02/0bcd8d] process > KRAKEN_TOOLS (37) [ 40%] 31 of 76
+
+executor >  lsf (193)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[75/f9f9e5] process > KRAKEN_TOOLS (23) [ 47%] 36 of 76
+
+executor >  lsf (194)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[74/2c9dc6] process > KRAKEN_TOOLS (73) [ 47%] 36 of 76
+
+executor >  lsf (195)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[f7/565d10] process > KRAKEN_TOOLS (74) [ 47%] 36 of 76
+
+executor >  lsf (196)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[ea/1416b9] process > KRAKEN_TOOLS (75) [ 47%] 36 of 76
+
+executor >  lsf (197)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[63/871b95] process > KRAKEN_TOOLS (76) [ 47%] 36 of 76
+
+executor >  lsf (198)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[08/f84c62] process > KRAKEN_TOOLS (55) [ 47%] 36 of 76
+
+executor >  lsf (199)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[02/f4b161] process > KRAKEN_TOOLS (56) [ 47%] 36 of 76
+
+executor >  lsf (200)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[2a/57ea97] process > KRAKEN_TOOLS (58) [ 47%] 36 of 76
+
+executor >  lsf (201)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[65/150f3b] process > KRAKEN_TOOLS (59) [ 47%] 36 of 76
+
+executor >  lsf (202)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[eb/565f8b] process > KRAKEN_TOOLS (64) [ 47%] 36 of 76
+
+executor >  lsf (203)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[47/66b785] process > KRAKEN_TOOLS (65) [ 47%] 36 of 76
+
+executor >  lsf (204)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[34/fa58e5] process > KRAKEN_TOOLS (66) [ 47%] 36 of 76
+
+executor >  lsf (205)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[ab/b3cf0f] process > KRAKEN_TOOLS (67) [ 47%] 36 of 76
+
+executor >  lsf (206)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[72/50ce1d] process > KRAKEN_TOOLS (68) [ 47%] 36 of 76
+
+executor >  lsf (206)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[f6/b49a13] process > KRAKEN_TOOLS (6)  [ 48%] 37 of 76
+
+executor >  lsf (206)
+[34/e61ba9] process > RUN_KRAKEN2 (55)  [ 55%] 76 of 136, cached: 6
+[f6/b49a13] process > KRAKEN_TOOLS (6)  [ 48%] 37 of 76
+
+executor >  lsf (206)
+[f1/e1c90f] process > RUN_KRAKEN2 (23) [ 57%] 78 of 136, cached: 6
+[f6/b49a13] process > KRAKEN_TOOLS (6) [ 47%] 37 of 78
+
+executor >  lsf (207)
+[95/b778f2] process > RUN_KRAKEN2 (92)  [ 58%] 80 of 136, cached: 6
+[dd/57e36a] process > KRAKEN_TOOLS (77) [ 53%] 43 of 80
+
+executor >  lsf (207)
+[95/b778f2] process > RUN_KRAKEN2 (92)  [ 58%] 80 of 136, cached: 6
+[6d/2fe812] process > KRAKEN_TOOLS (52) [ 61%] 49 of 80
+
+executor >  lsf (208)
+[95/b778f2] process > RUN_KRAKEN2 (92)  [ 58%] 80 of 136, cached: 6
+[40/9c2215] process > KRAKEN_TOOLS (46) [ 68%] 55 of 80
+
+executor >  lsf (208)
+[95/b778f2] process > RUN_KRAKEN2 (92)  [ 58%] 80 of 136, cached: 6
+[89/81a7ba] process > KRAKEN_TOOLS (47) [ 70%] 56 of 80
+
+executor >  lsf (209)
+[95/b778f2] process > RUN_KRAKEN2 (92)  [ 58%] 80 of 136, cached: 6
+[4d/b20c19] process > KRAKEN_TOOLS (79) [ 70%] 56 of 80
+
+executor >  lsf (210)
+[95/b778f2] process > RUN_KRAKEN2 (92)  [ 58%] 80 of 136, cached: 6
+[9d/89b627] process > KRAKEN_TOOLS (80) [ 70%] 56 of 80
+
+executor >  lsf (210)
+[cc/9c0914] process > RUN_KRAKEN2 (5)   [ 59%] 81 of 136, cached: 6
+[9d/89b627] process > KRAKEN_TOOLS (80) [ 69%] 56 of 81
+
+executor >  lsf (210)
+[9c/42f4dc] process > RUN_KRAKEN2 (97)  [ 61%] 84 of 136, cached: 6
+[70/ffe128] process > KRAKEN_TOOLS (69) [ 67%] 57 of 84
+
+executor >  lsf (211)
+[9c/42f4dc] process > RUN_KRAKEN2 (97)  [ 61%] 84 of 136, cached: 6
+[2a/57ea97] process > KRAKEN_TOOLS (58) [ 76%] 64 of 84
+
+executor >  lsf (211)
+[9c/42f4dc] process > RUN_KRAKEN2 (97)  [ 61%] 84 of 136, cached: 6
+[ab/b3cf0f] process > KRAKEN_TOOLS (67) [ 82%] 69 of 84
+
+executor >  lsf (212)
+[9c/42f4dc] process > RUN_KRAKEN2 (97)  [ 61%] 84 of 136, cached: 6
+[80/dba717] process > KRAKEN_TOOLS (82) [ 83%] 70 of 84
+
+executor >  lsf (213)
+[9c/42f4dc] process > RUN_KRAKEN2 (97)  [ 61%] 84 of 136, cached: 6
+[c1/161c83] process > KRAKEN_TOOLS (83) [ 83%] 70 of 84
+
+executor >  lsf (214)
+[9c/42f4dc] process > RUN_KRAKEN2 (97)  [ 61%] 84 of 136, cached: 6
+[dd/3836b7] process > KRAKEN_TOOLS (84) [ 83%] 70 of 84
+
+executor >  lsf (214)
+[34/328f0e] process > RUN_KRAKEN2 (82)  [ 62%] 85 of 136, cached: 6
+[02/f4b161] process > KRAKEN_TOOLS (56) [ 84%] 72 of 85
+
+executor >  lsf (215)
+[34/328f0e] process > RUN_KRAKEN2 (82)  [ 62%] 85 of 136, cached: 6
+[4f/f22725] process > KRAKEN_TOOLS (85) [ 84%] 72 of 85
+
+executor >  lsf (215)
+[bb/206107] process > RUN_KRAKEN2 (47)  [ 63%] 86 of 136, cached: 6
+[a3/d12007] process > KRAKEN_TOOLS (78) [ 86%] 74 of 86
+
+executor >  lsf (215)
+[bb/206107] process > RUN_KRAKEN2 (47)  [ 63%] 86 of 136, cached: 6
+[dd/3836b7] process > KRAKEN_TOOLS (84) [ 93%] 80 of 86
+
+executor >  lsf (216)
+[bb/206107] process > RUN_KRAKEN2 (47)  [ 63%] 86 of 136, cached: 6
+[c4/23c054] process > KRAKEN_TOOLS (86) [ 93%] 80 of 86
+
+executor >  lsf (216)
+[d8/5d081c] process > RUN_KRAKEN2 (26)  [ 64%] 88 of 136, cached: 6
+[c4/23c054] process > KRAKEN_TOOLS (86) [ 90%] 80 of 88
+
+executor >  lsf (217)
+[d8/5d081c] process > RUN_KRAKEN2 (26)  [ 64%] 88 of 136, cached: 6
+[7f/0e0ba4] process > KRAKEN_TOOLS (87) [ 90%] 80 of 88
+
+executor >  lsf (218)
+[d8/5d081c] process > RUN_KRAKEN2 (26)  [ 64%] 88 of 136, cached: 6
+[fc/c8dc9f] process > KRAKEN_TOOLS (88) [ 90%] 80 of 88
+
+executor >  lsf (218)
+[4d/480864] process > RUN_KRAKEN2 (107) [ 66%] 91 of 136, cached: 6
+[fc/c8dc9f] process > KRAKEN_TOOLS (88) [ 87%] 80 of 91
+
+executor >  lsf (219)
+[4d/480864] process > RUN_KRAKEN2 (107) [ 66%] 91 of 136, cached: 6
+[32/a14698] process > KRAKEN_TOOLS (89) [ 87%] 80 of 91
+
+executor >  lsf (220)
+[4d/480864] process > RUN_KRAKEN2 (107) [ 66%] 91 of 136, cached: 6
+[c7/775b7b] process > KRAKEN_TOOLS (90) [ 87%] 80 of 91
+
+executor >  lsf (221)
+[4d/480864] process > RUN_KRAKEN2 (107) [ 66%] 91 of 136, cached: 6
+[fa/598cf0] process > KRAKEN_TOOLS (91) [ 87%] 80 of 91
+
+executor >  lsf (221)
+[4d/480864] process > RUN_KRAKEN2 (107) [ 66%] 91 of 136, cached: 6
+[4f/f22725] process > KRAKEN_TOOLS (85) [ 89%] 81 of 91
+
+executor >  lsf (221)
+[76/6a11e1] process > RUN_KRAKEN2 (56)  [ 67%] 92 of 136, cached: 6
+[4f/f22725] process > KRAKEN_TOOLS (85) [ 88%] 81 of 92
+
+executor >  lsf (222)
+[76/6a11e1] process > RUN_KRAKEN2 (56)  [ 67%] 92 of 136, cached: 6
+[7c/3cb12b] process > KRAKEN_TOOLS (92) [ 88%] 81 of 92
+
+executor >  lsf (222)
+[af/2ccd00] process > RUN_KRAKEN2 (83)  [ 68%] 93 of 136, cached: 6
+[c4/23c054] process > KRAKEN_TOOLS (86) [ 88%] 82 of 93
+
+executor >  lsf (223)
+[af/2ccd00] process > RUN_KRAKEN2 (83)  [ 68%] 93 of 136, cached: 6
+[ff/fa2561] process > KRAKEN_TOOLS (93) [ 88%] 82 of 93
+
+executor >  lsf (223)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 69%] 95 of 136, cached: 6
+[ff/fa2561] process > KRAKEN_TOOLS (93) [ 87%] 83 of 95
+
+executor >  lsf (224)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 69%] 95 of 136, cached: 6
+[4b/cfe7e6] process > KRAKEN_TOOLS (94) [ 87%] 83 of 95
+
+executor >  lsf (225)
+[1a/4afebc] process > RUN_KRAKEN2 (136) [ 69%] 95 of 136, cached: 6
+[02/43277b] process > KRAKEN_TOOLS (95) [ 87%] 83 of 95
+
+executor >  lsf (225)
+[8f/8392de] process > RUN_KRAKEN2 (80)  [ 71%] 97 of 136, cached: 6
+[02/43277b] process > KRAKEN_TOOLS (95) [ 85%] 83 of 97
+
+executor >  lsf (226)
+[8f/8392de] process > RUN_KRAKEN2 (80)  [ 71%] 97 of 136, cached: 6
+[a6/6c8698] process > KRAKEN_TOOLS (96) [ 85%] 83 of 97
+
+executor >  lsf (227)
+[8f/8392de] process > RUN_KRAKEN2 (80)  [ 71%] 97 of 136, cached: 6
+[f7/646332] process > KRAKEN_TOOLS (97) [ 85%] 83 of 97
+
+executor >  lsf (227)
+[c0/f1f810] process > RUN_KRAKEN2 (42)  [ 72%] 98 of 136, cached: 6
+[f7/646332] process > KRAKEN_TOOLS (97) [ 84%] 83 of 98
+
+executor >  lsf (228)
+[c0/f1f810] process > RUN_KRAKEN2 (42)  [ 72%] 98 of 136, cached: 6
+[5a/f9afde] process > KRAKEN_TOOLS (98) [ 84%] 83 of 98
+
+executor >  lsf (228)
+[dc/6762dd] process > RUN_KRAKEN2 (49)  [ 73%] 100 of 136, cached: 6
+[5a/f9afde] process > KRAKEN_TOOLS (98) [ 83%] 83 of 99
+
+executor >  lsf (228)
+[dc/6762dd] process > RUN_KRAKEN2 (49)  [ 73%] 100 of 136, cached: 6
+[fa/598cf0] process > KRAKEN_TOOLS (91) [ 88%] 88 of 100
+
+executor >  lsf (229)
+[dc/6762dd] process > RUN_KRAKEN2 (49)  [ 73%] 100 of 136, cached: 6
+[f7/646332] process > KRAKEN_TOOLS (97) [ 92%] 92 of 100
+
+executor >  lsf (230)
+[dc/6762dd] process > RUN_KRAKEN2 (49)   [ 73%] 100 of 136, cached: 6
+[7d/c74ea7] process > KRAKEN_TOOLS (100) [ 92%] 92 of 100
+
+executor >  lsf (230)
+[dc/6762dd] process > RUN_KRAKEN2 (49)   [ 73%] 100 of 136, cached: 6
+[3f/6f7f51] process > KRAKEN_TOOLS (31)  [ 93%] 93 of 100
+
+executor >  lsf (230)
+[12/6b4fe9] process > RUN_KRAKEN2 (99)   [ 74%] 101 of 136, cached: 6
+[3f/6f7f51] process > KRAKEN_TOOLS (31)  [ 92%] 93 of 101
+
+executor >  lsf (231)
+[12/6b4fe9] process > RUN_KRAKEN2 (99)   [ 74%] 101 of 136, cached: 6
+[34/7be8cf] process > KRAKEN_TOOLS (101) [ 93%] 94 of 101
+
+executor >  lsf (231)
+[a0/4fd3ef] process > RUN_KRAKEN2 (95)   [ 75%] 102 of 136, cached: 6
+[34/7be8cf] process > KRAKEN_TOOLS (101) [ 92%] 94 of 102
+
+executor >  lsf (232)
+[a0/4fd3ef] process > RUN_KRAKEN2 (95)   [ 75%] 102 of 136, cached: 6
+[1a/26de97] process > KRAKEN_TOOLS (102) [ 92%] 94 of 102
+
+executor >  lsf (232)
+[a0/4fd3ef] process > RUN_KRAKEN2 (95)   [ 75%] 102 of 136, cached: 6
+[7c/3cb12b] process > KRAKEN_TOOLS (92)  [ 93%] 95 of 102
+
+executor >  lsf (232)
+[5d/2c1b68] process > RUN_KRAKEN2 (7)   [ 75%] 103 of 136, cached: 6
+[7c/3cb12b] process > KRAKEN_TOOLS (92) [ 92%] 95 of 103
+
+executor >  lsf (233)
+[5d/2c1b68] process > RUN_KRAKEN2 (7)    [ 75%] 103 of 136, cached: 6
+[c4/093a10] process > KRAKEN_TOOLS (103) [ 92%] 95 of 103
+
+executor >  lsf (233)
+[5d/2c1b68] process > RUN_KRAKEN2 (7)    [ 75%] 103 of 136, cached: 6
+[c4/093a10] process > KRAKEN_TOOLS (103) [ 95%] 98 of 103
+
+executor >  lsf (233)
+[65/3a0db1] process > RUN_KRAKEN2 (54)   [ 76%] 104 of 136, cached: 6
+[c4/093a10] process > KRAKEN_TOOLS (103) [ 94%] 98 of 104
+
+executor >  lsf (234)
+[65/3a0db1] process > RUN_KRAKEN2 (54)   [ 76%] 104 of 136, cached: 6
+[27/7dad1e] process > KRAKEN_TOOLS (104) [ 94%] 98 of 104
+
+executor >  lsf (234)
+[65/3a0db1] process > RUN_KRAKEN2 (54)   [ 76%] 104 of 136, cached: 6
+[27/7dad1e] process > KRAKEN_TOOLS (104) [ 98%] 102 of 104
+
+executor >  lsf (234)
+[a1/5448c0] process > RUN_KRAKEN2 (105)  [ 77%] 105 of 136, cached: 6
+[34/7be8cf] process > KRAKEN_TOOLS (101) [ 98%] 103 of 105
+
+executor >  lsf (235)
+[a1/5448c0] process > RUN_KRAKEN2 (105)  [ 77%] 105 of 136, cached: 6
+[e1/012909] process > KRAKEN_TOOLS (105) [ 98%] 103 of 105
+
+executor >  lsf (235)
+[33/6efb3d] process > RUN_KRAKEN2 (122)  [ 78%] 107 of 136, cached: 6
+[e1/012909] process > KRAKEN_TOOLS (105) [ 96%] 103 of 107
+
+executor >  lsf (236)
+[33/6efb3d] process > RUN_KRAKEN2 (122)  [ 78%] 107 of 136, cached: 6
+[b9/56806b] process > KRAKEN_TOOLS (106) [ 96%] 103 of 107
+
+executor >  lsf (237)
+[33/6efb3d] process > RUN_KRAKEN2 (122)  [ 78%] 107 of 136, cached: 6
+[dd/b53ba5] process > KRAKEN_TOOLS (107) [ 96%] 103 of 107
+
+executor >  lsf (237)
+[66/2dc0fb] process > RUN_KRAKEN2 (128)  [ 80%] 109 of 136, cached: 6
+[dd/b53ba5] process > KRAKEN_TOOLS (107) [ 94%] 103 of 109
+
+executor >  lsf (238)
+[66/2dc0fb] process > RUN_KRAKEN2 (128)  [ 80%] 109 of 136, cached: 6
+[9b/b28bbd] process > KRAKEN_TOOLS (108) [ 94%] 103 of 109
+
+executor >  lsf (239)
+[66/2dc0fb] process > RUN_KRAKEN2 (128)  [ 80%] 109 of 136, cached: 6
+[ff/48a4f9] process > KRAKEN_TOOLS (109) [ 94%] 103 of 109
+
+executor >  lsf (239)
+[1e/23a994] process > RUN_KRAKEN2 (104)  [ 81%] 111 of 136, cached: 6
+[e1/012909] process > KRAKEN_TOOLS (105) [ 93%] 104 of 111
+
+executor >  lsf (240)
+[1e/23a994] process > RUN_KRAKEN2 (104)  [ 81%] 111 of 136, cached: 6
+[4d/9d37b7] process > KRAKEN_TOOLS (110) [ 93%] 104 of 111
+
+executor >  lsf (241)
+[1e/23a994] process > RUN_KRAKEN2 (104)  [ 81%] 111 of 136, cached: 6
+[a9/c75817] process > KRAKEN_TOOLS (111) [ 93%] 104 of 111
+
+executor >  lsf (241)
+[79/b1cd9b] process > RUN_KRAKEN2 (53)   [ 82%] 112 of 136, cached: 6
+[a9/c75817] process > KRAKEN_TOOLS (111) [ 92%] 104 of 112
+
+executor >  lsf (242)
+[79/b1cd9b] process > RUN_KRAKEN2 (53)   [ 82%] 112 of 136, cached: 6
+[31/53e453] process > KRAKEN_TOOLS (112) [ 92%] 104 of 112
+
+executor >  lsf (242)
+[0c/7d93f3] process > RUN_KRAKEN2 (131)  [ 83%] 113 of 136, cached: 6
+[31/53e453] process > KRAKEN_TOOLS (112) [ 92%] 104 of 113
+
+executor >  lsf (243)
+[0c/7d93f3] process > RUN_KRAKEN2 (131)  [ 83%] 113 of 136, cached: 6
+[69/dd494b] process > KRAKEN_TOOLS (113) [ 92%] 104 of 113
+
+executor >  lsf (243)
+[a1/efdef6] process > RUN_KRAKEN2 (129)  [ 83%] 114 of 136, cached: 6
+[69/dd494b] process > KRAKEN_TOOLS (113) [ 91%] 104 of 114
+
+executor >  lsf (243)
+[a1/efdef6] process > RUN_KRAKEN2 (129)  [ 83%] 114 of 136, cached: 6
+[dd/b53ba5] process > KRAKEN_TOOLS (107) [ 92%] 106 of 114
+
+executor >  lsf (244)
+[a1/efdef6] process > RUN_KRAKEN2 (129)  [ 83%] 114 of 136, cached: 6
+[d6/1fa7c4] process > KRAKEN_TOOLS (114) [ 92%] 106 of 114
+
+executor >  lsf (244)
+[ed/af9cf2] process > RUN_KRAKEN2 (112)  [ 84%] 115 of 136, cached: 6
+[d6/1fa7c4] process > KRAKEN_TOOLS (114) [ 92%] 106 of 115
+
+executor >  lsf (245)
+[ed/af9cf2] process > RUN_KRAKEN2 (112)  [ 84%] 115 of 136, cached: 6
+[40/c300df] process > KRAKEN_TOOLS (115) [ 92%] 106 of 115
+
+executor >  lsf (245)
+[ed/af9cf2] process > RUN_KRAKEN2 (112)  [ 84%] 115 of 136, cached: 6
+[ff/48a4f9] process > KRAKEN_TOOLS (109) [ 93%] 108 of 115
+
+executor >  lsf (245)
+[fb/efa085] process > RUN_KRAKEN2 (121)  [ 85%] 116 of 136, cached: 6
+[1a/26de97] process > KRAKEN_TOOLS (102) [ 93%] 109 of 116
+
+executor >  lsf (246)
+[fb/efa085] process > RUN_KRAKEN2 (121)  [ 85%] 116 of 136, cached: 6
+[48/a9858a] process > KRAKEN_TOOLS (116) [ 93%] 109 of 116
+
+executor >  lsf (246)
+[e0/e7f62d] process > RUN_KRAKEN2 (108)  [ 86%] 118 of 136, cached: 6
+[48/a9858a] process > KRAKEN_TOOLS (116) [ 92%] 109 of 118
+
+executor >  lsf (248)
+[e0/e7f62d] process > RUN_KRAKEN2 (108)  [ 86%] 118 of 136, cached: 6
+[55/049f4a] process > KRAKEN_TOOLS (118) [ 92%] 109 of 118
+
+executor >  lsf (248)
+[e0/e7f62d] process > RUN_KRAKEN2 (108)  [ 86%] 118 of 136, cached: 6
+[55/049f4a] process > KRAKEN_TOOLS (118) [ 94%] 112 of 118
+
+executor >  lsf (248)
+[10/7d9c2f] process > RUN_KRAKEN2 (114)  [ 87%] 119 of 136, cached: 6
+[55/049f4a] process > KRAKEN_TOOLS (118) [ 94%] 112 of 119
+
+executor >  lsf (249)
+[10/7d9c2f] process > RUN_KRAKEN2 (114)  [ 87%] 119 of 136, cached: 6
+[0f/a64f3b] process > KRAKEN_TOOLS (119) [ 94%] 112 of 119
+
+executor >  lsf (249)
+[10/7d9c2f] process > RUN_KRAKEN2 (114)  [ 87%] 119 of 136, cached: 6
+[0f/a64f3b] process > KRAKEN_TOOLS (119) [ 94%] 113 of 119
+
+executor >  lsf (249)
+[9e/7a4404] process > RUN_KRAKEN2 (117)  [ 88%] 120 of 136, cached: 6
+[40/c300df] process > KRAKEN_TOOLS (115) [ 95%] 115 of 120
+
+executor >  lsf (250)
+[9e/7a4404] process > RUN_KRAKEN2 (117)  [ 88%] 120 of 136, cached: 6
+[bb/6dafa9] process > KRAKEN_TOOLS (120) [ 95%] 115 of 120
+
+executor >  lsf (250)
+[9e/7a4404] process > RUN_KRAKEN2 (117)  [ 88%] 120 of 136, cached: 6
+[48/a9858a] process > KRAKEN_TOOLS (116) [ 96%] 116 of 120
+
+executor >  lsf (250)
+[9e/7a4404] process > RUN_KRAKEN2 (117)  [ 88%] 120 of 136, cached: 6
+[48/a9858a] process > KRAKEN_TOOLS (116) [ 96%] 116 of 120
+
+executor >  lsf (250)
+[49/6603ea] process > RUN_KRAKEN2 (109)  [ 88%] 121 of 136, cached: 6
+[48/a9858a] process > KRAKEN_TOOLS (116) [ 95%] 116 of 121
+
+executor >  lsf (251)
+[49/6603ea] process > RUN_KRAKEN2 (109)  [ 88%] 121 of 136, cached: 6
+[e5/3aefdd] process > KRAKEN_TOOLS (121) [ 95%] 116 of 121
+
+executor >  lsf (251)
+[5c/3404f3] process > RUN_KRAKEN2 (111)  [ 90%] 123 of 136, cached: 6
+[a9/c75817] process > KRAKEN_TOOLS (111) [ 95%] 118 of 123
+
+executor >  lsf (251)
+[5c/3404f3] process > RUN_KRAKEN2 (111)  [ 90%] 123 of 136, cached: 6
+[31/53e453] process > KRAKEN_TOOLS (112) [ 96%] 119 of 123
+
+executor >  lsf (252)
+[5c/3404f3] process > RUN_KRAKEN2 (111)  [ 90%] 123 of 136, cached: 6
+[40/65cf6c] process > KRAKEN_TOOLS (122) [ 96%] 119 of 123
+
+executor >  lsf (253)
+[5c/3404f3] process > RUN_KRAKEN2 (111)  [ 90%] 123 of 136, cached: 6
+[94/372d73] process > KRAKEN_TOOLS (123) [ 96%] 119 of 123
+
+executor >  lsf (253)
+[a6/c87c24] process > RUN_KRAKEN2 (106)  [ 91%] 124 of 136, cached: 6
+[94/372d73] process > KRAKEN_TOOLS (123) [ 95%] 119 of 124
+
+executor >  lsf (254)
+[a6/c87c24] process > RUN_KRAKEN2 (106)  [ 91%] 124 of 136, cached: 6
+[c8/f9d715] process > KRAKEN_TOOLS (124) [ 95%] 119 of 124
+
+executor >  lsf (254)
+[a6/c87c24] process > RUN_KRAKEN2 (106)  [ 91%] 124 of 136, cached: 6
+[bb/6dafa9] process > KRAKEN_TOOLS (120) [ 96%] 120 of 124
+
+executor >  lsf (254)
+[aa/2a1711] process > RUN_KRAKEN2 (119)  [ 91%] 125 of 136, cached: 6
+[bb/6dafa9] process > KRAKEN_TOOLS (120) [ 96%] 120 of 125
+
+executor >  lsf (255)
+[aa/2a1711] process > RUN_KRAKEN2 (119)  [ 91%] 125 of 136, cached: 6
+[e1/b41205] process > KRAKEN_TOOLS (125) [ 96%] 120 of 125
+
+executor >  lsf (255)
+[a7/b25a86] process > RUN_KRAKEN2 (134)  [ 92%] 126 of 136, cached: 6
+[e1/b41205] process > KRAKEN_TOOLS (125) [ 95%] 120 of 126
+
+executor >  lsf (256)
+[a7/b25a86] process > RUN_KRAKEN2 (134)  [ 92%] 126 of 136, cached: 6
+[b9/b001ca] process > KRAKEN_TOOLS (126) [ 95%] 120 of 126
+
+executor >  lsf (256)
+[a7/b25a86] process > RUN_KRAKEN2 (134)  [ 92%] 126 of 136, cached: 6
+[c8/f9d715] process > KRAKEN_TOOLS (124) [ 96%] 121 of 126
+
+executor >  lsf (256)
+[a7/b25a86] process > RUN_KRAKEN2 (134)  [ 92%] 126 of 136, cached: 6
+[c8/f9d715] process > KRAKEN_TOOLS (124) [ 96%] 121 of 126
+
+executor >  lsf (256)
+[a7/b25a86] process > RUN_KRAKEN2 (134)  [ 92%] 126 of 136, cached: 6
+[e5/3aefdd] process > KRAKEN_TOOLS (121) [ 96%] 122 of 126
+
+executor >  lsf (256)
+[7f/2db422] process > RUN_KRAKEN2 (124)  [ 93%] 127 of 136, cached: 6
+[e5/3aefdd] process > KRAKEN_TOOLS (121) [ 96%] 122 of 127
+
+executor >  lsf (257)
+[7f/2db422] process > RUN_KRAKEN2 (124)  [ 93%] 127 of 136, cached: 6
+[b9/55ae02] process > KRAKEN_TOOLS (127) [ 96%] 122 of 127
+
+executor >  lsf (257)
+[50/27f4e2] process > RUN_KRAKEN2 (110)  [ 94%] 128 of 136, cached: 6
+[b9/55ae02] process > KRAKEN_TOOLS (127) [ 95%] 122 of 128
+
+executor >  lsf (258)
+[50/27f4e2] process > RUN_KRAKEN2 (110)  [ 94%] 128 of 136, cached: 6
+[dd/31c09e] process > KRAKEN_TOOLS (128) [ 95%] 122 of 128
+
+executor >  lsf (258)
+[50/27f4e2] process > RUN_KRAKEN2 (110)  [ 94%] 128 of 136, cached: 6
+[dd/31c09e] process > KRAKEN_TOOLS (128) [ 96%] 124 of 128
+
+executor >  lsf (258)
+[50/27f4e2] process > RUN_KRAKEN2 (110)  [ 94%] 128 of 136, cached: 6
+[94/372d73] process > KRAKEN_TOOLS (123) [ 98%] 126 of 128
+
+executor >  lsf (258)
+[50/27f4e2] process > RUN_KRAKEN2 (110)  [ 94%] 128 of 136, cached: 6
+[b9/b001ca] process > KRAKEN_TOOLS (126) [100%] 128 of 128
+
+executor >  lsf (258)
+[08/5687a4] process > RUN_KRAKEN2 (130)  [ 94%] 129 of 136, cached: 6
+[b9/b001ca] process > KRAKEN_TOOLS (126) [ 99%] 128 of 129
+
+executor >  lsf (259)
+[08/5687a4] process > RUN_KRAKEN2 (130)  [ 94%] 129 of 136, cached: 6
+[1a/96229e] process > KRAKEN_TOOLS (129) [ 99%] 128 of 129
+
+executor >  lsf (259)
+[d8/d4d91a] process > RUN_KRAKEN2 (133)  [ 95%] 130 of 136, cached: 6
+[1a/96229e] process > KRAKEN_TOOLS (129) [ 98%] 128 of 130
+
+executor >  lsf (260)
+[d8/d4d91a] process > RUN_KRAKEN2 (133)  [ 95%] 130 of 136, cached: 6
+[19/fec6a9] process > KRAKEN_TOOLS (130) [ 98%] 128 of 130
+
+executor >  lsf (260)
+[d8/d4d91a] process > RUN_KRAKEN2 (133)  [ 95%] 130 of 136, cached: 6
+[19/fec6a9] process > KRAKEN_TOOLS (130) [ 98%] 128 of 130
+
+executor >  lsf (260)
+[d1/33fbaf] process > RUN_KRAKEN2 (126)  [ 96%] 131 of 136, cached: 6
+[19/fec6a9] process > KRAKEN_TOOLS (130) [ 97%] 128 of 131
+
+executor >  lsf (261)
+[d1/33fbaf] process > RUN_KRAKEN2 (126)  [ 96%] 131 of 136, cached: 6
+[9d/10c742] process > KRAKEN_TOOLS (131) [ 97%] 128 of 131
+
+executor >  lsf (261)
+[d1/33fbaf] process > RUN_KRAKEN2 (126)  [ 96%] 131 of 136, cached: 6
+[9d/10c742] process > KRAKEN_TOOLS (131) [ 97%] 128 of 131
+
+executor >  lsf (261)
+[fa/94de4f] process > RUN_KRAKEN2 (135)  [ 97%] 132 of 136, cached: 6
+[9d/10c742] process > KRAKEN_TOOLS (131) [ 97%] 129 of 132
+
+executor >  lsf (262)
+[fa/94de4f] process > RUN_KRAKEN2 (135)  [ 97%] 132 of 136, cached: 6
+[2f/30ba50] process > KRAKEN_TOOLS (132) [ 97%] 129 of 132
+
+executor >  lsf (262)
+[fa/94de4f] process > RUN_KRAKEN2 (135)  [ 97%] 132 of 136, cached: 6
+[2f/30ba50] process > KRAKEN_TOOLS (132) [ 97%] 129 of 132
+
+executor >  lsf (262)
+[61/1d684d] process > RUN_KRAKEN2 (123)  [ 97%] 133 of 136, cached: 6
+[19/fec6a9] process > KRAKEN_TOOLS (130) [ 98%] 131 of 133
+
+executor >  lsf (263)
+[61/1d684d] process > RUN_KRAKEN2 (123)  [ 97%] 133 of 136, cached: 6
+[e8/fc995c] process > KRAKEN_TOOLS (133) [ 98%] 131 of 133
+
+executor >  lsf (263)
+[e2/a9a77d] process > RUN_KRAKEN2 (125)  [ 98%] 134 of 136, cached: 6
+[e8/fc995c] process > KRAKEN_TOOLS (133) [ 97%] 131 of 134
+
+executor >  lsf (264)
+[e2/a9a77d] process > RUN_KRAKEN2 (125)  [ 98%] 134 of 136, cached: 6
+[72/33bf77] process > KRAKEN_TOOLS (134) [ 97%] 131 of 134
+
+executor >  lsf (264)
+[e2/a9a77d] process > RUN_KRAKEN2 (125)  [ 98%] 134 of 136, cached: 6
+[72/33bf77] process > KRAKEN_TOOLS (134) [ 97%] 131 of 134
+
+executor >  lsf (264)
+[32/aed1fc] process > RUN_KRAKEN2 (127)  [ 99%] 135 of 136, cached: 6
+[2f/30ba50] process > KRAKEN_TOOLS (132) [ 97%] 132 of 135
+
+executor >  lsf (265)
+[32/aed1fc] process > RUN_KRAKEN2 (127)  [ 99%] 135 of 136, cached: 6
+[01/6c1b20] process > KRAKEN_TOOLS (135) [ 97%] 132 of 135
+
+executor >  lsf (265)
+[32/aed1fc] process > RUN_KRAKEN2 (127)  [ 99%] 135 of 136, cached: 6
+[01/6c1b20] process > KRAKEN_TOOLS (135) [ 97%] 132 of 135
+
+executor >  lsf (265)
+[8b/fbf574] process > RUN_KRAKEN2 (113)  [100%] 136 of 136, cached: 6 ✔
+[01/6c1b20] process > KRAKEN_TOOLS (135) [ 97%] 132 of 136
+
+executor >  lsf (266)
+[8b/fbf574] process > RUN_KRAKEN2 (113)  [100%] 136 of 136, cached: 6 ✔
+[33/001ec5] process > KRAKEN_TOOLS (136) [ 97%] 132 of 136
+
+executor >  lsf (266)
+[8b/fbf574] process > RUN_KRAKEN2 (113)  [100%] 136 of 136, cached: 6 ✔
+[33/001ec5] process > KRAKEN_TOOLS (136) [ 97%] 132 of 136
+
+executor >  lsf (266)
+[8b/fbf574] process > RUN_KRAKEN2 (113)  [100%] 136 of 136, cached: 6 ✔
+[33/001ec5] process > KRAKEN_TOOLS (136) [ 97%] 133 of 136
+
+executor >  lsf (266)
+[8b/fbf574] process > RUN_KRAKEN2 (113)  [100%] 136 of 136, cached: 6 ✔
+[01/6c1b20] process > KRAKEN_TOOLS (135) [ 98%] 134 of 136
+
+executor >  lsf (266)
+[8b/fbf574] process > RUN_KRAKEN2 (113)  [100%] 136 of 136, cached: 6 ✔
+[72/33bf77] process > KRAKEN_TOOLS (134) [100%] 136 of 136 ✔
+Completed at: 17-Jul-2024 16:08:27
+Duration    : 19m 16s
+CPU hours   : 113.1 (2.4% cached)
+Succeeded   : 266
+Cached      : 6
+
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@node-13-24>
+Subject: Job 805768: <#!/bin/bash;#BSUB -q normal;#BSUB -G team113-grp;#BSUB -R "select[mem>8000] rusage[mem=8000] span[hosts=1]";#BSUB -M 8000;#BSUB -oo nf_out.o;#BSUB -eo nf_out.e; cd /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/KRAKEN/6982_Feline_lymphoma;module load nextflow;nextflow run ../kraken2/main.nf \;-resume \;-params-file params.json \;-c nextflow.config \;-profile farm22> in cluster <farm22> Done
+
+Job <#!/bin/bash;#BSUB -q normal;#BSUB -G team113-grp;#BSUB -R "select[mem>8000] rusage[mem=8000] span[hosts=1]";#BSUB -M 8000;#BSUB -oo nf_out.o;#BSUB -eo nf_out.e; cd /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/KRAKEN/6982_Feline_lymphoma;module load nextflow;nextflow run ../kraken2/main.nf \;-resume \;-params-file params.json \;-c nextflow.config \;-profile farm22> was submitted from host <farm22-head1> by user <jb63> in cluster <farm22> at Wed Jul 17 15:49:02 2024
+Job was executed on host(s) <node-13-24>, in queue <normal>, as user <jb63> in cluster <farm22> at Wed Jul 17 15:49:03 2024
+</nfs/users/nfs_j/jb63> was used as the home directory.
+</lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/KRAKEN/6982_Feline_lymphoma> was used as the working directory.
+Started at Wed Jul 17 15:49:03 2024
+Terminated at Wed Jul 17 16:08:37 2024
+Results reported at Wed Jul 17 16:08:37 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q normal
+#BSUB -G team113-grp
+#BSUB -R "select[mem>8000] rusage[mem=8000] span[hosts=1]"
+#BSUB -M 8000
+#BSUB -oo nf_out.o
+#BSUB -eo nf_out.e
+
+cd /lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/KRAKEN/6982_Feline_lymphoma
+module load nextflow
+nextflow run ../kraken2/main.nf \
+-resume \
+-params-file params.json \
+-c nextflow.config \
+-profile farm22
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   74.35 sec.
+    Max Memory :                                 677 MB
+    Average Memory :                             581.80 MB
+    Total Requested Memory :                     8000.00 MB
+    Delta Memory :                               7323.00 MB
+    Max Swap :                                   -
+    Max Processes :                              14
+    Max Threads :                                43
+    Run time :                                   1168 sec.
+    Turnaround time :                            1175 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <nf_out.e> for stderr output of this job.
+

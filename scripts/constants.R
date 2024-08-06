@@ -114,7 +114,7 @@ NAME_RANK_SUBSPECIES_4 <- "subspecies_4"
 
 
 
-domain_barplot <- function(df){
+domain_barplot <- function(df, x_lab, colors){
     ggplot2::ggplot(
   df, ggplot2::aes(x = n_fragments_clade, y = sample_id, fill = Domain)
 ) +
