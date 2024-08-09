@@ -27,6 +27,19 @@ krakentools_files <- fs::dir_ls(
 )
 
 krakentools_files <- krakentools_files[!grepl(krakentools_files, pattern = "work")]
+cat_lists <- tibble(
+sample_id = basename(krakentools_files),
+cohort = str_match(dirname(krakentools_files), pattern = ".*analysis/(.*)/results")[,2]) |>
+mutate(sample_id = str_remove(sample_id, pattern = ".kraken.mpa")) 
+
+cohort_lists <- cat_lists |>
+group_by(cohort) |>
+group_split() |>
+set_names(unique(cat_lists$cohort)) 
+
+imap(cohort_lists, ~write_tsv(.x, glue("{project_dir}/{.y}/sample_list.tsv")))
+
+
 
 safe_read_tsv <- function(file, ...) {
   if (file_info(file)$size > 0) {
