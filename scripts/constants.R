@@ -179,3 +179,13 @@ plot_minimisers <- function(stats_filtered) {
     ggplot2::ylab("Taxon")
   return(plot)
 }
+
+
+safe_read_tsv <- function(file, ...) {
+  if (file_info(file)$size > 0) {
+    return(read_tsv(file, ...))
+  } else {
+    message(paste("Skipping empty file:", file))
+    return(NULL)
+  }
+}

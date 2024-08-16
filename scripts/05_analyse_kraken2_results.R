@@ -1,3 +1,7 @@
+################################################################################
+# Setup
+################################################################################
+
 library(tidyr)
 library(dplyr)
 library(readr)
@@ -8,6 +12,12 @@ library(purrr)
 
 source("constants.R")
 
+
+################################################################################
+# Declare inputs
+################################################################################
+
+
 taxonomy <- c(
   "Domain", "Kingdom", "Phylum", "Class",
   "Order", "Family", "Genus", "Species"
@@ -16,7 +26,7 @@ taxonomy <- c(
 project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis"
 ref_db_file <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023/inspect.txt"
 
-# dir.create(glue("{project_dir}/results/sparki"))
+
 
 # Use a filesystem helper to gather all files
 krakentools_files <- fs::dir_ls(
@@ -25,36 +35,41 @@ krakentools_files <- fs::dir_ls(
   glob = "*.mpa$",
   recurse = TRUE
 )
-
 krakentools_files <- krakentools_files[!grepl(krakentools_files, pattern = "work")]
-cat_lists <- tibble(
-sample_id = basename(krakentools_files),
-cohort = str_match(dirname(krakentools_files), pattern = ".*analysis/(.*)/results")[,2]) |>
-mutate(sample_id = str_remove(sample_id, pattern = ".kraken.mpa")) 
-
-cohort_lists <- cat_lists |>
-group_by(cohort) |>
-group_split() |>
-set_names(unique(cat_lists$cohort)) 
-
-imap(cohort_lists, ~write_tsv(.x, glue("{project_dir}/{.y}/sample_list.tsv")))
 
 
+kraken_files <- fs::dir_ls(project_dir,
+  recurse = TRUE,
+  glob = "*0.1.kraken"
+)
 
-safe_read_tsv <- function(file, ...) {
-  if (file_info(file)$size > 0) {
-    return(read_tsv(file, ...))
-  } else {
-    message(paste("Skipping empty file:", file))
-    return(NULL)
-  }
-}
+kraken_files <- kraken_files[!grepl(kraken_files, pattern = "work")]
 
-krakentools_df <- purrr::map_dfr(krakentools_files, ~ safe_read_tsv(.x, col_names = c("id", "reads"), id = "file_id")) |>
-  separate(id, into = taxonomy, sep = "\\|") |> # Split rows by "|" into primrary taxa
-  mutate(across(taxonomy, ~ str_remove(.x, pattern = "[a-z]__"))) |> # Cleanup the names in the taxonomy columns
-  mutate(sample_id = str_remove(basename(file_id), ".kraken.mpa"), .after = file_id) |> # Simplify sample ids
-  mutate(cohort = str_match(file_id, pattern = ".*/analysis/(.*)/results/krakentools/.*")[, 2], .after = sample_id) |> # Simplify sample ids
+
+################################################################################
+# Read in and merge
+################################################################################
+
+
+krakentools_df <- purrr::map_dfr(
+  krakentools_files,
+  ~ safe_read_tsv(.x,
+    col_names = c("id", "reads"),
+    id = "file_id"
+  )
+) |>
+  separate(id, into = taxonomy, sep = "\\|") |> # Split rows by "|" into primary taxa
+  mutate(across(
+    taxonomy,
+    ~ str_remove(.x, pattern = "[a-z]__")
+  )) |> # Cleanup the names in the taxonomy columns
+  mutate(
+    sample_id = str_remove(basename(file_id), ".kraken.mpa"),
+    .after = file_id
+  ) |> # Simplify sample ids
+  mutate(cohort = str_match(file_id,
+    pattern = ".*/analysis/(.*)/results/krakentools/.*"
+  )[, 2], .after = sample_id) |> # Simplify sample ids
   mutate(
     taxon_leaf =
       coalesce(Species, Genus, Family, Order, Class, Phylum, Kingdom, Domain),
@@ -65,12 +80,7 @@ krakentools_df <- purrr::map_dfr(krakentools_files, ~ safe_read_tsv(.x, col_name
       str_replace_all(taxon_leaf, pattern = "_", replacement = " ")
   )
 
-kraken_files <- fs::dir_ls(project_dir,
-  recurse = TRUE,
-  glob = "*0.1.kraken"
-)
 
-kraken_files <- kraken_files[!grepl(kraken_files, pattern = "work")]
 
 
 kraken2_df <- read_tsv(kraken_files,
@@ -112,6 +122,7 @@ combined_df <- left_join(kraken2_df, krakentools_df,
   left_join(ref_db, by = c("name" = "taxon", "rank" = "rank"))
 
 
+write_tsv(combined_df, "kraken2_all_sample_summary.tsv")
 
 
 cohort_analysis <- function(x, cohort, project_dir, ref_db) {
@@ -124,7 +135,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     )
 
   read_totals <- class_unclass_df |>
-    dplyr::filter(rank == "R") |>
+    # dplyr::filter(rank == "R") |>
     dplyr::group_by(sample) |>
     dplyr::summarise(total_read = sum(n_reads))
 
@@ -170,8 +181,6 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     ggplot2::theme_bw() +
     ggplot2::theme(
       # x-axis
-      # axis.text.x = ggplot2::element_blank(),
-      # axis.title.x = ggplot2::element_blank(),
       axis.ticks.x = ggplot2::element_blank(),
       strip.text.x = ggplot2::element_text(size = 15),
       # y-axis
@@ -199,7 +208,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   domain_barplot(by_domain |> dplyr::filter(Domain != "Eukaryota"), x_lab = x_lab, colours)
   dev.off()
 
-  filtered_df <- x |> dplyr::filter(rank %in% c("S", "G", "F"))
+  filtered_df <- x |> dplyr::filter(rank %in% c("S"))
 
   ratio_df <- filtered_df |>
     dplyr::mutate(
@@ -208,16 +217,16 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     )
 
   total_minimisers <- ref_db |>
-    dplyr::filter(rank %in% c("F")) |>
+    dplyr::filter(rank %in% c("S")) |>
     dplyr::summarise(single_counts = sum(n_minimisers_clade)) |>
     dplyr::pull(single_counts)
 
   stats_df <- ratio_df |>
-    dplyr::mutate(proportion = ratio_clade / total_minimisers) |>
+    dplyr::mutate(proportion = n_minimisers_clade / total_minimisers) |>
     dplyr::left_join(read_totals, by = c("sample_id" = "sample")) |>
     dplyr::mutate(
       expected_clade = proportion * total_read,
-      std_clade = sqrt(proportion * total_read * (1 - total_read * proportion))
+      std_clade = sqrt((proportion * total_read) * (1 - proportion))
     ) |>
     dplyr::mutate(pvalue = stats::pnorm(
       q = n_distinct_minimisers,
@@ -232,7 +241,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
 
   q_domain <- "Bacteria"
   bacteria <- stats_df |>
-    dplyr::filter(rank == "G") |>
+    dplyr::filter(rank == "S") |>
     dplyr::filter(Domain == q_domain) |>
     dplyr::group_by(name) |>
     dplyr::filter(n() > 3) |>
@@ -241,7 +250,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     tidyr::complete(sample_id, name,
       fill = list(
         significance = "Non-significant",
-        rank = "G",
+        rank = "S",
         Domain = q_domain
       )
     ) |>
@@ -265,9 +274,11 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
       significance, n_fragments_clade
     )
 
+  write_tsv(stats_df, glue("{project_dir}/{cohort}/results/sparki/significance_table.tsv"))
   bacterial_plot <- plot_minimisers(bacteria)
+  if (nrow(viruses) >1){
   viral_plot <- plot_minimisers(viruses)
-
+  }
   png(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.png"),
     width = 1500, height = 2600
   )
@@ -287,4 +298,17 @@ cohort_dfs <- combined_df |> split(f = combined_df[["cohort"]])
 
 imap(cohort_dfs, ~ cohort_analysis(x = .x, cohort = .y, project_dir, ref_db))
 
-# imap(cohort_dfs, ~dir.create(glue("{project_dir}/{.y}/results/sparki")))
+
+
+cat_lists <- tibble(
+  sample_id = basename(krakentools_files),
+  cohort = str_match(dirname(krakentools_files), pattern = ".*analysis/(.*)/results")[, 2]
+) |>
+  mutate(sample_id = str_remove(sample_id, pattern = ".kraken.mpa"))
+
+cohort_lists <- cat_lists |>
+  group_by(cohort) |>
+  group_split() |>
+  set_names(unique(cat_lists$cohort))
+
+imap(cohort_lists, ~write_tsv(.x, glue("{project_dir}/{.y}/sample_list.tsv")))
