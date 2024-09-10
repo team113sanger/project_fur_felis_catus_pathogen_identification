@@ -253,7 +253,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     dplyr::group_by(name) |>
     dplyr::filter(n() > 3) |>
     dplyr::ungroup() |>
-    dplyr::filter(n_fragments_clade > 1) |>
+    dplyr::filter(n_fragments_clade > 5) |>
     tidyr::complete(sample_id, name,
       fill = list(
         significance = "Non-significant",
@@ -271,7 +271,8 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   viruses <- stats_df |>
     dplyr::filter(rank %in% c("S")) |>
     dplyr::filter(Domain == q_domain) |>
-    tidyr::complete(sample_id, name, fill = list(
+    dplyr::filter(n_fragments_clade > 5) |>
+     tidyr::complete(sample_id, name, fill = list(
       significance = "Non-significant",
       rank = "S",
       Domain = q_domain
@@ -283,20 +284,22 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
 
   write_tsv(stats_df, glue("{project_dir}/{cohort}/results/sparki/significance_table.tsv"))
   bacterial_plot <- plot_minimisers(bacteria)
-  if (nrow(viruses) >1){
-  viral_plot <- plot_minimisers(viruses)
-  }
+
   png(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.png"),
     width = 1500, height = 2600
   )
   print(bacterial_plot)
   dev.off()
 
+  if (nrow(viruses) >1){
+  viral_plot <- plot_minimisers(viruses)
   png(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.png"),
     width = 1500, height = 500
   )
   print(viral_plot) # Ensure the plot is printed
   dev.off()
+  }
+
 }
 
 
