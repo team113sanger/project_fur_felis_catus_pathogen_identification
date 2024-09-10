@@ -122,6 +122,21 @@ combined_df <- left_join(kraken2_df, krakentools_df,
   left_join(ref_db, by = c("name" = "taxon", "rank" = "rank"))
 
 
+exclude_files <- fs::dir_ls(
+  path = "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/fur_cnvkit/metadata/exclude_files",
+  type = "file",
+  glob = "*.txt$",
+  recurse = TRUE
+)
+
+excluded_samples <- read_tsv(exclude_files, col_names = c("sample_id"), id = "cohort") |> 
+mutate(cohort = str_remove(basename(cohort), pattern = ".samples_to_exclude.txt"))
+combined_df 
+
+qc_passed_samples <- combined_df |> anti_join(excluded_samples, by = c("sample_id", "cohort"))
+
+
+write_tsv(qc_passed_samples, "kraken2_passed_summary.tsv")
 write_tsv(combined_df, "kraken2_all_sample_summary.tsv")
 
 
@@ -135,11 +150,9 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     )
 
   read_totals <- class_unclass_df |>
-    # dplyr::filter(rank == "R") |>
     dplyr::group_by(sample) |>
     dplyr::summarise(total_read = sum(n_reads))
 
-  # Plot classification
   png(glue::glue("{project_dir}/{cohort}/results/sparki/classification.png"))
   classification_plot <- ggplot2::ggplot(
     class_unclass_df,
@@ -150,13 +163,10 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     ggplot2::geom_point(ggplot2::aes(color = type), alpha = 0.5) +
     ggplot2::theme_classic() +
     ggplot2::theme(
-      # x-axis
       axis.text.x = ggplot2::element_text(size = 12, vjust = 0.5),
       axis.title.x = ggplot2::element_text(size = 14),
-      # y-axis
       axis.text.y = ggplot2::element_text(size = 12),
       axis.title.y = ggplot2::element_text(size = 14, angle = 90),
-      # legend
       legend.position = "none"
     ) +
     ggplot2::xlab("\nRead classification") +
@@ -180,13 +190,10 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     ggplot2::geom_jitter(size = 0.5) +
     ggplot2::theme_bw() +
     ggplot2::theme(
-      # x-axis
       axis.ticks.x = ggplot2::element_blank(),
       strip.text.x = ggplot2::element_text(size = 15),
-      # y-axis
       axis.text.y = ggplot2::element_text(size = 15),
       axis.title.y = ggplot2::element_text(size = 16),
-      # legend
       legend.position = "none"
     ) +
     ggplot2::ylab(expression("log"[10] ~ "(# classified reads)")) +
@@ -282,7 +289,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   png(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.png"),
     width = 1500, height = 2600
   )
-  print(bacterial_plot) # Ensure the plot is printed
+  print(bacterial_plot)
   dev.off()
 
   png(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.png"),
@@ -294,9 +301,16 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
 
 
 
-cohort_dfs <- combined_df |> split(f = combined_df[["cohort"]])
+# cohort_dfs <- combined_df |> split(f = combined_df[["cohort"]])
 
-imap(cohort_dfs, ~ cohort_analysis(x = .x, cohort = .y, project_dir, ref_db))
+# imap(cohort_dfs, ~ cohort_analysis(x = .x, cohort = .y, project_dir, ref_db))
+
+
+passed_dfs <- qc_passed_samples |> split(f = qc_passed_samples[["cohort"]])
+
+imap(passed_dfs, ~ cohort_analysis(x = .x, cohort = .y, project_dir, ref_db))
+
+
 
 
 
