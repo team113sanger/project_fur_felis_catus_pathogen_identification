@@ -291,10 +291,19 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   )
   print(bacterial_plot)
   dev.off()
+  pdf(glue::glue("{project_dir}/cross-cohort/{cohort}_bacterial_minimisers.pdf"), 
+    width = 26, height = 26)
+  print(bacterial_plot) # Ensure the plot is printed
+  dev.off()
+  
 
   if (nrow(viruses) >1){
   viral_plot <- plot_minimisers(viruses)
   pdf(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.pdf"), 
+    width = 18, height = 7)
+  print(viral_plot) # Ensure the plot is printed
+  dev.off()
+  pdf(glue::glue("{project_dir}/cross-cohort/{cohort}_viral_minimisers.pdf"), 
     width = 18, height = 7)
   print(viral_plot) # Ensure the plot is printed
   dev.off()
