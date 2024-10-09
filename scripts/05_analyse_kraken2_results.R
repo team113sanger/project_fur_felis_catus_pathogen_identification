@@ -9,6 +9,7 @@ library(fs)
 library(stringr)
 library(glue)
 library(purrr)
+library(readxl)
 
 source("constants.R")
 
@@ -153,7 +154,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     dplyr::group_by(sample) |>
     dplyr::summarise(total_read = sum(n_reads))
 
-  png(glue::glue("{project_dir}/{cohort}/results/sparki/classification.png"))
+  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/classification.pdf"))
   classification_plot <- ggplot2::ggplot(
     class_unclass_df,
     ggplot2::aes(x = type, y = log10(n_reads))
@@ -181,7 +182,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     dplyr::filter(rank == "D") |>
     dplyr::select(c(n_fragments_clade, rank, Domain, sample_id))
 
-  png(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_reads.png"))
+  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_reads.pdf"))
   per_domain_reads_plot <- ggplot2::ggplot(
     by_domain,
     ggplot2::aes(x = Domain, y = log10(n_fragments_clade), fill = Domain)
@@ -201,14 +202,14 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   print(per_domain_reads_plot)
   dev.off()
 
-  png(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions.png"))
+  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions.pdf"))
   x_lab <- "\nProportion of classified reads\n(all domains)"
   filename <- "nReadsDomains_barplot_with_eukaryotes"
   colours <- c("royalblue", "snow4", "indianred2", "gold")
   domain_barplot(by_domain, x_lab = x_lab, colours)
   dev.off()
 
-  png(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions_no_euks.png"))
+  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions_no_euks.pdf"))
   x_lab <- "\nProportion of classified reads\n(non-eukaryotes only)"
   filename <- "nReadsDomains_barplot_without_eukaryotes"
   colours <- c("royalblue", "indianred2", "gold")
@@ -285,19 +286,21 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   write_tsv(stats_df, glue("{project_dir}/{cohort}/results/sparki/significance_table.tsv"))
   bacterial_plot <- plot_minimisers(bacteria)
 
-  png(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.png"),
-    width = 1500, height = 2600
+    pdf(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.pdf"),
+    width = 26, height = 26
   )
   print(bacterial_plot)
   dev.off()
 
   if (nrow(viruses) >1){
   viral_plot <- plot_minimisers(viruses)
-  png(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.png"),
-    width = 1500, height = 500
-  )
+  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.pdf"), 
+    width = 18, height = 7)
   print(viral_plot) # Ensure the plot is printed
   dev.off()
+  }
+  else {
+    print(viruses$sample_id)
   }
 
 }
