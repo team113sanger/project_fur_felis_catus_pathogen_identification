@@ -10,8 +10,9 @@ library(stringr)
 library(glue)
 library(purrr)
 library(readxl)
+library(here)
 
-source("constants.R")
+source("scripts/constants.R")
 
 
 ################################################################################
@@ -123,22 +124,24 @@ combined_df <- left_join(kraken2_df, krakentools_df,
   left_join(ref_db, by = c("name" = "taxon", "rank" = "rank"))
 
 
-exclude_files <- fs::dir_ls(
-  path = "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/fur_cnvkit/metadata/exclude_files",
+include_files <- fs::dir_ls(
+  path = "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/fur_cat_cohort_files",
   type = "file",
-  glob = "*.txt$",
+  glob = "*samples_to_keep.nucleotide_variants.txt$",
   recurse = TRUE
 )
+# Remove the whole sample set
+include_files <- include_files[1:13]
 
-excluded_samples <- read_tsv(exclude_files, col_names = c("sample_id"), id = "cohort") |> 
-mutate(cohort = str_remove(basename(cohort), pattern = ".samples_to_exclude.txt"))
+excluded_samples <- read_tsv(include_files, col_names = c("sample_id"), id = "cohort") |> 
+mutate(cohort = str_remove(basename(cohort), pattern = ".samples_to_keep.nucleotide_variants.txt"))
 combined_df 
 
-qc_passed_samples <- combined_df |> anti_join(excluded_samples, by = c("sample_id", "cohort"))
+qc_passed_samples <- combined_df |> semi_join(excluded_samples, by = c("sample_id", "cohort"))
 
 
-write_tsv(qc_passed_samples, "kraken2_passed_summary.tsv")
-write_tsv(combined_df, "kraken2_all_sample_summary.tsv")
+write_tsv(qc_passed_samples, "analysis/kraken2_passed_summary.tsv")
+write_tsv(combined_df, "analysis/kraken2_all_sample_summary.tsv")
 
 
 cohort_analysis <- function(x, cohort, project_dir, ref_db) {
