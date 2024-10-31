@@ -133,11 +133,12 @@ include_files <- fs::dir_ls(
 # Remove the whole sample set
 include_files <- include_files[1:13]
 
-excluded_samples <- read_tsv(include_files, col_names = c("sample_id"), id = "cohort") |> 
-mutate(cohort = str_remove(basename(cohort), pattern = ".samples_to_keep.nucleotide_variants.txt"))
-combined_df 
+included_samples <- read_tsv(include_files, col_names = c("sample_id"), id = "cohort") |>
+  mutate(cohort = str_remove(basename(cohort), pattern = ".samples_to_keep.nucleotide_variants.txt"))
+combined_df
 
-qc_passed_samples <- combined_df |> semi_join(excluded_samples, by = c("sample_id", "cohort"))
+qc_passed_samples <- combined_df |> 
+                    semi_join(included_samples, by = c("sample_id", "cohort"))
 
 
 write_tsv(qc_passed_samples, "analysis/kraken2_passed_summary.tsv")
@@ -276,7 +277,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     dplyr::filter(rank %in% c("S")) |>
     dplyr::filter(Domain == q_domain) |>
     dplyr::filter(n_fragments_clade > 5) |>
-     tidyr::complete(sample_id, name, fill = list(
+    tidyr::complete(sample_id, name, fill = list(
       significance = "Non-significant",
       rank = "S",
       Domain = q_domain
@@ -289,32 +290,33 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   write_tsv(stats_df, glue("{project_dir}/{cohort}/results/sparki/significance_table.tsv"))
   bacterial_plot <- plot_minimisers(bacteria)
 
-    pdf(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.pdf"),
+  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.pdf"),
     width = 26, height = 26
   )
   print(bacterial_plot)
   dev.off()
-  pdf(glue::glue("{project_dir}/cross-cohort/{cohort}_bacterial_minimisers.pdf"), 
-    width = 26, height = 26)
+  pdf(glue::glue("{project_dir}/cross-cohort/{cohort}_bacterial_minimisers.pdf"),
+    width = 26, height = 26
+  )
   print(bacterial_plot) # Ensure the plot is printed
   dev.off()
-  
 
-  if (nrow(viruses) >1){
-  viral_plot <- plot_minimisers(viruses)
-  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.pdf"), 
-    width = 18, height = 7)
-  print(viral_plot) # Ensure the plot is printed
-  dev.off()
-  pdf(glue::glue("{project_dir}/cross-cohort/{cohort}_viral_minimisers.pdf"), 
-    width = 18, height = 7)
-  print(viral_plot) # Ensure the plot is printed
-  dev.off()
-  }
-  else {
+
+  if (nrow(viruses) > 1) {
+    viral_plot <- plot_minimisers(viruses)
+    pdf(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.pdf"),
+      width = 18, height = 7
+    )
+    print(viral_plot) # Ensure the plot is printed
+    dev.off()
+    pdf(glue::glue("{project_dir}/cross-cohort/{cohort}_viral_minimisers.pdf"),
+      width = 18, height = 7
+    )
+    print(viral_plot) # Ensure the plot is printed
+    dev.off()
+  } else {
     print(viruses$sample_id)
   }
-
 }
 
 
@@ -343,4 +345,4 @@ cohort_lists <- cat_lists |>
   group_split() |>
   set_names(unique(cat_lists$cohort))
 
-imap(cohort_lists, ~write_tsv(.x, glue("{project_dir}/{.y}/sample_list.tsv")))
+imap(cohort_lists, ~ write_tsv(.x, glue("{project_dir}/{.y}/sample_list.tsv")))
