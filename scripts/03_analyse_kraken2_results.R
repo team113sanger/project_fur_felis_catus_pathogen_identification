@@ -20,8 +20,8 @@ source(here("scripts/constants.R"))
 
 
 
-PROJECT_DIR <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis"
-REF_DB <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023/inspect.txt"
+PROJECT_DIR <- here("analysis")
+REF_DB <- "metadata/kraken2_complete_non_capped_may2023_inspect.txt"
 
 taxonomy <- c(
   "Domain", "Kingdom", "Phylum", "Class",
@@ -127,7 +127,7 @@ combined_df <- left_join(kraken2_df, krakentools_df,
 
 
 include_files <- fs::dir_ls(
-  path = "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/fur_cat_cohort_files",
+  path = "metadata",
   type = "file",
   glob = "*samples_to_keep.nucleotide_variants.txt$",
   recurse = TRUE

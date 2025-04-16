@@ -23,7 +23,7 @@ SAMPLES=(
 for SAMPLE in "${SAMPLES[@]}"; do
     bsub -q oversubscribed -M 2000 -n 1 -R'select[mem>2000] rusage[mem=2000] span[hosts=1]' \
          -o "logs/${SAMPLE}_%J.o" -e "logs/${SAMPLE}_%J.err" \
-         "nextflow run scripts/kraken2/scripts/main.nf -params-file analysis/${SAMPLE}/params.json -c analysis/${SAMPLE}/nextflow.config -profile farm22"
+         "nextflow run main.nf -params-file analysis/${SAMPLE}/params.json -c analysis/${SAMPLE}/nextflow.config -profile farm22"
     # Optional: Add a small delay between submissions
     # sleep 1
 done
