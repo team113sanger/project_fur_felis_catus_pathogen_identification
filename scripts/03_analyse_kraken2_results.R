@@ -160,29 +160,29 @@ cohort_analysis <- function(x, cohort, PROJECT_DIR, ref_db) {
     dplyr::group_by(sample) |>
     dplyr::summarise(total_read = sum(n_reads))
 
-  pdf(glue::glue("{PROJECT_DIR}/{cohort}/results/sparki/classification.pdf"))
-  classification_plot <- ggplot2::ggplot(
-    class_unclass_df,
-    ggplot2::aes(x = type, y = log10(n_reads))
-  ) +
-    ggplot2::geom_violin(scale = "width", fill = "white", color = "black") +
-    ggplot2::geom_line(ggplot2::aes(group = sample), alpha = 0.25) +
-    ggplot2::geom_point(ggplot2::aes(color = type), alpha = 0.5) +
-    ggplot2::theme_classic() +
-    ggplot2::theme(
-      axis.text.x = ggplot2::element_text(size = 12, vjust = 0.5),
-      axis.title.x = ggplot2::element_text(size = 14),
-      axis.text.y = ggplot2::element_text(size = 12),
-      axis.title.y = ggplot2::element_text(size = 14, angle = 90),
-      legend.position = "none"
-    ) +
-    ggplot2::xlab("\nRead classification") +
-    ggplot2::ylab(expression("log"[10] ~ "(# reads)")) +
-    ggplot2::scale_color_manual(
-      values = c("indianred2", "royalblue")
-    )
-  print(classification_plot)
-  dev.off()
+#   pdf(glue::glue("{PROJECT_DIR}/{cohort}/results/sparki/classification.pdf"))
+#   classification_plot <- ggplot2::ggplot(
+#     class_unclass_df,
+#     ggplot2::aes(x = type, y = log10(n_reads))
+#   ) +
+#     ggplot2::geom_violin(scale = "width", fill = "white", color = "black") +
+#     ggplot2::geom_line(ggplot2::aes(group = sample), alpha = 0.25) +
+#     ggplot2::geom_point(ggplot2::aes(color = type), alpha = 0.5) +
+#     ggplot2::theme_classic() +
+#     ggplot2::theme(
+#       axis.text.x = ggplot2::element_text(size = 12, vjust = 0.5),
+#       axis.title.x = ggplot2::element_text(size = 14),
+#       axis.text.y = ggplot2::element_text(size = 12),
+#       axis.title.y = ggplot2::element_text(size = 14, angle = 90),
+#       legend.position = "none"
+#     ) +
+#     ggplot2::xlab("\nRead classification") +
+#     ggplot2::ylab(expression("log"[10] ~ "(# reads)")) +
+#     ggplot2::scale_color_manual(
+#       values = c("indianred2", "royalblue")
+#     )
+#   print(classification_plot)
+#   dev.off()
 
   by_domain <- x |>
     dplyr::filter(rank == "D") |>
