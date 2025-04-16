@@ -5,8 +5,7 @@ This repository contains code that was used for and results from an analysis sea
 
 In brief, the project was setup to run across the 13 FUR cat cohorts with (`01_setup_project.R`). This created files that were then used to parameterise a pathogen identification nextflow pipeline that was run on each cohort (`scripts/02_run_kraken_minipipe.sh`). The results were then collated and visualised in `03_analyse_kraken2_results.R`.
 
-Cohort analyses were parameterised using a
-`<COHORT_DIR>/params.json` and `<COHORT_DIR>/nextflow.config`file and submitted via `scripts/02_run_kraken_minipipe.sh`
+Pathogen identification within the nextflow pipeline
 
 - Visualisation, stats and filtering performed in `scripts/03_analyse_kraken2_results.R`
 
@@ -15,7 +14,7 @@ Cohort analyses were parameterised using a
 
 
 ## Organisation
-
+```
 ├── README.md
 ├── analysis
 │   ├── 6555_2711
@@ -46,8 +45,7 @@ Cohort analyses were parameterised using a
 │   ├── kraken2_all_sample_summary.tsv
 │   ├── kraken2_passed_summary.tsv
 │   └── nextflow.config
-└── study_manifest.tsv
-
+```
 
 ## Contact 
 - **Author**:  Jamie Billington (jb63@sanger.ac.uk)

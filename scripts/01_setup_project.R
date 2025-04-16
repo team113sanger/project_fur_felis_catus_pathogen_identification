@@ -7,7 +7,7 @@ library(here)
 INPUT_DIR <- "/lustre/scratch125/casm/team113da/users/bf14/samples"
 DB_PATH <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023"
 PROJECT_DIR <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis"
-studies <- read_tsv(here("study_manifest.tsv"))
+studies <- read_tsv(here("metadata/study_manifest.tsv"))
 
 study_paths <- fs::dir_ls(INPUT_DIR,
   type = "dir"
