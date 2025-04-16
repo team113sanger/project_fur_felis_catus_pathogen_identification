@@ -12,27 +12,27 @@ library(purrr)
 library(readxl)
 library(here)
 
-source("scripts/constants.R")
-
+source(here("scripts/constants.R"))
 
 ################################################################################
 # Declare inputs
 ################################################################################
 
 
+
+PROJECT_DIR <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis"
+REF_DB <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023/inspect.txt"
+
 taxonomy <- c(
   "Domain", "Kingdom", "Phylum", "Class",
   "Order", "Family", "Genus", "Species"
 )
 
-project_dir <- "/lustre/scratch125/casm/team113da/projects/FUR/FUR_analysis/FUR_analysis_cat/pathogen_identification/analysis"
-ref_db_file <- "/lustre/scratch124/casm/team113/ref/DERMATLAS/kraken2_complete_non_capped_may2023/inspect.txt"
-
 
 
 # Use a filesystem helper to gather all files
 krakentools_files <- fs::dir_ls(
-  path = project_dir,
+  path = PROJECT_DIR,
   type = "file",
   glob = "*.mpa$",
   recurse = TRUE
@@ -40,7 +40,7 @@ krakentools_files <- fs::dir_ls(
 krakentools_files <- krakentools_files[!grepl(krakentools_files, pattern = "work")]
 
 
-kraken_files <- fs::dir_ls(project_dir,
+kraken_files <- fs::dir_ls(PROJECT_DIR,
   recurse = TRUE,
   glob = "*0.1.kraken"
 )
@@ -49,10 +49,10 @@ kraken_files <- kraken_files[!grepl(kraken_files, pattern = "work")]
 
 
 ################################################################################
-# Read in and merge
+# Read in inputs and merge
 ################################################################################
 
-
+# Read in krakentools results
 krakentools_df <- purrr::map_dfr(
   krakentools_files,
   ~ safe_read_tsv(.x,
@@ -83,7 +83,7 @@ krakentools_df <- purrr::map_dfr(
   )
 
 
-
+# Read in kraken results
 
 kraken2_df <- read_tsv(kraken_files,
   col_names = c(
@@ -103,8 +103,9 @@ kraken2_df <- read_tsv(kraken_files,
   mutate(cohort = str_match(file_id, pattern = ".*/analysis/(.*)/results/kraken2.*")[, 2], .after = sample_id)
 
 
+# Read in reference database desciption 
 
-ref_db <- read_tsv(ref_db_file,
+ref_db <- read_tsv(REF_DB,
   comment = "#",
   c(
     COLNAME_REF_DB_PCT_FRAG_CLADE,
@@ -122,6 +123,7 @@ combined_df <- left_join(kraken2_df, krakentools_df,
   by = c("name" = "taxon_leaf", "sample_id", "cohort")
 ) |>
   left_join(ref_db, by = c("name" = "taxon", "rank" = "rank"))
+
 
 
 include_files <- fs::dir_ls(
@@ -145,7 +147,7 @@ write_tsv(qc_passed_samples, "analysis/kraken2_passed_summary.tsv")
 write_tsv(combined_df, "analysis/kraken2_all_sample_summary.tsv")
 
 
-cohort_analysis <- function(x, cohort, project_dir, ref_db) {
+cohort_analysis <- function(x, cohort, PROJECT_DIR, ref_db) {
   class_unclass_df <- x |>
     dplyr::filter(name %in% c("unclassified", "root")) |>
     dplyr::rename(
@@ -158,7 +160,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     dplyr::group_by(sample) |>
     dplyr::summarise(total_read = sum(n_reads))
 
-  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/classification.pdf"))
+  pdf(glue::glue("{PROJECT_DIR}/{cohort}/results/sparki/classification.pdf"))
   classification_plot <- ggplot2::ggplot(
     class_unclass_df,
     ggplot2::aes(x = type, y = log10(n_reads))
@@ -186,7 +188,7 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
     dplyr::filter(rank == "D") |>
     dplyr::select(c(n_fragments_clade, rank, Domain, sample_id))
 
-  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_reads.pdf"))
+  pdf(glue::glue("{PROJECT_DIR}/{cohort}/results/sparki/per_domain_reads.pdf"))
   per_domain_reads_plot <- ggplot2::ggplot(
     by_domain,
     ggplot2::aes(x = Domain, y = log10(n_fragments_clade), fill = Domain)
@@ -206,14 +208,14 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   print(per_domain_reads_plot)
   dev.off()
 
-  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions.pdf"))
+  pdf(glue::glue("{PROJECT_DIR}/{cohort}/results/sparki/per_domain_proportions.pdf"))
   x_lab <- "\nProportion of classified reads\n(all domains)"
   filename <- "nReadsDomains_barplot_with_eukaryotes"
   colours <- c("royalblue", "snow4", "indianred2", "gold")
   domain_barplot(by_domain, x_lab = x_lab, colours)
   dev.off()
 
-  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/per_domain_proportions_no_euks.pdf"))
+  pdf(glue::glue("{PROJECT_DIR}/{cohort}/results/sparki/per_domain_proportions_no_euks.pdf"))
   x_lab <- "\nProportion of classified reads\n(non-eukaryotes only)"
   filename <- "nReadsDomains_barplot_without_eukaryotes"
   colours <- c("royalblue", "indianred2", "gold")
@@ -287,15 +289,15 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
       significance, n_fragments_clade
     )
 
-  write_tsv(stats_df, glue("{project_dir}/{cohort}/results/sparki/significance_table.tsv"))
+  write_tsv(stats_df, glue("{PROJECT_DIR}/{cohort}/results/sparki/significance_table.tsv"))
   bacterial_plot <- plot_minimisers(bacteria)
 
-  pdf(glue::glue("{project_dir}/{cohort}/results/sparki/bacterial_minimisers.pdf"),
+  pdf(glue::glue("{PROJECT_DIR}/{cohort}/results/sparki/bacterial_minimisers.pdf"),
     width = 26, height = 26
   )
   print(bacterial_plot)
   dev.off()
-  pdf(glue::glue("{project_dir}/cross-cohort/{cohort}_bacterial_minimisers.pdf"),
+  pdf(glue::glue("{PROJECT_DIR}/cross-cohort/{cohort}_bacterial_minimisers.pdf"),
     width = 26, height = 26
   )
   print(bacterial_plot) # Ensure the plot is printed
@@ -304,12 +306,12 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
 
   if (nrow(viruses) > 1) {
     viral_plot <- plot_minimisers(viruses)
-    pdf(glue::glue("{project_dir}/{cohort}/results/sparki/viral_minimisers.pdf"),
+    pdf(glue::glue("{PROJECT_DIR}/{cohort}/results/sparki/viral_minimisers.pdf"),
       width = 18, height = 7
     )
     print(viral_plot) # Ensure the plot is printed
     dev.off()
-    pdf(glue::glue("{project_dir}/cross-cohort/{cohort}_viral_minimisers.pdf"),
+    pdf(glue::glue("{PROJECT_DIR}/cross-cohort/{cohort}_viral_minimisers.pdf"),
       width = 18, height = 7
     )
     print(viral_plot) # Ensure the plot is printed
@@ -319,16 +321,9 @@ cohort_analysis <- function(x, cohort, project_dir, ref_db) {
   }
 }
 
-
-
-# cohort_dfs <- combined_df |> split(f = combined_df[["cohort"]])
-
-# imap(cohort_dfs, ~ cohort_analysis(x = .x, cohort = .y, project_dir, ref_db))
-
-
 passed_dfs <- qc_passed_samples |> split(f = qc_passed_samples[["cohort"]])
 
-imap(passed_dfs, ~ cohort_analysis(x = .x, cohort = .y, project_dir, ref_db))
+imap(passed_dfs, ~ cohort_analysis(x = .x, cohort = .y, PROJECT_DIR, ref_db))
 
 
 
@@ -345,4 +340,4 @@ cohort_lists <- cat_lists |>
   group_split() |>
   set_names(unique(cat_lists$cohort))
 
-imap(cohort_lists, ~ write_tsv(.x, glue("{project_dir}/{.y}/sample_list.tsv")))
+imap(cohort_lists, ~ write_tsv(.x, glue("{PROJECT_DIR}/{.y}/sample_list.tsv")))
