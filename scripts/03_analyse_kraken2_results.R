@@ -133,7 +133,7 @@ include_files <- fs::dir_ls(
   recurse = TRUE
 )
 # Remove the whole sample set
-include_files <- include_files[1:13]
+include_files <- include_files[1:14]
 
 included_samples <- read_tsv(include_files, col_names = c("sample_id"), id = "cohort") |>
   mutate(cohort = str_remove(basename(cohort), pattern = ".samples_to_keep.nucleotide_variants.txt"))
