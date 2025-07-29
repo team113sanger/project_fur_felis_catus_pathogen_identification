@@ -51,6 +51,7 @@ renv::restore()
 │   ├── 7040_3064
 │   ├── 7097_3073
 │   ├── 7098_3140
+│   ├── 7834_3158
 │   ├── cross-cohort
 │   ├── kraken2_all_sample_summary.tsv
 │   └── kraken2_passed_summary.tsv
@@ -68,6 +69,7 @@ renv::restore()
 │   ├── 7040_3064.samples_to_keep.nucleotide_variants.txt
 │   ├── 7097_3073.samples_to_keep.nucleotide_variants.txt
 │   ├── 7098_3140.samples_to_keep.nucleotide_variants.txt
+│   ├── 7834_3518.samples_to_keep.nucleotide_variants.txt
 │   ├── kraken2_complete_non_capped_may2023_inspect.txt
 │   └── study_manifest.tsv
 ├── renv.lock
